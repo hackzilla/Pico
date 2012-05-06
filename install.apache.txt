@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+    ServerName pico.ofdan.com
+    DocumentRoot /www/sites/ofdan.com/htdocs/pico/
+
+    <Directory /www/sites/ofdan.com/htdocs/pico/>
+            Options Indexes FollowSymLinks MultiViews
+            AllowOverride None
+            Order allow,deny
+            allow from all
+    </Directory>
+
+    DirectoryIndex index.php
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+</VirtualHost>

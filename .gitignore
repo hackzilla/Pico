@@ -11,5 +11,16 @@ web/bundles/*
 # Configuration files
 app/config/parameters.ini
 
-.DS_Store
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 
+# Pico specific
+config.php
+*/pid/*.pid
+confirm/*.png
+siteGen/images/thumbs/*
+siteGen/images/sites/*

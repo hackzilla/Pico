@@ -1,0 +1,25 @@
+<?
+
+function getProtocols() {
+	$protocols = array('http','https','ftp','ftps','pop','smtp','mailto');
+	return $protocols;
+}
+
+function isValidTld( $tld ) {
+
+	static $validTLDs = array();
+
+	if( empty($validTLDs)) {
+
+		$file = @file_get_contents('http://dev.ofdan.com/tlds-alpha-by-domain.txt');
+
+		if( $file !== false ) {
+			$validTLDs = explode( "\n", $file );
+			unset($validTLDs[0]);
+		} else {
+			$validTLDs = array(
+			'COM',
+			'NET',
+			'ORG',
+			'GOV',
+			'MIL',

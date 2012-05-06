@@ -1,0 +1,10 @@
+SELECT *
+FROM `keyword2`
+ORDER BY CHAR_LENGTH( `keyword` ) DESC 
+
+SELECT id, CHAR_LENGTH(keyword)
+FROM `keyword2`
+WHERE
+id = 112306
+ORDER BY CHAR_LENGTH( `keyword` ) DESC 
+
