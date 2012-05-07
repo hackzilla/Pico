@@ -1,3 +1,14 @@
 OfdanSearchBundle_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: OfdanSearchBundle:Default:index }
+
+OfdanSearchBundle_about:
+    pattern:  /s/about-us
+    defaults: { _controller: OfdanSearchBundle:Static:about }
+
+OfdanSearchBundle_1:
+    pattern:  /s/1
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_about
+        permanent: true # this for 301
