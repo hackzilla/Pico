@@ -1,0 +1,7 @@
+parameters:
+#    ofdan_crawler.example.class: Ofdan\CrawlerBundle\Example
+
+services:
+#    ofdan_crawler.example:
+#        class: %ofdan_crawler.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
