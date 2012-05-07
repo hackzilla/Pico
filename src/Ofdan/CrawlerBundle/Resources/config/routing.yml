@@ -1,3 +1,0 @@
-OfdanCrawlerBundle_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: OfdanCrawlerBundle:Default:index }

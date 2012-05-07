@@ -1,7 +1,3 @@
-OfdanCrawlerBundle:
-    resource: "@OfdanCrawlerBundle/Resources/config/routing.yml"
-    prefix:   /
-
 OfdanSearchBundle:
     resource: "@OfdanSearchBundle/Resources/config/routing.yml"
     prefix:   /
