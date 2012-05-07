@@ -1,0 +1,24 @@
+<?php
+ini_set( 'error_reporting', E_ALL );
+
+// CONFIGURATION FILE - Please edit with caution
+
+// Database Server Address
+$server = "localhost";
+
+// Username
+$user = "pico";
+
+// Password
+$pass = "pico";
+
+// Database Name
+$db = "pico";
+
+// Name of Skin Folder to use
+$skin = "/default/";
+
+$con = mysql_connect($server, $user, $pass);
+mysql_select_db($db, $con);
+
+unset( $pass );

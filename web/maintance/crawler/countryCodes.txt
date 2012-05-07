@@ -1,0 +1,3424 @@
+			<td align="left">aar
+          <td align="left">aa
+          <td align="left">Afar
+          <td align="left">afar
+        </tr>
+
+          <td align="left">abk
+          <td align="left">ab
+          <td align="left">Abkhazian
+          <td align="left">abkhaze
+        </tr>
+
+          <td align="left">ace
+
+          <td align="left">&nbsp;
+          <td align="left">Achinese
+          <td align="left">aceh
+        </tr>
+
+          <td align="left">ach
+          <td align="left">&nbsp;
+          <td align="left">Acoli
+          <td align="left">acoli
+        </tr>
+
+          <td align="left">ada
+          <td align="left">&nbsp;
+          <td align="left">Adangme
+          <td align="left">adangme
+
+        </tr>
+
+          <td align="left">ady
+          <td align="left">&nbsp;
+          <td align="left">Adyghe; Adygei
+          <td align="left">adygh&eacute;
+        </tr>
+
+          <td align="left">afa
+
+          <td align="left">&nbsp;
+          <td align="left">Afro-Asiatic (Other)
+          <td align="left">afro-asiatiques, autres langues
+        </tr>
+
+          <td align="left">afh
+          <td align="left">&nbsp;
+          <td align="left">Afrihili
+
+          <td align="left">afrihili
+        </tr>
+
+          <td align="left">afr
+          <td align="left">af
+          <td align="left">Afrikaans
+          <td align="left">afrikaans
+
+        </tr>
+
+          <td align="left">ain
+          <td align="left">&nbsp;
+          <td align="left">Ainu
+          <td align="left">a&iuml;nou
+        </tr>
+
+
+          <td align="left">aka
+          <td align="left">ak
+          <td align="left">Akan
+          <td align="left">akan
+        </tr>
+
+          <td align="left">akk
+
+          <td align="left">&nbsp;
+          <td align="left">Akkadian
+          <td align="left">akkadien
+        </tr>
+
+          <td align="left">alb/sqi<a href="#two">*</a>
+          <td align="left">sq
+
+          <td align="left">Albanian
+          <td align="left">albanais
+        </tr>
+
+          <td align="left">ale
+          <td align="left">&nbsp;
+          <td align="left">Aleut
+
+          <td align="left">al&eacute;oute
+        </tr>
+
+          <td align="left">alg
+          <td align="left">&nbsp;
+          <td align="left">Algonquian languages
+          <td align="left">algonquines, langues
+
+        </tr>
+
+          <td align="left">alt
+          <td align="left">&nbsp;
+          <td align="left">Southern Altai
+          <td align="left">alta&iuml; du Sud
+
+        </tr>
+
+          <td align="left">amh
+          <td align="left">am
+          <td align="left">Amharic
+          <td align="left">amharique
+        </tr>
+
+
+          <td align="left">ang
+          <td align="left">&nbsp;
+          <td align="left">English, Old (ca.450-1100)
+          <td align="left">anglo-saxon (ca.450-1100)
+        </tr>
+
+          <td align="left">anp
+
+          <td align="left">&nbsp;
+          <td align="left">Angika
+          <td align="left">angika
+        </tr>
+
+          <td align="left">apa
+          <td align="left">&nbsp;
+          <td align="left">Apache languages
+
+          <td align="left">apache
+        </tr>
+
+          <td align="left">ara
+          <td align="left">ar
+          <td align="left">Arabic
+          <td align="left">arabe
+
+        </tr>
+
+          <td align="left">arc
+          <td align="left">&nbsp;
+          <td align="left">Aramaic
+          <td align="left">aram&eacute;en
+        </tr>
+
+
+          <td align="left">arg
+          <td align="left">an
+          <td align="left">Aragonese
+          <td align="left">aragonais
+        </tr>
+
+          <td align="left">arm/hye<a href="#two">*</a>
+
+          <td align="left">hy
+          <td align="left">Armenian
+          <td align="left">arm&eacute;nien
+        </tr>
+
+          <td align="left">arn
+          <td align="left">&nbsp;
+
+          <td align="left">Araucanian
+          <td align="left">araucan
+        </tr>
+
+          <td align="left">arp
+          <td align="left">&nbsp;
+          <td align="left">Arapaho
+
+          <td align="left">arapaho
+        </tr>
+
+          <td align="left">art
+          <td align="left">&nbsp;
+          <td align="left">Artificial (Other)
+          <td align="left">artificielles, autres langues
+
+        </tr>
+
+          <td align="left">arw
+          <td align="left">&nbsp;
+          <td align="left">Arawak
+          <td align="left">arawak
+        </tr>
+
+          <td align="left">asm
+
+          <td align="left">as
+          <td align="left">Assamese
+          <td align="left">assamais
+        </tr>
+
+          <td align="left">ast
+          <td align="left">&nbsp;
+
+          <td align="left">Asturian; Bable
+          <td align="left">asturien; bable
+        </tr>
+
+          <td align="left">ath
+          <td align="left">&nbsp;
+          <td align="left">Athapascan languages
+
+          <td align="left">athapascanes, langues
+        </tr>
+
+          <td align="left">aus
+          <td align="left">&nbsp;
+          <td align="left">Australian languages
+          <td align="left">australiennes, langues
+
+        </tr>
+
+          <td align="left">ava
+          <td align="left">av
+          <td align="left">Avaric
+          <td align="left">avar
+        </tr>
+
+
+          <td align="left">ave
+          <td align="left">ae
+          <td align="left">Avestan
+          <td align="left">avestique
+        </tr>
+
+          <td align="left">awa
+
+          <td align="left">&nbsp;
+          <td align="left">Awadhi
+          <td align="left">awadhi
+        </tr>
+
+          <td align="left">aym
+          <td align="left">ay
+
+          <td align="left">Aymara
+          <td align="left">aymara
+        </tr>
+
+          <td align="left">aze
+          <td align="left">az
+          <td align="left">Azerbaijani
+
+          <td align="left">az&eacute;ri
+        </tr>
+
+          <td align="left">bad
+          <td align="left">&nbsp;
+          <td align="left">Banda
+          <td align="left">banda
+
+        </tr>
+
+          <td align="left">bai
+          <td align="left">&nbsp;
+          <td align="left">Bamileke languages
+          <td align="left">bamil&eacute;k&eacute;s, langues
+        </tr>
+
+
+          <td align="left">bak
+          <td align="left">ba
+          <td align="left">Bashkir
+          <td align="left">bachkir
+        </tr>
+
+          <td align="left">bal
+
+          <td align="left">&nbsp;
+          <td align="left">Baluchi
+          <td align="left">baloutchi
+        </tr>
+
+          <td align="left">bam
+          <td align="left">bm
+
+          <td align="left">Bambara
+          <td align="left">bambara
+        </tr>
+
+          <td align="left">ban
+          <td align="left">&nbsp;
+          <td align="left">Balinese
+
+          <td align="left">balinais
+        </tr>
+
+          <td align="left">baq/eus<a href="#two">*</a>
+          <td align="left">eu
+          <td align="left">Basque
+          <td align="left">basque
+
+        </tr>
+
+          <td align="left">bas
+          <td align="left">&nbsp;
+          <td align="left">Basa
+          <td align="left">basa
+        </tr>
+
+          <td align="left">bat
+
+          <td align="left">&nbsp;
+          <td align="left">Baltic (Other)
+          <td align="left">baltiques, autres langues
+        </tr>
+
+          <td align="left">bej
+          <td align="left">&nbsp;
+          <td align="left">Beja
+
+          <td align="left">bedja
+        </tr>
+
+          <td align="left">bel
+          <td align="left">be
+          <td align="left">Belarusian
+          <td align="left">bi&eacute;lorusse
+
+        </tr>
+
+          <td align="left">bem
+          <td align="left">&nbsp;
+          <td align="left">Bemba
+          <td align="left">bemba
+        </tr>
+
+          <td align="left">ben
+
+          <td align="left">bn
+          <td align="left">Bengali
+          <td align="left">bengali
+        </tr>
+
+          <td align="left">ber
+          <td align="left">&nbsp;
+
+          <td align="left">Berber (Other)
+          <td align="left">berb&egrave;res, autres langues
+        </tr>
+
+          <td align="left">bho
+          <td align="left">&nbsp;
+          <td align="left">Bhojpuri
+
+          <td align="left">bhojpuri
+        </tr>
+
+          <td align="left">bih
+          <td align="left">bh
+          <td align="left">Bihari
+          <td align="left">bihari
+
+        </tr>
+
+          <td align="left">bik
+          <td align="left">&nbsp;
+          <td align="left">Bikol
+          <td align="left">bikol
+        </tr>
+
+          <td align="left">bin
+
+          <td align="left">&nbsp;
+          <td align="left">Bini
+          <td align="left">bini
+        </tr>
+
+          <td align="left">bis
+          <td align="left">bi
+
+          <td align="left">Bislama
+          <td align="left">bichlamar
+        </tr>
+
+          <td align="left">bla
+          <td align="left">&nbsp;
+          <td align="left">Siksika
+
+          <td align="left">blackfoot
+        </tr>
+
+          <td align="left">bnt
+          <td align="left">&nbsp;
+          <td align="left">Bantu (Other)
+          <td align="left">bantoues, autres langues
+
+        </tr>
+
+          <td align="left">tib/bod<a href="#two">*</a>
+          <td align="left">bo
+          <td align="left">Tibetan
+          <td align="left">tib&eacute;tain
+
+        </tr>
+
+          <td align="left">bos
+          <td align="left">bs
+          <td align="left">Bosnian
+          <td align="left">bosniaque
+        </tr>
+
+
+          <td align="left">bra
+          <td align="left">&nbsp;
+          <td align="left">Braj
+          <td align="left">braj
+        </tr>
+
+          <td align="left">bre
+
+          <td align="left">br
+          <td align="left">Breton
+          <td align="left">breton
+        </tr>
+
+          <td align="left">btk
+          <td align="left">&nbsp;
+
+          <td align="left">Batak (Indonesia)
+          <td align="left">batak (Indon&eacute;sie)
+        </tr>
+
+          <td align="left">bua
+          <td align="left">&nbsp;
+          <td align="left">Buriat
+
+          <td align="left">bouriate
+        </tr>
+
+          <td align="left">bug
+          <td align="left">&nbsp;
+          <td align="left">Buginese
+          <td align="left">bugi
+
+        </tr>
+
+          <td align="left">bul
+          <td align="left">bg
+          <td align="left">Bulgarian
+          <td align="left">bulgare
+        </tr>
+
+
+          <td align="left">bur/mya<a href="#two">*</a>
+          <td align="left">my
+          <td align="left">Burmese
+          <td align="left">birman
+        </tr>
+
+
+          <td align="left">byn
+          <td align="left">&nbsp;
+          <td align="left">Blin; Bilin
+          <td align="left">blin; bilen
+        </tr>
+
+          <td align="left">cad
+          <td align="left">&nbsp;
+          <td align="left">Caddo
+          <td align="left">caddo
+
+        </tr>
+
+          <td align="left">cai
+          <td align="left">&nbsp;
+          <td align="left">Central American Indian (Other)
+          <td align="left">indiennes d'Am&eacute;rique centrale, <br>
+            autres langues
+
+        </tr>
+
+          <td align="left">car
+          <td align="left">&nbsp;
+          <td align="left">Carib
+          <td align="left">caribe
+        </tr>
+
+          <td align="left">cat
+
+          <td align="left">ca
+          <td align="left">Catalan; Valencian
+          <td align="left">catalan; valencien
+        </tr>
+
+          <td align="left">cau
+          <td align="left">&nbsp;
+
+          <td align="left">Caucasian (Other)
+          <td align="left">caucasiennes, autres langues
+        </tr>
+
+          <td align="left">ceb
+          <td align="left">&nbsp;
+          <td align="left">Cebuano
+
+          <td align="left">cebuano
+        </tr>
+
+          <td align="left">cel
+          <td align="left">&nbsp;
+          <td align="left">Celtic (Other)
+          <td align="left">celtiques, autres langues
+
+        </tr>
+
+          <td align="left">cze/ces<a href="#two">*</a>
+          <td align="left">cs
+          <td align="left">Czech
+          <td align="left">tch&egrave;que
+
+        </tr>
+
+          <td align="left">cha
+          <td align="left">ch
+          <td align="left">Chamorro
+          <td align="left">chamorro
+        </tr>
+
+
+          <td align="left">chb
+          <td align="left">&nbsp;
+          <td align="left">Chibcha
+          <td align="left">chibcha
+        </tr>
+
+          <td align="left">che
+
+          <td align="left">ce
+          <td align="left">Chechen
+          <td align="left">tch&eacute;tch&egrave;ne
+        </tr>
+
+          <td align="left">chg
+
+          <td align="left">&nbsp;
+          <td align="left">Chagatai
+          <td align="left">djaghata&iuml;
+        </tr>
+
+          <td align="left">chi/zho<a href="#two">*</a>
+          <td align="left">zh
+
+          <td align="left">Chinese
+          <td align="left">chinois
+        </tr>
+
+          <td align="left">chk
+          <td align="left">&nbsp;
+          <td align="left">Chuukese
+
+          <td align="left">chuuk
+        </tr>
+
+          <td align="left">chm
+          <td align="left">&nbsp;
+          <td align="left">Mari
+          <td align="left">mari
+
+        </tr>
+
+          <td align="left">chn
+          <td align="left">&nbsp;
+          <td align="left">Chinook jargon
+          <td align="left">chinook, jargon
+        </tr>
+
+          <td align="left">cho
+
+          <td align="left">&nbsp;
+          <td align="left">Choctaw
+          <td align="left">choctaw
+        </tr>
+
+          <td align="left">chp
+          <td align="left">&nbsp;
+          <td align="left">Chipewyan
+
+          <td align="left">chipewyan
+        </tr>
+
+          <td align="left">chr
+          <td align="left">&nbsp;
+          <td align="left">Cherokee
+          <td align="left">cherokee
+
+        </tr>
+
+          <td align="center" height="36"><div align="left">chu</div>
+          <td align="center" height="36"><div align="left">cu</div>
+          <td align="center" height="36"><div align="left">Church Slavic; Old Slavonic; Church Slavonic;
+            Old Bulgarian; Old Church Slavonic</div>
+          <td align="center" height="36"><div align="left">slavon d'&eacute;glise;
+            vieux slave; slavon liturgique; vieux bulgare </div>
+        </tr>
+
+
+          <td align="left">chv
+          <td align="left">cv
+          <td align="left">Chuvash
+          <td align="left">tchouvache
+        </tr>
+
+          <td align="left">chy
+
+          <td align="left">&nbsp;
+          <td align="left">Cheyenne
+          <td align="left">cheyenne
+        </tr>
+
+          <td align="left">cmc
+          <td align="left">&nbsp;
+          <td align="left">Chamic languages
+
+          <td align="left">chames, langues
+        </tr>
+
+          <td align="left">cop
+          <td align="left">&nbsp;
+          <td align="left">Coptic
+          <td align="left">copte
+
+        </tr>
+
+          <td align="left">cor
+          <td align="left">kw
+          <td align="left">Cornish
+          <td align="left">cornique
+        </tr>
+
+
+          <td align="left">cos
+          <td align="left">co
+          <td align="left">Corsican
+          <td align="left">corse
+        </tr>
+
+          <td align="left" height="21"><div align="left">cpe</div>
+
+          <td align="left" height="21">&nbsp;
+          <td align="left" height="21">Creoles and pidgins, English based (Other)
+          <td align="left" height="21"><div align="left">cr&eacute;oles et
+          pidgins anglais, autres</div>
+        </tr>
+
+          <td align="left" height="27"><div align="left">cpf</div>
+          <td align="left" height="27">&nbsp;
+
+          <td align="left" height="27">Creoles and pidgins, French-based (Other)
+          <td align="left" height="27"><div align="left">cr&eacute;oles et pidgins fran&ccedil;ais,
+            autres</div>
+        </tr>
+
+          <td align="left">cpp
+          <td align="left">&nbsp;
+          <td align="left">Creoles and pidgins, <br>
+
+            Portuguese-based (Other)
+          <td align="left">cr&eacute;oles et pidgins portugais, autres
+        </tr>
+
+          <td align="left">cre
+          <td align="left">cr
+          <td align="left">Cree
+
+          <td align="left">cree
+        </tr>
+
+          <td align="left">crh
+          <td align="left">&nbsp;
+          <td align="left">Crimean Tatar; Crimean Turkish
+          <td align="left">tatar de Crim&eacute;
+
+        </tr>
+
+          <td align="left">crp
+          <td align="left">&nbsp;
+          <td align="left">Creoles and pidgins (Other)
+          <td align="left">cr&eacute;oles et pidgins divers
+        </tr>
+
+
+          <td align="left">csb
+          <td align="left">&nbsp;
+          <td align="left">Kashubian
+          <td align="left">kachoube
+        </tr>
+
+          <td align="left">cus
+
+          <td align="left">&nbsp;
+          <td align="left">Cushitic (Other)
+          <td align="left">couchitiques, autres langues
+        </tr>
+
+          <td align="left">wel/cym<a href="#two">*</a>
+          <td align="left">cy
+
+          <td align="left">Welsh
+          <td align="left">gallois
+        </tr>
+
+          <td align="left">cze/ces<a href="#two">*</a>
+          <td align="left">cs
+          <td align="left">Czech
+
+          <td align="left">tch&egrave;que
+        </tr>
+
+          <td align="left">dak
+          <td align="left">&nbsp;
+          <td align="left">Dakota
+          <td align="left">dakota
+
+        </tr>
+
+          <td align="left">dan
+          <td align="left">da
+          <td align="left">Danish
+          <td align="left">danois
+        </tr>
+
+
+          <td align="left">dar
+          <td align="left">&nbsp;
+          <td align="left">Dargwa
+          <td align="left">dargwa
+        </tr>
+
+          <td align="left">day
+
+          <td align="left">&nbsp;
+          <td align="left">Dayak
+          <td align="left">dayak
+        </tr>
+
+          <td align="left">del
+          <td align="left">&nbsp;
+          <td align="left">Delaware
+
+          <td align="left">delaware
+        </tr>
+
+          <td align="left">den
+          <td align="left">&nbsp;
+          <td align="left">Slave (Athapascan)
+          <td align="left">esclave (athapascan)
+
+        </tr>
+
+          <td align="left">ger/deu<a href="#two">*</a>
+          <td align="left">de
+          <td align="left">German
+          <td align="left">allemand
+        </tr>
+
+
+          <td align="left">dgr
+          <td align="left">&nbsp;
+          <td align="left">Dogrib
+          <td align="left">dogrib
+        </tr>
+
+          <td align="left">din
+
+          <td align="left">&nbsp;
+          <td align="left">Dinka
+          <td align="left">dinka
+        </tr>
+
+          <td align="left">div
+          <td align="left">dv
+
+          <td align="left">Divehi
+          <td align="left">maldivien
+        </tr>
+
+          <td align="left">doi
+          <td align="left">&nbsp;
+          <td align="left">Dogri
+
+          <td align="left">dogri
+        </tr>
+
+          <td align="left">dra
+          <td align="left">&nbsp;
+          <td align="left">Dravidian (Other)
+          <td align="left">dravidiennes, autres langues
+
+        </tr>
+
+          <td align="left">dsb
+          <td align="left">&nbsp;
+          <td align="left">Lower Sorbian
+          <td align="left">bas-sorabe
+        </tr>
+
+
+          <td align="left">dua
+          <td align="left">&nbsp;
+          <td align="left">Duala
+          <td align="left">douala
+        </tr>
+
+          <td align="left">dum
+
+          <td align="left">&nbsp;
+          <td align="left">Dutch, Middle (ca.1050-1350)
+          <td align="left">n&eacute;erlandais moyen (ca. 1050-1350)
+        </tr>
+
+          <td align="left">dut/nld<a href="#two">*</a>
+          <td align="left">nl
+
+          <td align="left">Dutch; Flemish
+          <td align="left">n&eacute;erlandais; flamand
+        </tr>
+
+          <td align="left">dyu
+          <td align="left">&nbsp;
+          <td align="left">Dyula
+
+          <td align="left">dioula
+        </tr>
+
+          <td align="left">dzo
+          <td align="left">dz
+          <td align="left">Dzongkha
+          <td align="left">dzongkha
+
+        </tr>
+
+          <td align="left">efi
+          <td align="left">&nbsp;
+          <td align="left">Efik
+          <td align="left">efik
+        </tr>
+
+          <td align="left">egy
+
+          <td align="left">&nbsp;
+          <td align="left">Egyptian (Ancient)
+          <td align="left">&eacute;gyptien
+        </tr>
+
+          <td align="left">eka
+          <td align="left">&nbsp;
+          <td align="left">Ekajuk
+
+          <td align="left">ekajuk
+        </tr>
+
+          <td align="left">gre/ell<a href="#two">*</a>
+          <td align="left">el
+          <td align="left">Greek, Modern (1453-)
+          <td align="left">grec moderne (apr&egrave;s 1453)
+
+        </tr>
+
+          <td align="left">elx
+          <td align="left">&nbsp;
+          <td align="left">Elamite
+          <td align="left">&eacute;lamite
+        </tr>
+
+          <td align="left">eng
+
+          <td align="left">en
+          <td align="left">English
+          <td align="left">anglais
+        </tr>
+
+          <td align="left">enm
+          <td align="left">&nbsp;
+
+          <td align="left">English, Middle (1100-1500)
+          <td align="left">anglais moyen (1100-1500)
+        </tr>
+
+          <td align="left">epo
+          <td align="left">eo
+          <td align="left">Esperanto
+
+          <td align="left">esp&eacute;ranto
+        </tr>
+
+          <td align="left">est
+          <td align="left">et
+          <td align="left">Estonian
+          <td align="left">estonien
+
+        </tr>
+
+          <td align="left">baq/eus<a href="#two">*</a>
+          <td align="left">eu
+          <td align="left">Basque
+          <td align="left">basque
+        </tr>
+
+
+          <td align="left">ewe
+          <td align="left">ee
+          <td align="left">Ewe
+          <td align="left">&eacute;w&eacute;
+        </tr>
+
+          <td align="left">ewo
+
+          <td align="left">&nbsp;
+          <td align="left">Ewondo
+          <td align="left">&eacute;wondo
+        </tr>
+
+          <td align="left">fan
+          <td align="left">&nbsp;
+          <td align="left">Fang
+
+          <td align="left">fang
+        </tr>
+
+          <td align="left">fao
+          <td align="left">fo
+          <td align="left">Faroese
+          <td align="left">f&eacute;ro&iuml;en
+
+        </tr>
+
+          <td align="left">per/fas<a href="#two">*</a>
+          <td align="left">fa
+          <td align="left">Persian
+          <td align="left">persan
+        </tr>
+
+
+          <td align="left">fat
+          <td align="left">&nbsp;
+          <td align="left">Fanti
+          <td align="left">fanti
+        </tr>
+
+          <td align="left">fij
+
+          <td align="left">fj
+          <td align="left">Fijian
+          <td align="left">fidjien
+        </tr>
+
+          <td align="left">fil
+          <td align="left">&nbsp;
+
+          <td align="left">Filipino; Pilipino
+          <td align="left">filipino; pilipino
+        </tr>
+
+          <td align="left">fin
+          <td align="left">fi
+          <td align="left">Finnish
+
+          <td align="left">finnois
+        </tr>
+
+          <td align="left">fiu
+          <td align="left">&nbsp;
+          <td align="left">Finno-Ugrian (Other)
+          <td align="left">finno-ougriennes, autres langues
+
+        </tr>
+
+          <td align="left">fon
+          <td align="left">&nbsp;
+          <td align="left">Fon
+          <td align="left">fon
+        </tr>
+
+          <td align="left">fre/fra<a href="#two">*</a>
+
+          <td align="left">fr
+          <td align="left">French
+          <td align="left">fran&ccedil;ais
+        </tr>
+
+          <td align="left">frm
+          <td align="left">&nbsp;
+
+          <td align="left">French, Middle (ca.1400-1600)
+          <td align="left">fran&ccedil;ais moyen (1400-1600)
+        </tr>
+
+          <td align="left">fro
+          <td align="left">&nbsp;
+          <td align="left">French, Old (842-ca.1400)
+
+          <td align="left">fran&ccedil;ais ancien (842-ca.1400)
+        </tr>
+
+          <td align="left">frr
+          <td align="left">&nbsp;
+          <td align="left">Northern Frisian
+          <td align="left">frison septentrional
+
+        </tr>
+
+          <td align="left">frs
+          <td align="left">&nbsp;
+          <td align="left">Eastern Frisian
+          <td align="left">frison oriental
+        </tr>
+
+
+          <td align="left">fry
+          <td align="left">fy
+          <td align="left">Western Frisian
+          <td align="left">frison occidental
+        </tr>
+
+          <td align="left">ful
+
+          <td align="left">ff
+          <td align="left">Fulah
+          <td align="left">peul
+        </tr>
+
+          <td align="center" height="22"><div align="left">fur</div>
+          <td align="center" height="22">&nbsp;
+
+          <td align="center" height="22"><div align="left">Friulian</div>
+          <td align="center" height="22"><div align="left">frioulan</div>
+        </tr>
+
+          <td width="10%" align="left">gaa</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Ga</div>
+          <td width="40%" align="left">ga</div>
+
+        </tr>
+
+          <td width="10%" align="left">gay</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gayo</div>
+          <td width="40%" align="left">gayo</div>
+        </tr>
+
+          <td width="10%" align="left">gba</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gbaya</div>
+          <td width="40%" align="left">gbaya</div>
+        </tr>
+
+          <td width="10%" align="left">gem</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Germanic (Other)</div>
+
+          <td width="40%" align="left">germaniques, autres langues</div>
+        </tr>
+
+          <td width="10%" align="left">geo/kat<a href="#two">*</a></div>
+          <td width="10%" align="left">ka</div>
+          <td width="40%" align="left">Georgian</div>
+          <td width="40%" align="left">g&eacute;orgien</div>
+
+        </tr>
+
+          <td width="10%" align="left">ger/deu<a href="#two">*</a></div>
+          <td width="10%" align="left">de</div>
+          <td width="40%" align="left">German</div>
+          <td width="40%" align="left">allemand</div>
+        </tr>
+
+
+          <td width="10%" align="left">gez</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Geez</div>
+          <td width="40%" align="left">gu&egrave;ze</div>
+        </tr>
+
+          <td width="10%" align="left">gil</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gilbertese</div>
+          <td width="40%" align="left">kiribati</div>
+        </tr>
+
+          <td width="10%" align="left">gla</div>
+          <td width="10%" align="left">gd</div>
+
+          <td width="40%" align="left">Gaelic; Scottish Gaelic</div>
+          <td width="40%" align="left">ga&eacute;lique; ga&eacute;lique
+              &eacute;cossais</div>
+        </tr>
+
+          <td width="10%" align="left">gle</div>
+          <td width="10%" align="left">ga</div>
+
+          <td width="40%" align="left">Irish</div>
+          <td width="40%" align="left">irlandais</div>
+        </tr>
+
+          <td width="10%" align="left">glg</div>
+          <td width="10%" align="left">gl</div>
+          <td width="40%" align="left">Galician
+
+          <td width="40%" align="left">galicien</div>
+        </tr>
+
+          <td width="10%" align="left">glv</div>
+          <td width="10%" align="left">gv</div>
+          <td width="40%" align="left">Manx</div>
+          <td width="40%" align="left"> manx; mannois</div>
+
+        </tr>
+
+          <td width="10%" align="left">gmh</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">German, Middle High (ca.1050-1500)</div>
+          <td width="40%" align="left">allemand, moyen haut (ca. 1050-1500)</div>
+        </tr>
+
+          <td width="10%" align="left">goh</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">German, Old High (ca.750-1050)</div>
+          <td width="40%" align="left">allemand, vieux haut (ca. 750-1050)</div>
+        </tr>
+
+          <td width="10%" align="left">gon</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gondi</div>
+
+          <td width="40%" align="left">gond</div>
+        </tr>
+
+          <td width="10%" align="left">gor</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gorontalo</div>
+          <td width="40%" align="left">gorontalo</div>
+
+        </tr>
+
+          <td width="10%" align="left">got</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gothic</div>
+          <td width="40%" align="left">gothique</div>
+        </tr>
+
+          <td width="10%" align="left">grb</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Grebo</div>
+          <td width="40%" align="left">grebo</div>
+        </tr>
+
+          <td width="10%" align="left">grc</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Greek, Ancient (to 1453)</div>
+
+          <td width="40%" align="left">grec ancien (jusqu'&agrave; 1453)</div>
+        </tr>
+
+          <td width="10%" align="left">gre/ell<a href="#two">*</a></div>
+          <td width="10%" align="left">el</div>
+          <td width="40%" align="left">Greek, Modern (1453-)</div>
+
+          <td width="40%" align="left">grec moderne (apr&egrave;s 1453)</div>
+        </tr>
+
+          <td width="10%" align="left">grn</div>
+          <td width="10%" align="left">gn</div>
+          <td width="40%" align="left">Guarani</div>
+          <td width="40%" align="left">guarani</div>
+
+        </tr>
+
+          <td align="left">gsw
+          <td align="left">&nbsp;
+          <td align="left">Alemanic; Swiss German
+          <td align="left">al&eacute;manique
+        </tr>
+
+
+          <td width="10%" align="left">guj</div>
+          <td width="10%" align="left">gu</div>
+          <td width="40%" align="left">Gujarati</div>
+          <td width="40%" align="left">goudjrati</div>
+        </tr>
+
+          <td width="10%" align="left">gwi</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Gwich&#180;in</div>
+          <td width="40%" align="left">gwich&#180;in</div>
+        </tr>
+
+          <td width="10%" align="left">hai</div>
+          <td width="10%" align="left">&nbsp;</div>
+
+          <td width="40%" align="left">Haida</div>
+          <td width="40%" align="left">haida</div>
+        </tr>
+
+          <td width="10%" align="left">hat</div>
+          <td width="10%" align="left">ht</div>
+          <td width="40%" align="left">Haitian; Haitian Creole</div>
+
+          <td width="40%" align="left">ha&iuml;tien; cr&eacute;ole ha&iuml;tien</div>
+        </tr>
+
+          <td width="10%" align="left">hau</div>
+          <td width="10%" align="left">ha</div>
+          <td width="40%" align="left">Hausa</div>
+
+          <td width="40%" align="left">haoussa</div>
+        </tr>
+
+          <td width="10%" align="left">haw</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Hawaiian</div>
+          <td width="40%" align="left">hawa&iuml;en</div>
+
+        </tr>
+
+          <td width="10%" align="left">heb</div>
+          <td width="10%" align="left">he</div>
+          <td width="40%" align="left">Hebrew</div>
+          <td width="40%" align="left">h&eacute;breu</div>
+        </tr>
+
+
+          <td width="10%" align="left">her</div>
+          <td width="10%" align="left">hz</div>
+          <td width="40%" align="left">Herero</div>
+          <td width="40%" align="left">herero</div>
+        </tr>
+
+          <td width="10%" align="left">hil</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Hiligaynon</div>
+          <td width="40%" align="left">hiligaynon</div>
+        </tr>
+
+          <td width="10%" align="left">him</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Himachali</div>
+
+          <td width="40%" align="left">himachali</div>
+        </tr>
+
+          <td width="10%" align="left">hin</div>
+          <td width="10%" align="left">hi</div>
+          <td width="40%" align="left">Hindi </div>
+          <td width="40%" align="left">hindi</div>
+
+        </tr>
+
+          <td width="10%" align="left">hit</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Hittite</div>
+          <td width="40%" align="left">hittite</div>
+        </tr>
+
+          <td width="10%" align="left">hmn</div>
+
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Hmong</div>
+          <td width="40%" align="left">hmong</div>
+        </tr>
+
+          <td width="10%" align="left">hmo</div>
+          <td width="10%" align="left">ho</div>
+
+          <td width="40%" align="left">Hiri Motu</div>
+          <td width="40%" align="left">hiri motu</div>
+        </tr>
+
+          <td width="10%" align="left">scr/hrv<a href="#two">*</a></div>
+          <td width="10%" align="left">hr</div>
+          <td width="40%" align="left">Croatian</div>
+
+          <td width="40%" align="left">croate</div>
+        </tr>
+
+          <td align="left">hsb
+          <td align="left">&nbsp;
+          <td align="left">Upper Sorbian
+          <td align="left">haut-sorabe
+
+        </tr>
+
+          <td width="10%" align="left">hun</div>
+          <td width="10%" align="left">hu</div>
+          <td width="40%" align="left">Hungarian</div>
+          <td width="40%" align="left">hongrois</div>
+        </tr>
+
+
+          <td width="10%" align="left">hup</div>
+          <td width="10%" align="left">&nbsp;</div>
+          <td width="40%" align="left">Hupa</div>
+          <td width="40%" align="left">hupa</div>
+        </tr>
+
+          <td width="10%" align="left">arm/hye<a href="#two">*</a></div>
+
+          <td width="10%" align="left">hy</div>
+          <td width="40%" align="left">Armenian</div>
+          <td width="40%" align="left">arm&eacute;nien</div>
+        </tr>
+
+          <td align="left">iba
+          <td align="left">&nbsp;
+          <td align="left">Iban
+          <td align="left">iban
+
+        </tr>
+
+          <td align="left">ibo
+          <td align="left">ig
+          <td align="left">Igbo
+          <td align="left">igbo
+        </tr>
+
+
+          <td align="left">ice/isl<a href="#two">*</a>
+          <td align="left">is
+          <td align="left">Icelandic
+          <td align="left">islandais
+        </tr>
+
+          <td align="left">ido
+
+          <td align="left">io
+          <td align="left">Ido
+          <td align="left">ido
+        </tr>
+
+          <td align="left">iii
+          <td align="left">ii
+
+          <td align="left">Sichuan Yi
+          <td align="left">yi de Sichuan
+        </tr>
+
+          <td align="left">ijo
+          <td align="left">&nbsp;
+          <td align="left">Ijo
+
+          <td align="left">ijo
+        </tr>
+
+          <td align="left">iku
+          <td align="left">iu
+          <td align="left">Inuktitut
+          <td align="left">inuktitut
+
+        </tr>
+
+          <td align="left">ile
+          <td align="left">ie
+          <td align="left">Interlingue
+          <td align="left">interlingue
+        </tr>
+
+
+          <td align="left">ilo
+          <td align="left">&nbsp;
+          <td align="left">Iloko
+          <td align="left">ilocano
+        </tr>
+
+          <td align="left">ina
+
+          <td align="left">ia
+          <td align="left">Interlingua (International Auxiliary <br>
+            Language Association)
+          <td align="left">interlingua (langue <br>
+            auxiliaire internationale)
+        </tr>
+
+
+          <td align="left">inc
+          <td align="left">&nbsp;
+          <td align="left">Indic (Other)
+          <td align="left">indo-aryennes, autres langues
+        </tr>
+
+          <td align="left">ind
+
+          <td align="left">id
+          <td align="left">Indonesian
+          <td align="left">indon&eacute;sien
+        </tr>
+
+          <td align="left">ine
+          <td align="left">&nbsp;
+
+          <td align="left">Indo-European (Other)
+          <td align="left">indo-europ&eacute;ennes, autres langues
+        </tr>
+
+          <td align="left">inh
+          <td align="left">&nbsp;
+          <td align="left">Ingush
+
+          <td align="left">ingouche
+        </tr>
+
+          <td align="left">ipk
+          <td align="left">ik
+          <td align="left">Inupiaq
+          <td align="left">inupiaq
+
+        </tr>
+
+          <td align="left">ira
+          <td align="left">&nbsp;
+          <td align="left">Iranian (Other)
+          <td align="left">iraniennes, autres langues
+        </tr>
+
+          <td align="left">iro
+
+          <td align="left">&nbsp;
+          <td align="left">Iroquoian languages
+          <td align="left">iroquoises, langues (famille)
+        </tr>
+
+          <td align="left">ice/isl<a href="#two">*</a>
+          <td align="left">is
+
+          <td align="left">Icelandic
+          <td align="left">islandais
+        </tr>
+
+          <td align="left">ita
+          <td align="left">it
+          <td align="left">Italian
+
+          <td align="left">italien
+        </tr>
+
+          <td align="left">jav
+          <td align="left">jv
+          <td align="left">Javanese
+          <td align="left">javanais
+
+        </tr>
+
+          <td align="left">jbo
+          <td align="left">&nbsp;
+          <td align="left">Lojban
+          <td align="left">lojban
+        </tr>
+
+
+          <td align="left">jpn
+          <td align="left">ja
+          <td align="left">Japanese
+          <td align="left">japonais
+        </tr>
+
+          <td align="left">jpr
+
+          <td align="left">&nbsp;
+          <td align="left">Judeo-Persian
+          <td align="left">jud&eacute;o-persan
+        </tr>
+        <tr valign="top">
+          <td align="left">jrb
+          <td align="left">&nbsp;
+
+          <td align="left">Judeo-Arabic
+          <td align="left">jud&eacute;o-arabe
+        </tr>
+
+          <td align="left">kaa
+          <td align="left">&nbsp;
+          <td align="left">Kara-Kalpak
+          <td align="left">karakalpak
+
+        </tr>
+
+          <td align="left">kab
+          <td align="left">&nbsp;
+          <td align="left">Kabyle
+          <td align="left">kabyle
+        </tr>
+
+          <td align="left">kac
+
+          <td align="left">&nbsp;
+          <td align="left">Kachin
+          <td align="left">kachin
+        </tr>
+
+          <td align="left">kal
+          <td align="left">kl
+
+          <td align="left">Kalaallisut; Greenlandic
+          <td align="left">groenlandais
+        </tr>
+
+          <td align="left">kam
+          <td align="left">&nbsp;
+          <td align="left">Kamba
+
+          <td align="left">kamba
+        </tr>
+
+          <td align="left">kan
+          <td align="left">kn
+          <td align="left">Kannada
+          <td align="left">kannada
+
+        </tr>
+
+          <td align="left">kar
+          <td align="left">&nbsp;
+          <td align="left">Karen
+          <td align="left">karen
+        </tr>
+
+          <td align="left">kas
+
+          <td align="left">ks
+          <td align="left">Kashmiri
+          <td align="left">kashmiri
+        </tr>
+
+          <td align="left">geo/kat<a href="#two">*</a>
+          <td align="left">ka
+
+          <td align="left">Georgian
+          <td align="left">g&eacute;orgien
+        </tr>
+
+          <td align="left">kau
+          <td align="left">kr
+          <td align="left">Kanuri
+
+          <td align="left">kanouri
+        </tr>
+
+          <td align="left">kaw
+          <td align="left">&nbsp;
+          <td align="left">Kawi
+          <td align="left">kawi
+
+        </tr>
+
+          <td align="left">kaz
+          <td align="left">kk
+          <td align="left">Kazakh
+          <td align="left">kazakh
+        </tr>
+
+
+          <td align="left">kbd
+          <td align="left">&nbsp;
+          <td align="left">Kabardian
+          <td align="left">kabardien
+        </tr>
+
+          <td align="left">kha
+
+          <td align="left">&nbsp;
+          <td align="left">Khasi
+          <td align="left">khasi
+        </tr>
+
+          <td align="left">khi
+          <td align="left">&nbsp;
+          <td align="left">Khoisan (Other)
+
+          <td align="left">khoisan, autres langues
+        </tr>
+
+          <td align="left">khm
+          <td align="left">km
+          <td align="left">Khmer
+          <td align="left">khmer
+
+        </tr>
+
+          <td align="left">kho
+          <td align="left">&nbsp;
+          <td align="left">Khotanese
+          <td align="left">khotanais
+        </tr>
+
+          <td align="left">kik
+
+          <td align="left">ki
+          <td align="left">Kikuyu; Gikuyu
+          <td align="left">kikuyu
+        </tr>
+
+          <td align="left">kin
+          <td align="left">rw
+
+          <td align="left">Kinyarwanda
+          <td align="left">rwanda
+        </tr>
+
+          <td align="left">kir
+          <td align="left">ky
+          <td align="left">Kirghiz
+
+          <td align="left">kirghize
+        </tr>
+
+          <td align="left">kmb
+          <td align="left">&nbsp;
+          <td align="left">Kimbundu
+          <td align="left">kimbundu
+
+        </tr>
+
+          <td align="left">kok
+          <td align="left">&nbsp;
+          <td align="left">Konkani
+          <td align="left">konkani
+        </tr>
+
+          <td align="left">kom
+
+          <td align="left">kv
+          <td align="left">Komi
+          <td align="left">kom
+        </tr>
+
+          <td align="left">kon
+          <td align="left">kg
+
+          <td align="left">Kongo
+          <td align="left">kongo
+        </tr>
+
+          <td align="left">kor
+          <td align="left">ko
+          <td align="left">Korean
+
+          <td align="left">cor&eacute;en
+        </tr>
+
+          <td align="left">kos
+          <td align="left">&nbsp;
+          <td align="left">Kosraean
+          <td align="left">kosrae
+
+        </tr>
+
+          <td align="left">kpe
+          <td align="left">&nbsp;
+          <td align="left">Kpelle
+          <td align="left">kpell&eacute;
+        </tr>
+
+          <td align="left">krc
+
+          <td align="left">&nbsp;
+          <td align="left">Karachay-Balkar
+          <td align="left"><span style="text-align: left">karatcha&iuml; balkar</span>
+        </tr>
+
+          <td align="left">krl
+
+          <td align="left">&nbsp;
+          <td align="left">Karelian
+          <td align="left">car&eacute;lien
+        </tr>
+
+          <td align="left">kro
+          <td align="left">&nbsp;
+
+          <td align="left">Kru
+          <td align="left">krou
+        </tr>
+
+          <td align="left">kru
+          <td align="left">&nbsp;
+          <td align="left">Kurukh
+
+          <td align="left">kurukh
+        </tr>
+        <tr valign="top">
+          <td align="left">kua
+          <td align="left">kj
+          <td align="left">Kuanyama; Kwanyama
+          <td align="left">kuanyama; kwanyama
+
+        </tr>
+
+          <td align="left">kum
+          <td align="left">&nbsp;
+          <td align="left">Kumyk
+          <td align="left">koumyk
+        </tr>
+
+          <td align="left">kur
+
+          <td align="left">ku
+          <td align="left">Kurdish
+          <td align="left">kurde
+        </tr>
+
+          <td align="left">kut
+          <td align="left">&nbsp;
+
+          <td align="left">Kutenai
+          <td align="left">kutenai
+        </tr>
+
+          <td align="left">lad
+          <td align="left">&nbsp;
+          <td align="left">Ladino
+
+          <td align="left">jud&eacute;o-espagnol
+        </tr>
+
+          <td align="left">lah
+          <td align="left">&nbsp;
+          <td align="left">Lahnda
+          <td align="left">lahnda
+
+        </tr>
+
+          <td align="left">lam
+          <td align="left">&nbsp;
+          <td align="left">Lamba
+          <td align="left">lamba
+        </tr>
+
+          <td align="left">lao
+
+          <td align="left">lo
+          <td align="left">Lao
+          <td align="left">lao
+        </tr>
+
+          <td align="left">lat
+          <td align="left">la
+
+          <td align="left">Latin
+          <td align="left">latin
+        </tr>
+
+          <td align="left">lav
+          <td align="left">lv
+          <td align="left">Latvian
+
+          <td align="left">letton
+        </tr>
+
+          <td align="left">lez
+          <td align="left">&nbsp;
+          <td align="left">Lezghian
+          <td align="left">lezghien
+
+        </tr>
+
+          <td align="left">lim
+          <td align="left">li
+          <td align="left">Limburgan; Limburger; Limburgish
+          <td align="left">limbourgeois
+        </tr>
+
+
+          <td align="left">lin
+          <td align="left">ln
+          <td align="left">Lingala
+          <td align="left">lingala
+        </tr>
+
+          <td align="left">lit
+
+          <td align="left">lt
+          <td align="left">Lithuanian
+          <td align="left">lituanien
+        </tr>
+
+          <td align="left">lol
+          <td align="left">&nbsp;
+
+          <td align="left">Mongo
+          <td align="left">mongo
+        </tr>
+
+          <td align="left">loz
+          <td align="left">&nbsp;
+          <td align="left">Lozi
+
+          <td align="left">lozi
+        </tr>
+
+          <td align="left">ltz
+          <td align="left">lb
+          <td align="left">Luxembourgish; Letzeburgesch
+          <td align="left">luxembourgeois
+
+        </tr>
+
+          <td align="left">lua
+          <td align="left">&nbsp;
+          <td align="left">Luba-Lulua
+          <td align="left">luba-lulua
+        </tr>
+
+          <td align="left">lub
+
+          <td align="left">lu
+          <td align="left">Luba-Katanga
+          <td align="left">luba-katanga
+        </tr>
+
+          <td align="left">lug
+          <td align="left">lg
+
+          <td align="left">Ganda
+          <td align="left">ganda
+        </tr>
+
+          <td align="left">lui
+          <td align="left">&nbsp;
+          <td align="left">Luiseno
+
+          <td align="left">luiseno
+        </tr>
+
+          <td align="left">lun
+          <td align="left">&nbsp;
+          <td align="left">Lunda
+          <td align="left">lunda
+
+        </tr>
+
+          <td align="left">luo
+          <td align="left">&nbsp;
+          <td align="left">Luo (Kenya and Tanzania)
+          <td align="left">luo (Kenya et Tanzanie)
+        </tr>
+
+          <td align="left">lus
+
+          <td align="left">&nbsp;
+          <td align="left">lushai
+          <td align="left">Lushai
+        </tr>
+
+          <td align="left">mac/mkd<a href="#two">*</a>
+          <td align="left">mk
+          <td align="left">Macedonian
+          <td align="left">mac&eacute;donien
+
+        </tr>
+
+          <td align="left">mad
+          <td align="left">&nbsp;
+          <td align="left">Madurese
+          <td align="left">madourais
+        </tr>
+
+          <td align="left">mag
+
+          <td align="left">&nbsp;
+          <td align="left">Magahi
+          <td align="left">magahi
+        </tr>
+
+          <td align="left">mah
+          <td align="left">mh
+
+          <td align="left">Marshallese
+          <td align="left">marshall
+        </tr>
+
+          <td align="left">mai
+          <td align="left">&nbsp;
+          <td align="left">Maithili
+
+          <td align="left">maithili
+        </tr>
+
+          <td align="left">mak
+          <td align="left">&nbsp;
+          <td align="left">Makasar
+          <td align="left">makassar
+
+        </tr>
+
+          <td align="left">mal
+          <td align="left">ml
+          <td align="left">Malayalam
+          <td align="left">malayalam
+        </tr>
+
+
+          <td align="left">man
+          <td align="left">&nbsp;
+          <td align="left">Mandingo
+          <td align="left">mandingue
+        </tr>
+
+          <td align="left">mao/mri<a href="#two">*</a>
+
+          <td align="left">mi
+          <td align="left">Maori
+          <td align="left">maori
+        </tr>
+
+          <td align="left">map
+          <td align="left">&nbsp;
+
+          <td align="left">Austronesian (Other)
+          <td align="left">malayo-polyn&eacute;siennes,<br>
+            autres langues
+        </tr>
+
+          <td align="left">mar
+          <td align="left">mr
+
+          <td align="left">Marathi
+          <td align="left">marathe
+        </tr>
+
+          <td align="left">mas
+          <td align="left">&nbsp;
+          <td align="left">Masai
+
+          <td align="left">massa&iuml;
+        </tr>
+
+          <td align="left">may/msa<a href="#two">*</a>
+          <td align="left">ms
+          <td align="left">Malay
+          <td align="left">malais
+
+        </tr>
+
+          <td align="left">mdf
+          <td align="left">&nbsp;
+          <td align="left">Moksha
+          <td align="left">moksa
+        </tr>
+
+          <td align="left">mdr
+
+          <td align="left">&nbsp;
+          <td align="left">Mandar
+          <td align="left">mandar
+        </tr>
+
+          <td align="left">men
+          <td align="left">&nbsp;
+          <td align="left">Mende
+
+          <td align="left">mend&eacute;
+        </tr>
+
+          <td align="left">mga
+          <td align="left">&nbsp;
+          <td align="left">Irish, Middle (900-1200)
+          <td align="left">irlandais moyen (900-1200)
+
+        </tr>
+
+          <td align="left">mic
+          <td align="left">&nbsp;
+          <td align="left"><span style="text-align: left">Mi'kmaq; Micmac</span>
+          <td align="left"><span style="text-align: left">mi'kmaq; micmac</span>
+        </tr>
+
+          <td align="left">min
+
+          <td align="left">&nbsp;
+          <td align="left">Minangkabau
+          <td align="left">minangkabau
+        </tr>
+
+          <td align="left">mis
+          <td align="left">&nbsp;
+          <td align="left">Miscellaneous languages
+
+          <td align="left">diverses, langues
+        </tr>
+
+          <td align="left">mac/mkd<a href="#two">*</a>
+          <td align="left">mk
+          <td align="left">Macedonian
+          <td align="left">mac&eacute;donien
+
+        </tr>
+
+          <td align="left">mkh
+          <td align="left">&nbsp;
+          <td align="left">Mon-Khmer (Other)
+          <td align="left">m&ocirc;n-khmer, autres langues
+        </tr>
+
+
+          <td align="left">mlg
+          <td align="left">mg
+          <td align="left">Malagasy
+          <td align="left">malgache
+        </tr>
+
+          <td align="left">mlt
+
+          <td align="left">mt
+          <td align="left">Maltese
+          <td align="left">maltais
+        </tr>
+
+          <td align="left">mnc
+          <td align="left">&nbsp;
+
+          <td align="left">Manchu
+          <td align="left">mandchou
+        </tr>
+
+          <td align="left">mni
+          <td align="left">&nbsp;
+          <td align="left">Manipuri
+
+          <td align="left">manipuri
+        </tr>
+
+          <td align="left">mno
+          <td align="left">&nbsp;
+          <td align="left">Manobo languages
+          <td align="left">manobo, langues
+
+        </tr>
+
+          <td align="left">moh
+          <td align="left">&nbsp;
+          <td align="left">Mohawk
+          <td align="left">mohawk
+        </tr>
+
+          <td align="left">mol
+
+          <td align="left">mo
+          <td align="left">Moldavian
+          <td align="left">moldave
+        </tr>
+
+          <td align="left">mon
+          <td align="left">mn
+
+          <td align="left">Mongolian
+          <td align="left">mongol
+        </tr>
+
+          <td align="left">mos
+          <td align="left">&nbsp;
+          <td align="left">Mossi
+
+          <td align="left">mor&eacute;
+        </tr>
+
+          <td align="left">mao/mri<a href="#two">*</a>
+          <td align="left">mi
+          <td align="left">Maori
+          <td align="left">maori
+
+        </tr>
+
+          <td align="left">may/msa<a href="#two">*</a>
+          <td align="left">ms
+          <td align="left">Malay
+          <td align="left">malais
+        </tr>
+
+
+          <td align="left">mul
+          <td align="left">&nbsp;
+          <td align="left">Multiple languages
+          <td align="left">multilingue
+        </tr>
+
+          <td align="left">mun
+
+          <td align="left">&nbsp;
+          <td align="left">Munda languages
+          <td align="left">mounda, langues
+        </tr>
+
+          <td align="left">mus
+          <td align="left">&nbsp;
+          <td align="left">Creek
+
+          <td align="left">muskogee
+        </tr>
+
+          <td align="left">mwl
+          <td align="left">&nbsp;
+          <td align="left">Mirandese
+          <td align="left">mirandais
+
+        </tr>
+
+          <td align="left">mwr
+          <td align="left">&nbsp;
+          <td align="left">Marwari
+          <td align="left">marvari
+        </tr>
+
+          <td align="left">bur/mya<a href="#two">*</a>
+
+          <td align="left">my
+          <td align="left">Burmese
+          <td align="left">birman
+        </tr>
+
+          <td align="left">myn
+          <td align="left">&nbsp;
+
+          <td align="left">Mayan languages
+          <td align="left">maya, langues
+        </tr>
+
+          <td align="left">myv
+          <td align="left">&nbsp;
+          <td align="left">Erzya
+
+          <td align="left">erza
+        </tr>
+
+          <td align="left">nah
+          <td align="left">&nbsp;
+          <td align="left">Nahuatl
+          <td align="left">nahuatl
+
+        </tr>
+
+          <td align="left">nai
+          <td align="left">&nbsp;
+          <td align="left">North American Indian
+          <td align="left">indiennes d'Am&eacute;rique du Nord, <br>
+            autres langues
+
+        </tr>
+
+          <td align="left">nap
+          <td align="left">&nbsp;
+          <td align="left">Neapolitan
+          <td align="left">napolitain
+        </tr>
+
+          <td align="left">nau
+
+          <td align="left">na
+          <td align="left">Nauru
+          <td align="left">nauruan
+        </tr>
+
+          <td align="left">nav
+          <td align="left">nv
+
+          <td align="left">Navajo; Navaho
+          <td align="left">navaho
+        </tr>
+
+          <td align="left">nbl
+          <td align="left">nr
+          <td align="left">Ndebele, South; South Ndebele
+
+          <td align="left">nd&eacute;b&eacute;l&eacute; du Sud
+        </tr>
+
+          <td align="left">nde
+          <td align="left">nd
+          <td align="left">Ndebele, North; North Ndebele
+
+          <td align="left">nd&eacute;b&eacute;l&eacute; du Nord
+        </tr>
+
+          <td align="left">ndo
+          <td align="left">ng
+          <td align="left">Ndonga
+
+          <td align="left">ndonga
+        </tr>
+
+          <td align="left">nds
+          <td align="left">&nbsp;
+          <td align="left">Low German; Low Saxon; German, Low; Saxon, Low
+          <td align="left">bas allemand; bas saxon; allemand, bas; saxon, bas
+
+        </tr>
+
+          <td align="left">nep
+          <td align="left">ne
+          <td align="left">Nepali
+          <td align="left">n&eacute;palais
+        </tr>
+
+
+          <td align="left">new
+          <td align="left">&nbsp;
+          <td align="left">Newari; Nepal Bhasa
+          <td align="left">newari; nepal bhasa
+        </tr>
+
+          <td align="left">nia
+
+          <td align="left">&nbsp;
+          <td align="left">Nias
+          <td align="left">nias
+        </tr>
+
+          <td align="left">nic
+          <td align="left">&nbsp;
+          <td align="left">Niger-Kordofanian (Other)
+
+          <td align="left">nig&eacute;ro-congolaises, autres langues
+        </tr>
+
+          <td align="left">niu
+          <td align="left">&nbsp;
+          <td align="left">Niuean
+          <td align="left">niu&eacute;
+
+        </tr>
+
+          <td align="left">dut/nld<a href="#two">*</a>
+          <td align="left">nl
+          <td align="left">Dutch; Flemish
+          <td align="left">n&eacute;erlandais; flamand
+
+        </tr>
+
+          <td align="left">nno
+          <td align="left">nn
+          <td align="left">Norwegian Nynorsk; Nynorsk, Norwegian
+          <td align="left">norv&eacute;gien nynorsk; nynorsk, norv&eacute;gien
+
+
+        </tr>
+
+          <td align="left">nob
+          <td align="left">nb
+          <td align="left">Norwegian Bokm&aring;l; Bokm&aring;l, Norwegian
+          <td align="left">norv&eacute;gien bokm&aring;l; bokm&aring;l, norv&eacute;gien
+
+
+        </tr>
+
+          <td align="left">nog
+          <td align="left">&nbsp;
+          <td align="left">Nogai
+          <td align="left">noga&iuml;; nogay
+        </tr>
+
+
+          <td align="left">non
+          <td align="left">&nbsp;
+          <td align="left">Norse, Old
+          <td align="left">norrois, vieux
+        </tr>
+
+          <td align="left">nor
+
+          <td align="left">no
+          <td align="left">Norwegian
+          <td align="left">norv&eacute;gien
+        </tr>
+
+          <td align="left">nso
+          <td align="left">&nbsp;
+
+          <td align="left">Northern Sotho, Pedi; Sepedi
+          <td align="left">sotho du Nord; pedi; sepedi
+        </tr>
+
+          <td align="left">nub
+          <td align="left">&nbsp;
+          <td align="left">Nubian languages
+
+          <td align="left">nubiennes, langues
+        </tr>
+
+          <td align="left">nwc
+          <td align="left">&nbsp;
+          <td align="left">Classical Newari; Old Newari; Classical Nepal Bhasa
+          <td align="left">newari classique
+
+        </tr>
+
+          <td align="left">nya
+          <td align="left">ny
+          <td align="left"> Chichewa; Chewa; Nyanja
+          <td align="left">chichewa; chewa; nyanja
+        </tr>
+
+
+          <td align="left">nym
+          <td align="left">&nbsp;
+          <td align="left">Nyamwezi
+          <td align="left">nyamwezi
+        </tr>
+
+          <td align="left">nyn
+
+          <td align="left">&nbsp;
+          <td align="left">Nyankole
+          <td align="left">nyankol&eacute;
+        </tr>
+
+          <td align="left">nyo
+          <td align="left">&nbsp;
+          <td align="left">Nyoro
+
+          <td align="left">nyoro
+        </tr>
+
+          <td align="left">nzi
+          <td align="left">&nbsp;
+          <td align="left">Nzima
+          <td align="left">nzema
+
+        </tr>
+
+          <td align="left">oci
+          <td align="left">oc
+          <td align="left">Occitan (post 1500); Proven&ccedil;al
+          <td align="left">occitan (apr&egrave;s 1500); proven&ccedil;al
+        </tr>
+
+
+          <td align="left">oji
+          <td align="left">oj
+          <td align="left">Ojibwa
+          <td align="left">ojibwa
+        </tr>
+
+          <td align="left">ori
+
+          <td align="left">or
+          <td align="left">Oriya
+          <td align="left">oriya
+        </tr>
+
+          <td align="left">orm
+          <td align="left">om
+
+          <td align="left">Oromo
+          <td align="left">galla
+        </tr>
+
+          <td align="left">osa
+          <td align="left">&nbsp;
+          <td align="left">Osage
+
+          <td align="left">osage
+        </tr>
+
+          <td align="left">oss
+          <td align="left">os
+          <td align="left">Ossetian; Ossetic
+          <td align="left">oss&egrave;te
+
+        </tr>
+
+          <td align="left">ota
+          <td align="left">&nbsp;
+          <td align="left">Turkish, Ottoman (1500-1928)
+          <td align="left">turc ottoman (1500-1928)
+        </tr>
+
+          <td align="left">oto
+
+          <td align="left">&nbsp;
+          <td align="left">Otomian languages
+          <td align="left">otomangue, langues
+        </tr>
+
+          <td align="left">paa
+          <td align="left">&nbsp;
+          <td align="left">Papuan (Other)
+
+          <td align="left">papoues, autres langues
+        </tr>
+
+          <td align="left">pag
+          <td align="left">&nbsp;
+          <td align="left">Pangasinan
+          <td align="left">pangasinan
+
+        </tr>
+
+          <td align="left">pal
+          <td align="left">&nbsp;
+          <td align="left">Pahlavi
+          <td align="left">pahlavi
+        </tr>
+
+          <td align="left">pam
+
+          <td align="left">&nbsp;
+          <td align="left">Pampanga
+          <td align="left">pampangan
+        </tr>
+
+          <td align="left">pan
+          <td align="left">pa
+
+          <td align="left">Panjabi; Punjabi
+          <td align="left">pendjabi
+        </tr>
+
+          <td align="left">pap
+          <td align="left">&nbsp;
+          <td align="left">Papiamento
+
+          <td align="left">papiamento
+        </tr>
+
+          <td align="left">pau
+          <td align="left">&nbsp;
+          <td align="left">Palauan
+          <td align="left">palau
+
+        </tr>
+
+          <td align="left">peo
+          <td align="left">&nbsp;
+          <td align="left">Persian, Old (ca.600-400 B.C.)
+          <td align="left">perse, vieux (ca. 600-400 av. J.-C.)
+        </tr>
+
+          <td align="left">per/fas<a href="#two">*</a>
+
+          <td align="left">fa
+          <td align="left">Persian
+          <td align="left">persan
+        </tr>
+
+          <td align="left">phi
+          <td align="left">&nbsp;
+
+          <td align="left">Philippine (Other)
+          <td align="left">philippines, autres langues
+        </tr>
+        <tr valign="top">
+          <td align="left">phn
+          <td align="left">&nbsp;
+          <td align="left">Phoenician
+
+          <td align="left">ph&eacute;nicien
+        </tr>
+
+          <td align="left">pli
+          <td align="left">pi
+          <td align="left">Pali
+          <td align="left">pali
+
+        </tr>
+
+          <td align="left">pol
+          <td align="left">pl
+          <td align="left">Polish
+          <td align="left">polonais
+        </tr>
+
+
+          <td align="left">pon
+          <td align="left">&nbsp;
+          <td align="left">Pohnpeian
+          <td align="left">pohnpei
+        </tr>
+
+          <td align="left">por
+
+          <td align="left">pt
+          <td align="left">Portuguese
+          <td align="left">portugais
+        </tr>
+
+          <td align="left">pra
+          <td align="left">&nbsp;
+
+          <td align="left">Prakrit languages
+          <td align="left">pr&acirc;krit
+        </tr>
+
+          <td align="left">pro
+          <td align="left">&nbsp;
+          <td align="left">Proven&#231;al, Old (to 1500)
+
+          <td align="left">proven&ccedil;al ancien (jusqu'&agrave; 1500)
+        </tr>
+
+          <td align="left">pus
+          <td align="left">ps
+          <td align="left">Pushto
+
+          <td align="left">pachto
+        </tr>
+
+          <td align="left">qaa-qtz
+          <td align="left">&nbsp;
+          <td align="left">Reserved for local use
+          <td align="left">r&eacute;serv&eacute;e &agrave; l'usage local
+        </tr>
+
+
+          <td align="left">que
+          <td align="left">qu
+          <td align="left">Quechua
+          <td align="left">quechua
+        </tr>
+
+          <td align="left">raj
+
+          <td align="left">&nbsp;
+          <td align="left">Rajasthani
+          <td align="left">rajasthani
+        </tr>
+
+          <td align="left">rap
+          <td align="left">&nbsp;
+          <td align="left">Rapanui
+
+          <td align="left">rapanui
+        </tr>
+
+          <td align="left">rar
+          <td align="left">&nbsp;
+          <td align="left">Rarotongan
+          <td align="left">rarotonga
+
+        </tr>
+
+          <td align="center" height="22"><div align="left">roa</div>
+          <td align="center" height="22"><div align="left"></div>
+          <td align="center" height="22"><div align="left">Romance (Other)</div>
+          <td align="center" height="22"><div align="left">romanes, autres langues</div>
+        </tr>
+        <tr valign="top">
+          <td align="left">roh
+
+          <td align="left">rm
+          <td align="left">Raeto-Romance
+          <td align="left">rh&eacute;to-roman
+        </tr>
+
+          <td align="left">rom
+          <td align="left">&nbsp;
+
+          <td align="left">Romany
+          <td align="left">tsigane
+        </tr>
+
+          <td align="left">rum/ron<a href="#two">*</a>
+          <td align="left">ro
+          <td align="left">Romanian
+
+          <td align="left">roumain
+        </tr>
+
+          <td align="left">run
+          <td align="left">rn
+          <td align="left">Rundi
+          <td align="left">rundi
+
+        </tr>
+
+          <td align="left">rup
+          <td align="left">&nbsp;
+          <td align="left">Aromanian; Arumanian; Macedo-Romanian
+          <td align="left">aroumain; mac&eacute;do-roumain
+        </tr>
+
+
+          <td align="left">rus
+          <td align="left">ru
+          <td align="left">Russian
+          <td align="left">russe
+        </tr>
+
+          <td align="left">sad
+          <td align="left">&nbsp;
+
+          <td align="left">Sandawe
+          <td align="left">sandawe
+        </tr>
+
+          <td align="left">sag
+          <td align="left">sg
+          <td align="left">Sango
+
+          <td align="left">sango
+        </tr>
+
+          <td align="left">sah
+          <td align="left">&nbsp;
+          <td align="left">Yakut
+          <td align="left">iakoute
+
+        </tr>
+
+          <td align="left">sai
+          <td align="left">&nbsp;
+          <td align="left">South American Indian (Other)
+          <td align="left">indiennes d'Am&eacute;rique du Sud,<br>
+            autres langues
+
+        </tr>
+
+          <td align="left">sal
+          <td align="left">&nbsp;
+          <td align="left">Salishan languages
+          <td align="left">salish, langues
+        </tr>
+
+          <td align="left">sam
+
+          <td align="left">&nbsp;
+          <td align="left">Samaritan Aramaic
+          <td align="left">samaritain
+        </tr>
+
+          <td align="left">san
+          <td align="left">sa
+
+          <td align="left">Sanskrit
+          <td align="left">sanskrit
+        </tr>
+
+          <td align="left">sas
+          <td align="left">&nbsp;
+          <td align="left">Sasak
+
+          <td align="left">sasak
+        </tr>
+
+          <td align="left">sat
+          <td align="left">&nbsp;
+          <td align="left">Santali
+          <td align="left">santal
+
+        </tr>
+
+          <td align="left">scc/srp<a href="#two">*</a>
+          <td align="left">sr
+          <td align="left">Serbian
+          <td align="left">serbe
+        </tr>
+
+
+          <td align="left">scn
+          <td align="left">&nbsp;
+          <td align="left">Sicilian
+          <td align="left">sicilien
+        </tr>
+
+          <td align="left">sco
+
+          <td align="left">&nbsp;
+          <td align="left">Scots
+          <td align="left">&eacute;cossais
+        </tr>
+
+          <td align="left">scr/hrv<a href="#two">*</a>
+          <td align="left">hr
+
+          <td align="left">Croatian
+          <td align="left">croate
+        </tr>
+
+          <td align="left">sel
+          <td align="left">&nbsp;
+          <td align="left">Selkup
+
+          <td align="left">selkoupe
+        </tr>
+
+          <td align="left">sem
+          <td align="left">&nbsp;
+          <td align="left">Semitic (Other)
+          <td align="left">s&eacute;mitiques, autres langues
+
+        </tr>
+
+          <td align="left">sga
+          <td align="left">&nbsp;
+          <td align="left">Irish, Old (to 900)
+          <td align="left">irlandais ancien (jusqu'&agrave; 900)
+        </tr>
+
+
+          <td align="left">sgn
+          <td align="left">&nbsp;
+          <td align="left">Sign Languages
+          <td align="left">langues des signes
+        </tr>
+
+          <td align="left">shn
+
+          <td align="left">&nbsp;
+          <td align="left">Shan
+          <td align="left">chan
+        </tr>
+
+          <td align="left">sid
+          <td align="left">&nbsp;
+          <td align="left">Sidamo
+
+          <td align="left">sidamo
+        </tr>
+
+          <td align="left">sin
+          <td align="left">si
+          <td align="left"><span style="text-align: left">Sinhala</span>; Sinhalese
+          <td align="left">singhalais
+
+        </tr>
+
+          <td align="left">sio
+          <td align="left">&nbsp;
+          <td align="left">Siouan languages
+          <td align="left">sioux, langues
+        </tr>
+
+          <td align="left">sit
+
+          <td align="left">&nbsp;
+          <td align="left">Sino-Tibetan (Other)
+          <td align="left">sino-tib&eacute;taines, autres langues
+        </tr>
+
+          <td align="left">sla
+          <td align="left">&nbsp;
+
+          <td align="left">Slavic (Other)
+          <td align="left">slaves, autres langues
+        </tr>
+
+          <td align="left">slo/slk<a href="#two">*</a>
+          <td align="left">sk
+          <td align="left">Slovak
+
+          <td align="left">slovaque
+        </tr>
+
+          <td align="left">slv
+          <td align="left">sl
+          <td align="left">Slovenian
+          <td align="left">slov&egrave;ne
+
+        </tr>
+
+          <td align="left">sma
+          <td align="left">&nbsp;
+          <td align="left">Southern Sami
+          <td align="left">sami du Sud
+        </tr>
+
+          <td align="left">sme
+
+          <td align="left">se
+          <td align="left">Northern Sami
+          <td align="left">sami du Nord
+        </tr>
+
+          <td align="left">smi
+          <td align="left">&nbsp;
+
+          <td align="left">Sami languages (Other)
+          <td align="left">sami, autres langues
+        </tr>
+
+          <td align="left">smj
+          <td align="left">&nbsp;
+          <td align="left">Lule Sami
+
+          <td align="left">sami de Lule
+        </tr>
+
+          <td align="left">smn
+          <td align="left">&nbsp;
+          <td align="left">Inari Sami
+          <td align="left">sami d'Inari
+
+        </tr>
+
+          <td align="left">smo
+          <td align="left">sm
+          <td align="left">Samoan
+          <td align="left">samoan
+        </tr>
+
+
+          <td align="left">sms
+          <td align="left">&nbsp;
+          <td align="left">Skolt Sami
+          <td align="left">sami skolt
+        </tr>
+
+          <td align="left">sna
+
+          <td align="left">sn
+          <td align="left">Shona
+          <td align="left">shona
+        </tr>
+
+          <td align="left">snd
+          <td align="left">sd
+
+          <td align="left">Sindhi
+          <td align="left">sindhi
+        </tr>
+
+          <td align="left">snk
+          <td align="left">&nbsp;
+          <td align="left">Soninke
+
+          <td align="left">sonink&eacute;
+        </tr>
+
+          <td align="left">sog
+          <td align="left">&nbsp;
+          <td align="left">Sogdian
+          <td align="left">sogdien
+
+        </tr>
+
+          <td align="left">som
+          <td align="left">so
+          <td align="left">Somali
+          <td align="left">somali
+        </tr>
+
+
+          <td align="left">son
+          <td align="left">&nbsp;
+          <td align="left">Songhai
+          <td align="left">songhai
+        </tr>
+
+          <td align="left">sot
+
+          <td align="left">st
+          <td align="left">Sotho, Southern
+          <td align="left">sotho du Sud
+        </tr>
+
+          <td align="left">spa
+          <td align="left">es
+
+          <td align="left">Spanish; Castilian
+          <td align="left">espagnol; castillan
+        </tr>
+
+          <td align="center" height="20"><div align="left">alb/sqi<a href="#two">*</a></div>
+          <td align="center" height="20"><div align="left">sq</div>
+          <td align="center" height="20"><div align="left">Albanian</div>
+
+          <td align="center" height="20"><div align="left">albanais</div>
+        </tr>
+
+          <td align="left">srd
+          <td align="left">sc
+          <td align="left">Sardinian
+          <td align="left">sarde
+
+        </tr>
+
+          <td align="left">srn
+          <td align="left">&nbsp;
+          <td align="left">Sranan Togo
+          <td align="left">sranan togo
+        </tr>
+
+
+          <td align="left">scc/srp<a href="#two">*</a>
+          <td align="left">sr
+          <td align="left">Serbian
+          <td align="left">serbe
+        </tr>
+
+          <td align="left">srr
+
+          <td align="left">&nbsp;
+          <td align="left">Serer
+          <td align="left">s&eacute;r&egrave;re
+        </tr>
+
+          <td align="left">ssa
+          <td align="left">&nbsp;
+
+          <td align="left">Nilo-Saharan (Other)
+          <td align="left">nilo-sahariennes, autres langues
+        </tr>
+
+          <td align="left">ssw
+          <td align="left">ss
+          <td align="left">Swati
+
+          <td align="left">swati
+        </tr>
+
+          <td align="left">suk
+          <td align="left">&nbsp;
+          <td align="left">Sukuma
+          <td align="left">sukuma
+
+        </tr>
+
+          <td align="left">sun
+          <td align="left">su
+          <td align="left">Sundanese
+          <td align="left">soundanais
+        </tr>
+
+
+          <td align="left">sus
+          <td align="left">&nbsp;
+          <td align="left">Susu
+          <td align="left">soussou
+        </tr>
+
+          <td align="left">sux
+
+          <td align="left">&nbsp;
+          <td align="left">Sumerian
+          <td align="left">sum&eacute;rien
+        </tr>
+
+          <td align="left">swa
+          <td align="left">sw
+
+          <td align="left">Swahili
+          <td align="left">swahili
+        </tr>
+
+          <td align="left">swe
+          <td align="left">sv
+          <td align="left">Swedish
+
+          <td align="left">su&eacute;dois
+        </tr>
+
+          <td align="left">syr
+          <td align="left">&nbsp;
+          <td align="left">Syriac
+          <td align="left">syriaque
+
+        </tr>
+
+          <td align="left">tah
+          <td align="left">ty
+          <td align="left">Tahitian
+          <td align="left">tahitien
+        </tr>
+
+
+          <td align="left">tai
+          <td align="left">&nbsp;
+          <td align="left">Tai (Other)
+          <td align="left">tha&iuml;es, autres langues
+        </tr>
+
+          <td align="left">tam
+
+          <td align="left">ta
+          <td align="left">Tamil
+          <td align="left">tamoul
+        </tr>
+
+          <td align="left">tat
+          <td align="left">tt
+
+          <td align="left">Tatar
+          <td align="left">tatar
+        </tr>
+
+          <td align="left">tel
+          <td align="left">te
+          <td align="left">Telugu
+
+          <td align="left">t&eacute;lougou
+        </tr>
+
+          <td align="left">tem
+          <td align="left">&nbsp;
+          <td align="left">Timne
+          <td align="left">temne
+
+        </tr>
+
+          <td align="left">ter
+          <td align="left">&nbsp;
+          <td align="left">Tereno
+          <td align="left">tereno
+        </tr>
+
+          <td align="left">tet
+
+          <td align="left">&nbsp;
+          <td align="left">Tetum
+          <td align="left">tetum
+        </tr>
+
+          <td align="left">tgk
+          <td align="left">tg
+
+          <td align="left">Tajik
+          <td align="left">tadjik
+        </tr>
+
+          <td align="left">tgl
+          <td align="left">tl
+          <td align="left">Tagalog
+
+          <td align="left">tagalog
+        </tr>
+
+          <td align="left">tha
+          <td align="left">th
+          <td align="left">Thai
+          <td align="left">tha&iuml;
+
+        </tr>
+
+          <td align="left">tib/bod<a href="#two">*</a>
+          <td align="left">bo
+          <td align="left">Tibetan
+          <td align="left">tib&eacute;tain
+
+        </tr>
+
+          <td align="left">tig
+          <td align="left">&nbsp;
+          <td align="left">Tigre
+          <td align="left">tigr&eacute;
+        </tr>
+
+          <td align="left">tir
+
+          <td align="left">ti
+          <td align="left">Tigrinya
+          <td align="left">tigrigna
+        </tr>
+
+          <td align="left">tiv
+          <td align="left">&nbsp;
+
+          <td align="left">Tiv
+          <td align="left">tiv
+        </tr>
+
+          <td align="left">tkl
+          <td align="left">&nbsp;
+          <td align="left">Tokelau
+
+          <td align="left">tokelau
+        </tr>
+
+          <td align="left">tlh
+          <td align="left">&nbsp;
+          <td align="left">Klingon; tlh<font face="Times New Roman, Times, serif">I</font>ngan-Hol
+
+          <td align="left">klingon
+        </tr>
+
+          <td align="left">tli
+          <td align="left">&nbsp;
+          <td align="left">Tlingit
+          <td align="left">tlingit
+
+        </tr>
+
+          <td align="left">tmh
+          <td align="left">&nbsp;
+          <td align="left">Tamashek
+          <td align="left">tamacheq
+        </tr>
+
+          <td align="left">tog
+
+          <td align="left">&nbsp;
+          <td align="left">Tonga (Nyasa)
+          <td align="left">tonga (Nyasa)
+        </tr>
+
+          <td align="left">ton
+          <td align="left">to
+
+          <td align="left">Tonga (Tonga Islands)
+          <td align="left">tongan (&Icirc;les Tonga)
+        </tr>
+
+          <td align="left">tpi
+          <td align="left">&nbsp;
+          <td align="left">Tok Pisin
+
+          <td align="left">tok pisin
+        </tr>
+
+          <td align="left">tsi
+          <td align="left">&nbsp;
+          <td align="left">Tsimshian
+          <td align="left">tsimshian
+
+        </tr>
+
+          <td align="left">tsn
+          <td align="left">tn
+          <td align="left">Tswana
+          <td align="left">tswana
+        </tr>
+
+
+          <td align="left">tso
+          <td align="left">ts
+          <td align="left">Tsonga
+          <td align="left">tsonga
+        </tr>
+
+          <td align="left">tuk
+
+          <td align="left">tk
+          <td align="left">Turkmen
+          <td align="left">turkm&egrave;ne
+        </tr>
+
+          <td align="left">tum
+          <td align="left">&nbsp;
+
+          <td align="left">Tumbuka
+          <td align="left">tumbuka
+        </tr>
+
+          <td align="left">tup
+          <td align="left">&nbsp;
+          <td align="left">Tupi languages
+
+          <td align="left">tupi, langues
+        </tr>
+
+          <td align="left">tur
+          <td align="left">tr
+          <td align="left">Turkish
+          <td align="left">turc
+
+        </tr>
+
+          <td align="left">tut
+          <td align="left">&nbsp;
+          <td align="left">Altaic (Other)
+          <td align="left">alta&iuml;ques, autres langues
+        </tr>
+
+
+          <td align="left">tvl
+          <td align="left">&nbsp;
+          <td align="left">Tuvalu
+          <td align="left">tuvalu
+        </tr>
+
+          <td align="left">twi
+
+          <td align="left">tw
+          <td align="left">Twi
+          <td align="left">twi
+        </tr>
+
+          <td align="left">tyv
+          <td align="left">&nbsp;
+
+          <td align="left">Tuvinian
+          <td align="left">touva
+        </tr>
+
+          <td align="left">udm
+          <td align="left">&nbsp;
+          <td align="left">Udmurt
+          <td align="left">oudmourte
+
+        </tr>
+
+          <td align="left">uga
+          <td align="left">&nbsp;
+          <td align="left">Ugaritic
+          <td align="left">ougaritique
+        </tr>
+
+          <td align="left">uig
+
+          <td align="left">ug
+          <td align="left">Uighur; Uyghur
+          <td align="left">ou&iuml;gour
+        </tr>
+
+          <td align="left">ukr
+          <td align="left">uk
+
+          <td align="left">Ukrainian
+          <td align="left">ukrainien
+        </tr>
+
+          <td align="left">umb
+          <td align="left">&nbsp;
+          <td align="left">Umbundu
+
+          <td align="left">umbundu
+        </tr>
+
+          <td align="left">und
+          <td align="left">&nbsp;
+          <td align="left">Undetermined
+          <td align="left">ind&eacute;termin&eacute;e
+
+        </tr>
+
+          <td align="left">urd
+          <td align="left">ur
+          <td align="left">Urdu
+          <td align="left">ourdou
+        </tr>
+
+
+          <td align="left">uzb
+          <td align="left">uz
+          <td align="left">Uzbek
+          <td align="left">ouszbek
+        </tr>
+
+          <td align="left">vai
+
+          <td align="left">&nbsp;
+          <td align="left">Vai
+          <td align="left">va&iuml;
+        </tr>
+
+          <td align="left">ven
+          <td align="left">ve
+
+          <td align="left">Venda
+          <td align="left">venda
+        </tr>
+
+          <td align="left">vie
+          <td align="left">vi
+          <td align="left">Vietnamese
+
+          <td align="left">vietnamien
+        </tr>
+
+          <td align="left">vol
+          <td align="left">vo
+          <td align="left">Volap&#252;k
+          <td align="left">volap&uuml;k
+
+        </tr>
+
+          <td align="left">vot
+          <td align="left">&nbsp;
+          <td align="left">Votic
+          <td align="left">vote
+        </tr>
+
+          <td align="left">wak
+
+          <td align="left">&nbsp;
+          <td align="left">Wakashan languages
+          <td align="left">wakashennes, langues
+        </tr>
+
+          <td align="left">wal
+          <td align="left">&nbsp;
+          <td align="left">Walamo
+
+          <td align="left">walamo
+        </tr>
+
+          <td align="left">war
+          <td align="left">&nbsp;
+          <td align="left">Waray
+          <td align="left">waray
+
+        </tr>
+
+          <td align="left">was
+          <td align="left">&nbsp;
+          <td align="left">Washo
+          <td align="left">washo
+        </tr>
+
+          <td align="left">wel/cym<a href="#two">*</a>
+
+          <td align="left">cy
+          <td align="left">Welsh
+          <td align="left">gallois
+        </tr>
+
+          <td align="left">wen
+          <td align="left">&nbsp;
+
+          <td align="left">Sorbian languages
+          <td align="left">sorabes, langues
+        </tr>
+
+          <td align="left">wln
+          <td align="left">wa
+          <td align="left">Walloon
+
+          <td align="left">wallon
+        </tr>
+
+          <td align="left">wol
+          <td align="left">wo
+          <td align="left">Wolof
+          <td align="left">wolof
+
+        </tr>
+
+          <td align="left">xal
+          <td align="left">&nbsp;
+          <td align="left">Kalmyk
+          <td align="left">kalmouk
+        </tr>
+
+          <td align="left">xho
+
+          <td align="left">xh
+          <td align="left">Xhosa
+          <td align="left">xhosa
+        </tr>
+
+          <td align="left">yao
+          <td align="left">&nbsp;
+
+          <td align="left">Yao
+          <td align="left">yao
+        </tr>
+
+          <td align="left">yap
+          <td align="left">&nbsp;
+          <td align="left">Yapese
+
+          <td align="left">yapois
+        </tr>
+
+          <td align="left">yid
+          <td align="left">yi
+          <td align="left">Yiddish
+          <td align="left">yiddish
+
+        </tr>
+
+          <td align="left">yor
+          <td align="left">yo
+          <td align="left">Yoruba
+          <td align="left">yoruba
+        </tr>
+
+
+          <td align="left">ypk
+          <td align="left">&nbsp;
+          <td align="left">Yupik languages
+          <td align="left">yupik, langues
+        </tr>
+
+          <td align="left">zap
+
+          <td align="left">&nbsp;
+          <td align="left">Zapotec
+          <td align="left">zapot&egrave;que
+        </tr>
+
+          <td align="left">zen
+          <td align="left">&nbsp;
+
+          <td align="left">Zenaga
+          <td align="left">zenaga
+        </tr>
+
+          <td align="left">zha
+          <td align="left">za
+          <td align="left">Zhuang; Chuang
+
+          <td align="left">zhuang; chuang
+        </tr>
+
+          <td align="left">chi/zho<a href="#two">*</a>
+          <td align="left">zh
+          <td align="left">Chinese
+          <td align="left">chinois
+
+        </tr>
+
+          <td align="left">znd
+          <td align="left">&nbsp;
+          <td align="left">Zande
+          <td align="left">zand&eacute;
+        </tr>
+
+          <td align="left">zul
+
+          <td align="left">zu
+          <td align="left">Zulu
+          <td align="left">zoulou
+        </tr>
+
+          <td align="left">zun
+          <td align="left">&nbsp;
+
+          <td align="left">Zuni
+          <td align="left">zuni
+        </tr>
+
+          <td align="left">zxx
+          <td align="left">&nbsp;
+          <td align="left">No linguistic content
+
+          <td align="left">pas de contenu linguistique
