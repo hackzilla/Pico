@@ -12,3 +12,14 @@ OfdanSearchBundle_1:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_about
         permanent: true # this for 301
+
+OfdanSearchBundle_license:
+    pattern:  /s/license
+    defaults: { _controller: OfdanSearchBundle:Static:license }
+
+OfdanSearchBundle_2:
+    pattern:  /s/2
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_license
+        permanent: true # this for 301
