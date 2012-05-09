@@ -1,6 +1,6 @@
 OfdanSearchBundle_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: OfdanSearchBundle:Default:index }
+    pattern:  /
+    defaults: { _controller: OfdanSearchBundle:Static:home }
 
 OfdanSearchBundle_about:
     pattern:  /s/about-us
