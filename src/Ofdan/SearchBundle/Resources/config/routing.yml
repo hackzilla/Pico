@@ -23,3 +23,14 @@ OfdanSearchBundle_2:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_license
         permanent: true # this for 301
+
+OfdanSearchBundle_download:
+    pattern:  /s/download
+    defaults: { _controller: OfdanSearchBundle:Static:download }
+
+OfdanSearchBundle_3:
+    pattern:  /s/3
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_download
+        permanent: true # this for 301

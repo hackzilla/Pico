@@ -21,4 +21,9 @@ class StaticController extends Controller
     {
         return $this->render('OfdanSearchBundle:Static:license.html.twig');
     }
+
+    public function downloadAction()
+    {
+        return $this->render('OfdanSearchBundle:Static:download.html.twig');
+    }
 }
