@@ -1,5 +1,9 @@
 {% extends '::base.html.twig' %}
 
+{% block search %}
+    {% render "OfdanSearchBundle:Page:searchbox" %}
+{% endblock %}
+
 {% block javascripts %}
     {{ parent() }}
 {% endblock %}
