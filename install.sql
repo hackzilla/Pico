@@ -152,6 +152,7 @@ CREATE TABLE `languages` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `cc` char(2) NOT NULL,
   `nameEng` char(58) NOT NULL,
+  `created` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `cc` (`cc`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
