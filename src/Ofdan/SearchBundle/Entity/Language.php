@@ -34,12 +34,12 @@ class Language
     /**
      * @ORM\Column(name="created", type="datetime")
      */
-    private $created;
+    private $createdAt;
 
 
     public function __construct()
     {
-        $this->created = new \DateTime();
+        $this->createdAt = new \DateTime();
     }
 
     /**
@@ -73,23 +73,23 @@ class Language
     }
 
     /**
-     * Set created
+     * Set createdAt
      *
-     * @param datetime $created
+     * @param datetime $createdAt
      */
-    public function setCreated($created)
+    public function setCreatedAt($createdAt)
     {
-        $this->created = $created;
+        $this->created = $createdAt;
     }
 
     /**
-     * Get created
+     * Get createdAt
      *
      * @return datetime 
      */
-    public function getCreated()
+    public function getCreatedAt()
     {
-        return $this->created;
+        return $this->createdAt;
     }
 
     /**
