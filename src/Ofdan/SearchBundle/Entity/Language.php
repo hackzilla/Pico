@@ -39,7 +39,7 @@ class Language
 
     public function __construct()
     {
-        $this->createdAt = new \DateTime();
+        $this->setCreatedAt(new \DateTime());
     }
 
     /**
