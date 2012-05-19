@@ -42,5 +42,4 @@ class LanguageFixtures implements FixtureInterface
         
         $manager->flush();
     }
-
 }
