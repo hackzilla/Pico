@@ -43,6 +43,12 @@ doctrine:
         user:     %database_user%
         password: %database_password%
         charset:  UTF8
+        mapping_types:
+            enum: string
+            set: string
+            varbinary: string
+            blob: text
+            tinyblob: text
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
