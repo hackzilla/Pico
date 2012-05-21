@@ -13,19 +13,21 @@ use Symfony\Component\Validator\Constraints as Assert;
 class Rank
 {
     /**
-     * @ORM\Column(name="domainId", type="integer")
+     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
-    private $domainId;
+    private $domain;
 
     /**
-     * @ORM\Column(name="keyword_id", type="integer")
+     * @ORM\ManyToOne(targetEntity="Keyword", inversedBy="keywords")
+     * @ORM\JoinColumn(name="keywordId", referencedColumnName="id")
      * @ORM\Id
      */
-    private $keywordId;
+    private $keyword;
 
     /**
-     * @ORM\Column(type="smallinteger")
+     * @ORM\Column(type="integer", length=7)
      */
     private $score;
 

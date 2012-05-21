@@ -36,7 +36,7 @@ class LogSearch
     private $query;
 
     /**
-     * @ORM\Column(type="float", precession=2, scale=5)
+     * @ORM\Column(type="float", precision=2, scale=5)
      */
     private $seek;
 

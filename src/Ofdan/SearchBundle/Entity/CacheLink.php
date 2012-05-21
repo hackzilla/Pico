@@ -13,16 +13,18 @@ use Symfony\Component\Validator\Constraints as Assert;
 class CacheLink
 {
     /**
-     * @ORM\Column(name="domainId", type="integer")
+     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
-    private $domainId;
+    private $domain;
 
     /**
-     * @ORM\Column(type="integer")
-     * @Assert\NotBlank
+     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
+     * @ORM\Id
      */
-    private $linkDomainId;
+    private $linkDomain;
 
     /**
      * @ORM\Column(type="smallint")
