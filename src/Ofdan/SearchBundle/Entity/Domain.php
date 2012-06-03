@@ -25,7 +25,7 @@ class Domain
     private $rank;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="smallint")
      * @Assert\NotBlank
      */
     private $status;
@@ -56,6 +56,22 @@ class Domain
      */
     private $updatedAt;
 
+    
+    const STATUS_QUEUE = 10;
+    const STATUS_PROCESSING = 11;
+    const STATUS_STORED = 12;
+    const STATUS_PAUSED = 13;
+    const STATUS_BLOCKED = 14;
+    const STATUS_USELESS = 15;
+
+    static public $statuses = array(
+        self::STATUS_QUEUE => 'queue',
+        self::STATUS_PROCESSING => 'processing',
+        self::STATUS_STORED => 'stored',
+        self::STATUS_PAUSED => 'paused',
+        self::STATUS_BLOCKED => 'blocked',
+        self::STATUS_USELESS => 'useless',
+    );
 
     public function __construct()
     {
@@ -104,7 +120,7 @@ class Domain
     /**
      * Set status
      *
-     * @param string $status
+     * @param smallint $status
      */
     public function setStatus($status)
     {
@@ -112,13 +128,32 @@ class Domain
     }
 
     /**
+     * Set status string
+     *
+     * @param string $status
+     */
+    public function setStatusString($status)
+    {
+        $this->status = in_array(self::$status, $this->status);
+    }
+    /**
      * Get status
      *
-     * @return string 
+     * @return smallint 
      */
     public function getStatus()
     {
         return $this->status;
+    }
+
+    /**
+     * Get status string
+     *
+     * @return string 
+     */
+    public function getStatusString()
+    {
+        return self::$status[$this->status];
     }
 
     /**
