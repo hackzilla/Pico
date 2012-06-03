@@ -37,14 +37,14 @@ class Domain
     private $domain;
 
     /**
-     * @ORM\Column(name="nextindex", type="datetime")
+     * @ORM\Column(name="nextindex", type="datetime", nullable="true")
      */
-    private $nextIndex;
+    private $nextIndex = null;
 
     /**
-     * @ORM\Column(name="lastindex", type="datetime")
+     * @ORM\Column(name="lastindex", type="datetime", nullable="true")
      */
-    private $lastIndex;
+    private $lastIndex = null;
 
     /**
      * @ORM\Column(name="created", type="datetime")
