@@ -21,7 +21,7 @@ class Rank
 
     /**
      * @ORM\ManyToOne(targetEntity="Keyword", inversedBy="keywords")
-     * @ORM\JoinColumn(name="keywordId", referencedColumnName="id")
+     * @ORM\JoinColumn(name="keyword_id", referencedColumnName="id")
      * @ORM\Id
      */
     private $keyword;

@@ -27,7 +27,7 @@ class LogSearch
     /**
      * @ORM\Column(type="datetime")
      */
-    private $date;
+    private $datetime;
 
     /**
      * @ORM\Column(type="string", length=255)

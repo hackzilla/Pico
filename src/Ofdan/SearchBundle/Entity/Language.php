@@ -79,7 +79,7 @@ class Language
      */
     public function setCreatedAt($createdAt)
     {
-        $this->created = $createdAt;
+        $this->createdAt = $createdAt;
     }
 
     /**
