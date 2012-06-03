@@ -21,7 +21,7 @@ class CacheLink
 
     /**
      * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
-     * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
+     * @ORM\JoinColumn(name="linkDomainId", referencedColumnName="id")
      * @ORM\Id
      */
     private $linkDomain;
