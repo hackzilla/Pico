@@ -31,7 +31,7 @@ class CacheIndex
     private $compressed;
 
     /**
-     * @ORM\Column(type="text")
+     * @ORM\Column(name="`index`", type="text")
      */
     private $index;
 
