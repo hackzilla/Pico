@@ -36,9 +36,9 @@ class Metadata
     private $extract;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", nullable="true")
      */
-    private $thumbCreated;
+    private $thumbCreated = null;
 
     /**
      * @ORM\Column(name="created", type="datetime")
