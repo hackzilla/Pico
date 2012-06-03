@@ -179,4 +179,24 @@ class CacheIndex
     {
         return $this->updatedAt;
     }
+
+    /**
+     * Set domain
+     *
+     * @param Ofdan\SearchBundle\Entity\Domain $domain
+     */
+    public function setDomain(\Ofdan\SearchBundle\Entity\Domain $domain)
+    {
+        $this->domain = $domain;
+    }
+
+    /**
+     * Get domain
+     *
+     * @return Ofdan\SearchBundle\Entity\Domain 
+     */
+    public function getDomain()
+    {
+        return $this->domain;
+    }
 }

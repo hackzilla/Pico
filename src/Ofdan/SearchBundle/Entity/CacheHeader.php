@@ -17,7 +17,7 @@ class CacheHeader
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
-    private $domainId;
+    private $domain;
 
     /**
      * @ORM\Column(type="datetime")
@@ -69,23 +69,23 @@ class CacheHeader
     }
 
     /**
-     * Set domainId
+     * Set domain
      *
-     * @param integer $domainId
+     * @param object $domain
      */
-    public function setDomainId($domainId)
+    public function setDomain($domain)
     {
-        $this->domainId = $domainId;
+        $this->domain = $domain;
     }
 
     /**
-     * Get domainId
+     * Get domain
      *
-     * @return integer 
+     * @return object 
      */
-    public function getDomainId()
+    public function getDomain()
     {
-        return $this->domainId;
+        return $this->domain;
     }
 
     /**
