@@ -24,9 +24,15 @@ class Keyword
      */
     private $keyword;
 
+    /**
+     * @ORM\Column(name="created", type="datetime")
+     */
+    private $createdAt;
+
 
     public function __construct()
     {
+        $this->setCreatedAt(new \DateTime());
     }
 
     /**
