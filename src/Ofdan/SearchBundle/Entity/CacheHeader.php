@@ -47,11 +47,11 @@ class CacheHeader
 
     
     const PAGE_INDEX = 10;
-    const PAGE_ROBOT  = 11;
+    const PAGE_ROBOT = 11;
 
     static public $types = array(
-        self::TYPE_PAGE_INDEX => 'index',
-        self::TYPE_PAGE_ROBOT => 'robot'
+        self::PAGE_INDEX => 'index',
+        self::PAGE_ROBOT => 'robot'
     );
 
     public function __construct()
