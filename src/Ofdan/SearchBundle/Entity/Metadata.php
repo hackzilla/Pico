@@ -65,4 +65,144 @@ class Metadata
     {
         $this->setUpdatedAt(new \DateTime());
     }
+
+    /**
+     * Set lang
+     *
+     * @param string $lang
+     */
+    public function setLang($lang)
+    {
+        $this->lang = $lang;
+    }
+
+    /**
+     * Get lang
+     *
+     * @return string 
+     */
+    public function getLang()
+    {
+        return $this->lang;
+    }
+
+    /**
+     * Set dialect
+     *
+     * @param string $dialect
+     */
+    public function setDialect($dialect)
+    {
+        $this->dialect = $dialect;
+    }
+
+    /**
+     * Get dialect
+     *
+     * @return string 
+     */
+    public function getDialect()
+    {
+        return $this->dialect;
+    }
+
+    /**
+     * Set extract
+     *
+     * @param text $extract
+     */
+    public function setExtract($extract)
+    {
+        $this->extract = $extract;
+    }
+
+    /**
+     * Get extract
+     *
+     * @return text 
+     */
+    public function getExtract()
+    {
+        return $this->extract;
+    }
+
+    /**
+     * Set thumbCreated
+     *
+     * @param datetime $thumbCreated
+     */
+    public function setThumbCreated($thumbCreated)
+    {
+        $this->thumbCreated = $thumbCreated;
+    }
+
+    /**
+     * Get thumbCreated
+     *
+     * @return datetime 
+     */
+    public function getThumbCreated()
+    {
+        return $this->thumbCreated;
+    }
+
+    /**
+     * Set createdAt
+     *
+     * @param datetime $createdAt
+     */
+    public function setCreatedAt($createdAt)
+    {
+        $this->createdAt = $createdAt;
+    }
+
+    /**
+     * Get createdAt
+     *
+     * @return datetime 
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * Set updatedAt
+     *
+     * @param datetime $updatedAt
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    /**
+     * Get updatedAt
+     *
+     * @return datetime 
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
+    }
+
+    /**
+     * Set domainId
+     *
+     * @param Ofdan\SearchBundle\Entity\Domain $domainId
+     */
+    public function setDomainId(\Ofdan\SearchBundle\Entity\Domain $domainId)
+    {
+        $this->domainId = $domainId;
+    }
+
+    /**
+     * Get domainId
+     *
+     * @return Ofdan\SearchBundle\Entity\Domain 
+     */
+    public function getDomainId()
+    {
+        return $this->domainId;
+    }
 }

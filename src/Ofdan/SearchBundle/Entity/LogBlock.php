@@ -79,4 +79,124 @@ class LogBlock
     {
         $this->setUpdatedAt(new \DateTime());
     }
+
+    /**
+     * Set date
+     *
+     * @param datetime $date
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+    }
+
+    /**
+     * Get date
+     *
+     * @return datetime 
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set reason
+     *
+     * @param string $reason
+     */
+    public function setReason($reason)
+    {
+        $this->reason = $reason;
+    }
+
+    /**
+     * Get reason
+     *
+     * @return string 
+     */
+    public function getReason()
+    {
+        return $this->reason;
+    }
+
+    /**
+     * Set info
+     *
+     * @param text $info
+     */
+    public function setInfo($info)
+    {
+        $this->info = $info;
+    }
+
+    /**
+     * Get info
+     *
+     * @return text 
+     */
+    public function getInfo()
+    {
+        return $this->info;
+    }
+
+    /**
+     * Set createdAt
+     *
+     * @param datetime $createdAt
+     */
+    public function setCreatedAt($createdAt)
+    {
+        $this->createdAt = $createdAt;
+    }
+
+    /**
+     * Get createdAt
+     *
+     * @return datetime 
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * Set updatedAt
+     *
+     * @param datetime $updatedAt
+     */
+    public function setUpdatedAt($updatedAt)
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    /**
+     * Get updatedAt
+     *
+     * @return datetime 
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
+    }
+
+    /**
+     * Set domainId
+     *
+     * @param Ofdan\SearchBundle\Entity\Domain $domainId
+     */
+    public function setDomainId(\Ofdan\SearchBundle\Entity\Domain $domainId)
+    {
+        $this->domainId = $domainId;
+    }
+
+    /**
+     * Get domainId
+     *
+     * @return Ofdan\SearchBundle\Entity\Domain 
+     */
+    public function getDomainId()
+    {
+        return $this->domainId;
+    }
 }

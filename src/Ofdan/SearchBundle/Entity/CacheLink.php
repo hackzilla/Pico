@@ -57,7 +57,6 @@ class CacheLink
         $this->setUpdatedAt(new \DateTime());
     }
 
-
     /**
      * Set domainId
      *
@@ -156,5 +155,45 @@ class CacheLink
     public function getUpdatedAt()
     {
         return $this->updatedAt;
+    }
+
+    /**
+     * Set domain
+     *
+     * @param Ofdan\SearchBundle\Entity\Domain $domain
+     */
+    public function setDomain(\Ofdan\SearchBundle\Entity\Domain $domain)
+    {
+        $this->domain = $domain;
+    }
+
+    /**
+     * Get domain
+     *
+     * @return Ofdan\SearchBundle\Entity\Domain 
+     */
+    public function getDomain()
+    {
+        return $this->domain;
+    }
+
+    /**
+     * Set linkDomain
+     *
+     * @param Ofdan\SearchBundle\Entity\Domain $linkDomain
+     */
+    public function setLinkDomain(\Ofdan\SearchBundle\Entity\Domain $linkDomain)
+    {
+        $this->linkDomain = $linkDomain;
+    }
+
+    /**
+     * Get linkDomain
+     *
+     * @return Ofdan\SearchBundle\Entity\Domain 
+     */
+    public function getLinkDomain()
+    {
+        return $this->linkDomain;
     }
 }
