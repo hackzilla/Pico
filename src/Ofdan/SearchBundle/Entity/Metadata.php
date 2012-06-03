@@ -17,7 +17,7 @@ class Metadata
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
-    private $domainId;
+    private $domain;
 
     /**
      * @ORM\Column(type="string", length=2)
@@ -187,22 +187,22 @@ class Metadata
     }
 
     /**
-     * Set domainId
+     * Set domain
      *
-     * @param Ofdan\SearchBundle\Entity\Domain $domainId
+     * @param object $domain
      */
-    public function setDomainId(\Ofdan\SearchBundle\Entity\Domain $domainId)
+    public function setDomain($domain)
     {
-        $this->domainId = $domainId;
+        $this->domain = $domain;
     }
 
     /**
-     * Get domainId
+     * Get domain
      *
-     * @return Ofdan\SearchBundle\Entity\Domain 
+     * @return object 
      */
-    public function getDomainId()
+    public function getDomain()
     {
-        return $this->domainId;
+        return $this->domain;
     }
 }
