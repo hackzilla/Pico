@@ -33,11 +33,6 @@ class CacheLink
     private $rank;
 
     /**
-     * @ORM\Column(type="text")
-     */
-    private $header;
-
-    /**
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
@@ -121,26 +116,6 @@ class CacheLink
     public function getRank()
     {
         return $this->rank;
-    }
-
-    /**
-     * Set header
-     *
-     * @param text $header
-     */
-    public function setHeader($header)
-    {
-        $this->header = $header;
-    }
-
-    /**
-     * Get header
-     *
-     * @return text 
-     */
-    public function getHeader()
-    {
-        return $this->header;
     }
 
     /**
