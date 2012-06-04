@@ -34,3 +34,14 @@ OfdanSearchBundle_3:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_download
         permanent: true # this for 301
+
+OfdanSearchBundle_spy:
+    pattern:  /s/spy
+    defaults: { _controller: OfdanSearchBundle:Page:spy }
+
+OfdanSearchBundle_6:
+    pattern:  /s/6
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_spy
+        permanent: true # this for 301

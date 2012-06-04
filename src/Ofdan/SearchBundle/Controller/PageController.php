@@ -16,4 +16,21 @@ class PageController extends Controller
             'query' => $query,
         ));
     }
+    
+    public function spyAction()
+    {
+        $repository = $this->getDoctrine()
+            ->getRepository('OfdanSearchBundle:LogSearch')
+        ;
+
+        $query = $repository->createQueryBuilder('ls')
+            ->setMaxResults(20)
+            ->orderBy('ls.createdAt', 'DESC')
+            ->getQuery()
+        ;
+
+        return $this->render('OfdanSearchBundle:Page:spy.html.twig', array(
+            'searches' => $query->getResult(),
+        ));
+    }
 }
