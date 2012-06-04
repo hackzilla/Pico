@@ -6,7 +6,7 @@
 
     <ul>
         {% for search in searches %}
-            <li><a href="{{ path('OfdanSearchBundle_search', { 'q': search.query }) }}">{{ search.query }}</a> by {{ search.ip }} on {{ search.createdAt|date("d-M-Y")}}</li>
+            <li><a href="{{ path('OfdanSearchBundle_search', { 'q': search.query }) }}">{{ search.query }}</a> by {{ search.ip|gethostbyaddr|mask }} on {{ search.createdAt|date("d-M-Y")}}</li>
         {% else %}
             <li>There are no search entries</li>
         {% endfor %}
