@@ -199,5 +199,4 @@ class LogBlock
     {
         return $this->domain;
     }
-
 }
