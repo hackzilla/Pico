@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Ofdan\SearchBundle\Repository\KeywordRepository")
  * @ORM\Table(name="keyword")
  * @ORM\HasLifecycleCallbacks
  */
