@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Ofdan\SearchBundle\OfdanSearchBundle(),
             new Ofdan\CrawlerBundle\OfdanCrawlerBundle(),
+            new BFOS\TwigExtensionsBundle\BFOSTwigExtensionsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
