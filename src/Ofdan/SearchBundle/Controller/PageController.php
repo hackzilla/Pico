@@ -42,18 +42,14 @@ class PageController extends Controller
     
     public function spyAction()
     {
-        $repository = $this->getDoctrine()
-            ->getRepository('OfdanSearchBundle:LogSearch')
-        ;
+        $em = $this->getDoctrine()
+                   ->getEntityManager();
 
-        $query = $repository->createQueryBuilder('ls')
-            ->setMaxResults(20)
-            ->orderBy('ls.createdAt', 'DESC')
-            ->getQuery()
-        ;
+        $searches = $em->getRepository('OfdanSearchBundle:LogSearch')
+                    ->getLatestSearches(20);
 
         return $this->render('OfdanSearchBundle:Page:spy.html.twig', array(
-            'searches' => $query->getResult(),
+            'searches' => $searches,
         ));
     }
 }
