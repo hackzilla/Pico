@@ -37,7 +37,7 @@
 
     <ul>
     <li><strong><a class="info" title="Remaining quota for this search engine's database.">Disk Storage:</a></strong>
-    {{ disk_storage }}</li>
+    {{ disk_storage|bfos_format_bytes(false) }}</li>
     <li><strong><a class="info" title="Current processor load of the server, as formatted by the Linux uptime
     command.">Processor load:</a></strong> {{ processor_load }}</li>
     </ul>
