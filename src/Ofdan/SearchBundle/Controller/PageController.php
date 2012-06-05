@@ -35,8 +35,8 @@ class PageController extends Controller
             'blocked_domains' => 0,
             'queued_domains' => 0,
             'require_update_domains' => 0,
-            'disk_storage' => 0,
-            'processor_load' => 0,
+            'disk_storage' => $this->freeDiskSpace(),
+            'processor_load' => $this->processorLoad(),
         ));
     }
     
@@ -51,5 +51,18 @@ class PageController extends Controller
         return $this->render('OfdanSearchBundle:Page:spy.html.twig', array(
             'searches' => $searches,
         ));
+    }
+    
+    /* Helper Functions */
+    private function processorLoad()
+    {
+        $load = sys_getloadavg();
+        
+        return $load[0];
+    }
+
+    private function freeDiskSpace()
+    {
+        return disk_free_space("/");
     }
 }
