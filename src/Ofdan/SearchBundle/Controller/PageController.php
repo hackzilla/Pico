@@ -20,10 +20,21 @@ class PageController extends Controller
     public function statisticsAction()
     {
         
-        return $this->render('OfdanSearchBundle:Page:statistics.html.twig', array(
-            'average_seek' => 0,
-            'total_queries' => 0,
-            'total_queries_by_day' => 0,
+        $em = $this->getDoctrine()
+                   ->getEntityManager();
+
+        $total_queries = $em->getRepository('OfdanSearchBundle:LogSearch')
+            ->getTotalSearches();
+
+        $total_queries_last_24hr = $em->getRepository('OfdanSearchBundle:LogSearch')
+            ->getTotalSearches24Hr();
+
+        $avg_seek_time_last_24hr = $em->getRepository('OfdanSearchBundle:LogSearch')
+            ->getSeekTimeSearches24Hr();
+        $data = array(
+            'average_seek' => $avg_seek_time_last_24hr,
+            'total_queries' => $total_queries,
+            'total_queries_by_day' => $total_queries_last_24hr,
             'known_lang' => 0,
             'known_words' => 0,
             'min_word_length' => 0,
@@ -37,7 +48,9 @@ class PageController extends Controller
             'require_update_domains' => 0,
             'disk_storage' => $this->freeDiskSpace(),
             'processor_load' => $this->processorLoad(),
-        ));
+        );
+
+        return $this->render('OfdanSearchBundle:Page:statistics.html.twig', $data);
     }
     
     public function spyAction()
