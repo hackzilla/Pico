@@ -26,15 +26,13 @@ class PageController extends Controller
         $total_queries = $em->getRepository('OfdanSearchBundle:LogSearch')
             ->getTotalSearches();
 
-        $total_queries_last_24hr = $em->getRepository('OfdanSearchBundle:LogSearch')
-            ->getTotalSearches24Hr();
+        $SeekandTotalSearches24Hr = $em->getRepository('OfdanSearchBundle:LogSearch')
+            ->getSeekandTotalSearches24Hr();
 
-        $avg_seek_time_last_24hr = $em->getRepository('OfdanSearchBundle:LogSearch')
-            ->getSeekTimeSearches24Hr();
         $data = array(
-            'average_seek' => $avg_seek_time_last_24hr,
+            'average_seek' => $SeekandTotalSearches24Hr[2],
             'total_queries' => $total_queries,
-            'total_queries_by_day' => $total_queries_last_24hr,
+            'total_queries_by_day' => $SeekandTotalSearches24Hr[1],
             'known_lang' => 0,
             'known_words' => 0,
             'min_word_length' => 0,

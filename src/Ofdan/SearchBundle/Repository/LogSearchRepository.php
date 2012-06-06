@@ -49,4 +49,16 @@ class LogSearchRepository extends EntityRepository
         return $qb->getQuery()
                   ->getSingleScalarResult();
     }
+    
+    public function getSeekandTotalSearches24Hr()
+    {
+        $qb = $this->createQueryBuilder('ls')
+                   ->select('COUNT(ls), AVG(ls.seek)')
+                   ->where('ls.createdAt > ?1')
+                   ->setParameter(1, \date('Y-m-d H:i:s', \strtotime('-24 hour')));
+
+        return $qb->getQuery()
+                  ->getSingleResult();
+
+    }
 }
