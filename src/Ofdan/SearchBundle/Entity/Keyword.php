@@ -25,6 +25,11 @@ class Keyword
     private $keyword;
 
     /**
+     * @ORM\Column(type="smallint")
+     */
+    private $length;
+
+    /**
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
@@ -53,6 +58,7 @@ class Keyword
     public function setKeyword($keyword)
     {
         $this->keyword = $keyword;
+        $this->length = strlen($keyword);
     }
 
     /**
