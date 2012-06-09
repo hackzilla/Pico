@@ -3,7 +3,7 @@
 namespace Ofdan\SearchBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
+use Ofdan\SearchBundle\Entity\Domain;
 
 class PageController extends Controller
 {
