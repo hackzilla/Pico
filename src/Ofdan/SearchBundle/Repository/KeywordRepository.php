@@ -9,7 +9,7 @@ class KeywordRepository extends EntityRepository
     public function getKeywordLengths()
     {
         $q = $this->createQueryBuilder('k')
-                ->select('MIN(k.length), MAX(k.length), AVG(k.length), COUNT(k)');
+                ->select('MIN(k.length) MinKeyword, MAX(k.length) MaxKeyword, AVG(k.length) AvgKeyword, COUNT(k) KeywordCount');
         
         return $q->getQuery()
                 ->getSingleResult();
