@@ -57,18 +57,28 @@ class PageController extends Controller
         $keywords = $em->getRepository('OfdanSearchBundle:Keyword')
             ->getKeywordLengths();
 
+        $cached = $em->getRepository('OfdanSearchBundle:CacheIndex')
+            ->getIndexCount();
+
+        $robots = $em->getRepository('OfdanSearchBundle:CacheRobot')
+            ->getRobotCount();
+
+        $language = $em->getRepository('OfdanSearchBundle:Language')
+            ->getKnownLanguages();
+
         $data = array(
             'average_seek' => $SeekandTotalSearches24Hr['Seek'],
             'total_queries' => $total_queries,
             'total_queries_by_day' => $SeekandTotalSearches24Hr['SearchCount'],
-            'known_lang' => 0,
+            'known_languages' => $language['LanguageCount'],
+            'known_domain_language' => 0,
             'known_words' => $keywords['KeywordCount'],
             'min_word_length' => $keywords['MinKeyword'],
             'avg_word_length' => $keywords['AvgKeyword'],
             'max_word_length' => $keywords['MaxKeyword'],
             'known_domains' => $knownDomains,
-            'cached_domains' => 0,
-            'stored_robots' => 0,
+            'cached_domains' => $cached['IndexCount'],
+            'stored_robots' => $robots['RobotCount'],
             'blocked_domains' => $blockedDomains,
             'queued_domains' => $queuedDomains,
             'require_update_domains' => 0,
