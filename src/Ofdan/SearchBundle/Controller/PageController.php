@@ -29,20 +29,48 @@ class PageController extends Controller
         $SeekandTotalSearches24Hr = $em->getRepository('OfdanSearchBundle:LogSearch')
             ->getSeekandTotalSearches24Hr();
 
+        $DomainStatuses = $em->getRepository('OfdanSearchBundle:Domain')
+            ->getDomainCountByStatus();
+        
+        $blockedDomains = 0;
+        $knownDomains = 0;
+        $queuedDomains = 0;
+
+        foreach($DomainStatuses as $DomainStatus)
+        {
+            switch($DomainStatus['status'])
+            {
+                case Domain::STATUS_BLOCKED:
+                    $blockedDomains = $DomainStatus['StatusCount'];
+                    break;
+
+                case Domain::STATUS_QUEUE:
+                    $queuedDomains = $DomainStatus['StatusCount'];
+                    break;
+
+                case Domain::STATUS_STORED:
+                    $knownDomains = $DomainStatus['StatusCount'];
+                    break;
+            }
+        }
+        
+        $keywords = $em->getRepository('OfdanSearchBundle:Keyword')
+            ->getKeywordLengths();
+
         $data = array(
-            'average_seek' => $SeekandTotalSearches24Hr[2],
+            'average_seek' => $SeekandTotalSearches24Hr['Seek'],
             'total_queries' => $total_queries,
-            'total_queries_by_day' => $SeekandTotalSearches24Hr[1],
+            'total_queries_by_day' => $SeekandTotalSearches24Hr['SearchCount'],
             'known_lang' => 0,
-            'known_words' => 0,
-            'min_word_length' => 0,
-            'avg_word_length' => 0,
-            'max_word_length' => 0,
-            'known_domains' => 0,
+            'known_words' => $keywords[4],
+            'min_word_length' => $keywords[1],
+            'avg_word_length' => $keywords[2],
+            'max_word_length' => $keywords[3],
+            'known_domains' => $knownDomains,
             'cached_domains' => 0,
             'stored_robots' => 0,
-            'blocked_domains' => 0,
-            'queued_domains' => 0,
+            'blocked_domains' => $blockedDomains,
+            'queued_domains' => $queuedDomains,
             'require_update_domains' => 0,
             'disk_storage' => $this->freeDiskSpace(),
             'processor_load' => $this->processorLoad(),
