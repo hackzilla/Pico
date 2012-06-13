@@ -66,6 +66,9 @@ class PageController extends Controller
         $language = $em->getRepository('OfdanSearchBundle:Language')
             ->getKnownLanguages();
 
+        $upToDateDomains = $em->getRepository('OfdanSearchBundle:Domain')
+            ->getUpdatetoDateDomainCount();
+
         $data = array(
             'average_seek' => $SeekandTotalSearches24Hr['Seek'],
             'total_queries' => $total_queries,
@@ -81,7 +84,7 @@ class PageController extends Controller
             'stored_robots' => $robots['RobotCount'],
             'blocked_domains' => $blockedDomains,
             'queued_domains' => $queuedDomains,
-            'require_update_domains' => 0,
+            'require_update_domains' => ($upToDateDomains['UpToDateCount']/$knownDomains)*100,
             'disk_storage' => $this->freeDiskSpace(),
             'processor_load' => $this->processorLoad(),
         );
