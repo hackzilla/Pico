@@ -68,13 +68,16 @@ class PageController extends Controller
 
         $upToDateDomains = $em->getRepository('OfdanSearchBundle:Domain')
             ->getUpdatetoDateDomainCount();
+        
+        $KnownDomainLanguages = $em->getRepository('OfdanSearchBundle:Metadata')
+            ->getDomainWithKnownLangCount();
 
         $data = array(
             'average_seek' => $SeekandTotalSearches24Hr['Seek'],
             'total_queries' => $total_queries,
             'total_queries_by_day' => $SeekandTotalSearches24Hr['SearchCount'],
             'known_languages' => $language['LanguageCount'],
-            'known_domain_language' => 0,
+            'known_domain_language' => ($KnownDomainLanguages / $knownDomains) * 100,
             'known_words' => $keywords['KeywordCount'],
             'min_word_length' => $keywords['MinKeyword'],
             'avg_word_length' => $keywords['AvgKeyword'],
