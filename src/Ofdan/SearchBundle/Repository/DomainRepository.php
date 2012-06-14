@@ -28,6 +28,6 @@ class DomainRepository extends EntityRepository
         ;
         
         return $qb->getQuery()
-                ->getSingleResult();
+                ->getSingleScalarResult();
     }
 }

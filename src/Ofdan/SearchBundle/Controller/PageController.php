@@ -87,7 +87,7 @@ class PageController extends Controller
             'stored_robots' => $robots['RobotCount'],
             'blocked_domains' => $blockedDomains,
             'queued_domains' => $queuedDomains,
-            'require_update_domains' => ($upToDateDomains['UpToDateCount']/$knownDomains)*100,
+            'require_update_domains' => ($upToDateDomains/$knownDomains)*100,
             'disk_storage' => $this->freeDiskSpace(),
             'processor_load' => $this->processorLoad(),
         );
