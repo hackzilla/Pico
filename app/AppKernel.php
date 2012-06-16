@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new Ofdan\SearchBundle\OfdanSearchBundle(),
             new Ofdan\CrawlerBundle\OfdanCrawlerBundle(),
             new BFOS\TwigExtensionsBundle\BFOSTwigExtensionsBundle(),
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

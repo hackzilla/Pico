@@ -72,3 +72,7 @@
 [BFOSTwigExtensionsBundle]
     git=git://github.com/BrazilianFriendsOfSymfony/BFOSTwigExtensionsBundle.git
     target=/bundles/BFOS/TwigExtensionsBundle
+
+[GregwarCaptchaBundle]
+    git=git://github.com/Gregwar/CaptchaBundle.git
+    target=/bundles/Gregwar/CaptchaBundle
