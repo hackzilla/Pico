@@ -30,4 +30,13 @@ class DomainRepository extends EntityRepository
         return $qb->getQuery()
                 ->getSingleScalarResult();
     }
+
+    public function addDomainToQueue($domain)
+    {
+        $domain = new Domain();
+        $domain->setDomain($domain);
+
+        $this->persist($domain);
+        $this->flush();
+    }
 }
