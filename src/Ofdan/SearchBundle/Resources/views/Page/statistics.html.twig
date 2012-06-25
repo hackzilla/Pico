@@ -16,7 +16,8 @@
     <p><strong>Known Universe</strong></p>
 
     <ul>
-            <li><strong><a class="info" title="The percentage of domains that the content language is known.">Known language:</a></strong> {{ known_lang|number_format(2) }}% of database</li>
+            <li><strong><a class="info" title="The number of different languages is known.">Known languages:</a></strong> {{ known_languages|number_format }}</li>
+            <li><strong><a class="info" title="The percentage of domains that the content language is known.">Domain languages:</a></strong> {{ known_domain_language|number_format(2) }}% of database</li>
             <li><strong><a class="info" title="How many keywords are currently available in the database to search. Each domain name is scanned for important words and stored in the database.">Known Words:</a></strong> {{ known_words|number_format }}</li>
             <li><strong><a class="info" title="The length of keywords stored in the database in the format (min, average, max).">Word Length:</a></strong> {{ min_word_length|number_format }}, {{ avg_word_length|number_format }}, {{ max_word_length|number_format }}</li>
             <li><strong><a class="info" title="The total number of domain names that have been spidered and recognised by the search engine. Blocked domain names are not included in this statistic.">Known Domains:</a></strong> {{ known_domains|number_format }}</li>
