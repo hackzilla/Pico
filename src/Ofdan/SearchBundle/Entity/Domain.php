@@ -28,7 +28,7 @@ class Domain
      * @ORM\Column(type="smallint")
      * @Assert\NotBlank
      */
-    private $status;
+    private $status = self::STATUS_QUEUE;
 
     /**
      * @ORM\Column(type="string", length=255)
