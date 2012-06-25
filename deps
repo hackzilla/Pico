@@ -77,3 +77,4 @@
 [GregwarCaptchaBundle]
     git=git://github.com/Gregwar/CaptchaBundle.git
     target=/bundles/Gregwar/CaptchaBundle
+    version=origin/2.0
