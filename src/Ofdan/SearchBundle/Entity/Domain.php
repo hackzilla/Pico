@@ -22,7 +22,7 @@ class Domain
     /**
      * @ORM\Column(type="integer", length=6)
      */
-    private $rank;
+    private $rank = 0;
 
     /**
      * @ORM\Column(type="smallint")
@@ -31,7 +31,7 @@ class Domain
     private $status = self::STATUS_QUEUE;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", unique=true, length=255)
      * @Assert\NotBlank
      */
     private $domain;

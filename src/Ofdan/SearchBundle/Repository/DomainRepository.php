@@ -30,13 +30,22 @@ class DomainRepository extends EntityRepository
         return $qb->getQuery()
                 ->getSingleScalarResult();
     }
+    
+    public function getDomainStatus($domain) {
+        $qb = $this->createQueryBuilder('d')
+                ->select('d.status')
+                ->where('d.domain = :domain')
+                ->setParameter('domain', $domain)
+        ;
 
-    public function addDomainToQueue($domain)
-    {
-        $domain = new Domain();
-        $domain->setDomain($domain);
+        $query = $qb->getQuery();
 
-        $this->persist($domain);
-        $this->flush();
+        try {
+            $status = $query->getSingleScalarResult();
+        } catch (\Doctrine\Orm\NoResultException $e) {
+            $status = NULL;
+        }
+
+        return $status;
     }
 }

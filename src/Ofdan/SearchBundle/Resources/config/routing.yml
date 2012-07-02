@@ -35,6 +35,25 @@ OfdanSearchBundle_3:
         route: OfdanSearchBundle_download
         permanent: true # this for 301
 
+OfdanSearchBundle_suggest:
+    pattern:  /s/suggest
+    defaults: { _controller: OfdanSearchBundle:Page:suggest }
+
+OfdanSearchBundle_suggestionAdded:
+    pattern:  /s/suggest/success
+    defaults: { _controller: OfdanSearchBundle:Page:suggestionAdded }
+
+OfdanSearchBundle_suggestionExists:
+    pattern:  /s/suggest/exists
+    defaults: { _controller: OfdanSearchBundle:Page:suggestionExists }
+
+OfdanSearchBundle_4:
+    pattern:  /s/4
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_suggest
+        permanent: true # this for 301
+
 OfdanSearchBundle_statistics:
     pattern:  /s/statistics
     defaults: { _controller: OfdanSearchBundle:Page:statistics }

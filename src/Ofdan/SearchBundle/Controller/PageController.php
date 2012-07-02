@@ -4,6 +4,7 @@ namespace Ofdan\SearchBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Ofdan\SearchBundle\Entity\Domain;
+use Ofdan\SearchBundle\Form\AddSiteType;
 
 class PageController extends Controller
 {
@@ -17,9 +18,59 @@ class PageController extends Controller
         ));
     }
     
+    public function suggestAction() {
+        $entity = new \Ofdan\SearchBundle\Form\Model\AddSiteModel();
+        $form = $this->createForm(new AddSiteType(), $entity);
+
+        $request = $this->getRequest();
+        if ($request->getMethod() == 'POST') {
+            $form->bindRequest($request);
+
+            if ($form->isValid()) {
+                $vars = $request->request->get($form->getName());
+
+                // Perform some action, such as sending an email
+                $em = $this->getDoctrine()
+                            ->getEntityManager();
+
+                $domainStatus = $em->getRepository('OfdanSearchBundle:Domain')
+                    ->getDomainStatus($vars['domain']);
+
+                if(NULL === $domainStatus) {
+                    $domain = new Domain();
+                    $domain->setDomain($vars['domain']);
+
+                    $em->persist($domain);
+                    $em->flush();
+
+                    // Redirect - This is important to prevent users re-posting
+                    // the form if they refresh the page
+                    return $this->redirect($this->generateUrl('OfdanSearchBundle_suggestionAdded'));
+                } else {
+                    return $this->redirect($this->generateUrl('OfdanSearchBundle_suggestionExists'));
+                }
+            }
+        }
+
+        return $this->render('OfdanSearchBundle:Page:suggest.html.twig', array(
+            'form' => $form->createView()
+        ));        
+    }
+
+    public function suggestionAddedAction()
+    {
+        return $this->render('OfdanSearchBundle:Page:suggestAdded.html.twig', array(
+        ));        
+    }
+
+    public function suggestionExistsAction()
+    {
+        return $this->render('OfdanSearchBundle:Page:suggestExists.html.twig', array(
+        ));        
+    }
+
     public function statisticsAction()
     {
-        
         $em = $this->getDoctrine()
                    ->getEntityManager();
 

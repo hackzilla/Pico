@@ -1,0 +1,25 @@
+{% extends 'OfdanSearchBundle:Static:static.html.twig' %}
+
+{% block static %}
+    <h1>Suggest Search</h1>
+    <p>Fill in the form below to add your site to the search engine:</p>
+    <form action="{{ path('OfdanSearchBundle_suggest') }}" method="post" {{ form_enctype(form) }}>
+
+        <div>
+            {{ form_label(form.domain, "Domain:") }}
+            {{ form_widget(form.domain) }}
+            {{ form_errors(form.domain) }}
+        </div>
+        <div>
+            <p>Below is a code that prevents spammers from submitting rogue sites. Please enter the code carefully - if you can't read it just hit F5 and fill in the form again.</p>
+            {{ form_label(form.captcha, "Captcha:") }}
+            {{ form_widget(form.captcha) }}
+            {{ form_errors(form.captcha) }}
+        </div>
+
+        {{ form_rest(form) }}
+
+        <br />
+        <input type="submit" />
+    </form>
+{% endblock %}
