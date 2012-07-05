@@ -1,0 +1,30 @@
+{% extends 'OfdanSearchBundle:Static:static.html.twig' %}
+
+{% block static %}
+    <h1>Known Words</h1>
+
+    <div align='center'><font size='1'>
+    {% for letter in letters -%}
+        <a href='{{ path('OfdanSearchBundle_words', {'l': letter}) }}'>{{ letter }}</a> &nbsp;
+    {%- endfor %}
+    </div>
+
+    {% if first_letter is not null %}
+    <div align='center'>&nbsp;<br /><font size='1'>
+    {% for letter in letters -%}
+        <a href='{{ path('OfdanSearchBundle_words', {'l': first_letter, 'lb': letter}) }}'>{{ first_letter }}{{ letter }}</a> &nbsp;
+    {%- endfor %}
+    </div>
+    {% endif %}
+
+    {% if words is not null %}
+    <ul>
+    {% for word in words %}
+        <li><a href='{{ url('OfdanSearchBundle_search', {'q': word.keyword}) }}'>{{ word.keyword }}</a></li>
+    {% else %}
+        <li>No words found.</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+{% endblock %}

@@ -158,6 +158,30 @@ class PageController extends Controller
             'searches' => $searches,
         ));
     }
+
+    public function wordsAction($firstLetter = NULL, $secondLetter = NULL)
+    {
+        $request = $this->get('request');
+        $firstLetter = $request->query->get('l');
+        $secondLetter = $request->query->get('lb');
+
+        if($secondLetter) {
+            $em = $this->getDoctrine()
+                    ->getEntityManager();
+
+            $words = $em->getRepository('OfdanSearchBundle:Keyword')
+                        ->getKeywordMatches($firstLetter[0].$secondLetter[0].'%');
+        } else {
+            $words = array();
+        }
+        
+        return $this->render('OfdanSearchBundle:Page:words.html.twig', array(
+            'letters' => range('A', 'Z'),
+            'first_letter' => $firstLetter,
+            'second_letter' => $secondLetter,
+            'words' => $words,
+        ));
+    }
     
     /* Helper Functions */
     private function processorLoad()

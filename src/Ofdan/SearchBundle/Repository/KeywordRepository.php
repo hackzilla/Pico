@@ -14,4 +14,15 @@ class KeywordRepository extends EntityRepository
         return $q->getQuery()
                 ->getSingleResult();
     }
+    
+    public function getKeywordMatches($keyword) {
+        $q = $this->createQueryBuilder('k')
+                ->select('k.keyword')
+                ->where('k.keyword LIKE :keyword')
+                ->setParameter('keyword', $keyword)
+                ->orderBy('k.keyword', 'ASC');
+
+        return $q->getQuery()
+                ->getResult();
+    }
 }

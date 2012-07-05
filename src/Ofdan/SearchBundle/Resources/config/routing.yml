@@ -75,3 +75,14 @@ OfdanSearchBundle_6:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_spy
         permanent: true # this for 301
+
+OfdanSearchBundle_words:
+    pattern:  /s/words
+    defaults: { _controller: OfdanSearchBundle:Page:words }
+
+OfdanSearchBundle_7:
+    pattern:  /s/7
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_words
+        permanent: true # this for 301
