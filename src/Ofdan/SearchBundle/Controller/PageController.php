@@ -8,16 +8,6 @@ use Ofdan\SearchBundle\Form\AddSiteType;
 
 class PageController extends Controller
 {
-    public function searchboxAction()
-    {
-        $request = $this->get('request');
-        $query = $request->request->get('q');
-
-        return $this->render('OfdanSearchBundle:Page:searchbox.html.twig', array(
-            'query' => $query,
-        ));
-    }
-    
     public function suggestAction() {
         $entity = new \Ofdan\SearchBundle\Form\Model\AddSiteModel();
         $form = $this->createForm(new AddSiteType(), $entity);
