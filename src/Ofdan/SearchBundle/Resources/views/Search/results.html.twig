@@ -1,0 +1,12 @@
+{% extends 'OfdanSearchBundle:Static:static.html.twig' %}
+
+{% block search %}
+    {% include "OfdanSearchBundle:Search:searchbox.html.twig" with { query: query } %}
+{% endblock %}
+
+{% block static %}
+    <h1>Results</h1>
+
+    <p>Search results will go here.</p>
+
+{% endblock %}
