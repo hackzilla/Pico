@@ -8,7 +8,6 @@
 
 {% block body %}
 <div id="results">
-    <h1>Results</h1>
     {% if suggestion %}
     	<p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search_with_query', {'query': query}) }}">{{ suggestion|raw }}</a>
     {% endif %}
