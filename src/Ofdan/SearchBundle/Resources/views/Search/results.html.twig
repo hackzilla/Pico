@@ -13,7 +13,17 @@
     	<p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search_with_query', {'query': query}) }}">{{ suggestion|raw }}</a>
     {% endif %}
 
-    <p>Search results will go here.</p>
+    {% for result in results %}
+        <p>Search results will go here.</p>
+    {% else %}
+        <p>Sorry, <strong>no results</strong> were found in the database. Please try the following:</p>
+        <ol>
+            <li>Check your spelling carefully</li>
+            <li>Try different words with the same meaning</li>
+            <li>Be less specific in your search</li>
+            <li>Search for something else, like porn</li>
+        </ol>
+    {% endfor %}
 </div>
 <br />
 
