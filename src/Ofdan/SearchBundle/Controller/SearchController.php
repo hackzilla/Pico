@@ -16,10 +16,17 @@ class SearchController extends Controller
     
     public function indexAction($query = null)
     {
+        $query = $this->getQuery($query);
+
         return $this->render('OfdanSearchBundle:Search:results.html.twig', array(
-            'results' => array(),
-            'query' => $this->getQuery($query),
+            'results' => $this->getResults($query),
+            'query' => $query,
         ));
+    }
+
+    public function getResults($query)
+    {
+        return array();
     }
     
     public function getQuery($query = null)
