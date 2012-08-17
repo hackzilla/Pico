@@ -48,8 +48,12 @@ class SearchController extends Controller
             $incorrectWords = array_keys( $incorrectWords );
 
             $checkedStr = str_replace( $incorrectWords, $correctWords, $query );
-        } else {
+            
+            if ($checkedStr === $query) {
                 $checkedStr = NULL;
+            }
+        } else {
+            $checkedStr = NULL;
         }
 
         return $checkedStr;
