@@ -1,5 +1,7 @@
 {% extends 'OfdanSearchBundle::layout.html.twig' %}
 
+{% block title %}Pico - Your Search: {{ query }}{% endblock %}
+
 {% block search %}
     {% include "OfdanSearchBundle:Search:searchbox.html.twig" with { query: query } %}
 {% endblock %}
