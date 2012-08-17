@@ -67,6 +67,6 @@ class SearchController extends Controller
             $query = $request->query->get('q');
         }
 
-        return strip_tags($query).'HUH';
+        return strip_tags($query);
     }
 }
