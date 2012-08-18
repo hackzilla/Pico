@@ -10,6 +10,10 @@ OfdanSearchBundle_search_with_query:
     pattern:  /search/{query}
     defaults: { _controller: OfdanSearchBundle:Search:index }
 
+OfdanSearchBundle_search_with_query_original:
+    pattern:  /q/{query}
+    defaults: { _controller: OfdanSearchBundle:Search:index }
+
 OfdanSearchBundle_about:
     pattern:  /s/about-us
     defaults: { _controller: OfdanSearchBundle:Static:about }
