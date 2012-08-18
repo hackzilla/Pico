@@ -9,7 +9,7 @@
 {% block body %}
 <div id="results">
     {% if suggestion %}
-    	<p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search_with_query', {'query': query}) }}">{{ suggestion|raw }}</a>
+    	<p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search', {'query': query, 'cc': language}) }}">{{ suggestion|raw }}</a>
     {% endif %}
 
     {% for result in results %}

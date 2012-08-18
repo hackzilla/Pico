@@ -11,6 +11,7 @@ class SearchController extends Controller
     {
         return $this->render('OfdanSearchBundle:Search:searchbox.html.twig', array(
             'query' => $this->getQuery(),
+            'language' => NULL,
         ));
     }
     
@@ -22,6 +23,7 @@ class SearchController extends Controller
             'results' => $this->getResults($query),
             'suggestion' => $this->getSuggestion($query),
             'query' => $query,
+            'language' => NULL,
         ));
     }
 
