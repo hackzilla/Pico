@@ -4,7 +4,7 @@ README
 Pico
 ----
 
-Simple Server converted from flat html+php to Symfony2
+Simple Search Engine converted from flat html+php to Symfony2
 
 
 This is a search engine completely written by drunk people in 6 hours late one Saturday night in 2006.
