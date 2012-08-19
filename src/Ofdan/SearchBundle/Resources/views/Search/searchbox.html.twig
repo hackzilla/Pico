@@ -1,6 +1,14 @@
 <div id="main">
     <form action="{{ path('OfdanSearchBundle_search') }}" method="get">
         <input type="text" size="25" name="q" value="{{ query }}" >
+        {% if languages %}
+            <select name="cc">
+                <option value="">Unfiltered</option>
+                {% for language in languages %}
+                    <option value="{{ language.cc }}"{% if language.cc == selected_language %} selected="selected"{% endif %}>{{ language.nameEng }}</option>
+                {% endfor %}
+            </select>
+        {% endif %}
         <input type="submit" value="Search" >
     </form>
 </div>

@@ -3,7 +3,7 @@
 {% block title %}Pico - Your Search: {{ query }}{% endblock %}
 
 {% block search %}
-    {% include "OfdanSearchBundle:Search:searchbox.html.twig" with { query: query } %}
+    {% include "OfdanSearchBundle:Search:searchbox.html.twig" with { 'query': query, 'languages': languages } %}
 {% endblock %}
 
 {% block body %}

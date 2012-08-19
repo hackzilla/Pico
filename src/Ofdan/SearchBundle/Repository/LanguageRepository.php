@@ -15,4 +15,15 @@ class LanguageRepository extends EntityRepository
         return $qb->getQuery()
                 ->getSingleResult();
     }
+
+    public function getLanguages()
+    {
+        $qb = $this->createQueryBuilder('l')
+                ->select('l.cc, l.nameEng')
+                ->orderBy('l.nameEng', 'ASC')
+        ;
+
+        return $qb->getQuery()
+                ->getResult();
+    }
 }

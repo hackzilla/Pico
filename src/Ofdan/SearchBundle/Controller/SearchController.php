@@ -11,7 +11,8 @@ class SearchController extends Controller
     {
         return $this->render('OfdanSearchBundle:Search:searchbox.html.twig', array(
             'query' => $this->getQuery(),
-            'language' => NULL,
+            'languages' => $this->getLanguages(),
+            'selected_language' => $this->getLanguage(),
         ));
     }
     
@@ -23,7 +24,8 @@ class SearchController extends Controller
             'results' => $this->getResults($query),
             'suggestion' => $this->getSuggestion($query),
             'query' => $query,
-            'language' => NULL,
+            'languages' => $this->getLanguages(),
+            'selected_language' => $this->getLanguage(),
         ));
     }
 
@@ -74,5 +76,22 @@ class SearchController extends Controller
         }
 
         return strip_tags($query);
+    }
+    
+    public function getLanguage()
+    {
+        $request = $this->getRequest();
+        $language = $request->query->get('cc');
+
+        return \preg_replace('[^a-z]', '', $language);
+    }
+
+    public function getLanguages()
+    {
+        $em = $this->getDoctrine()
+                   ->getEntityManager();
+
+        return $em->getRepository('OfdanSearchBundle:Language')
+            ->getLanguages();
     }
 }
