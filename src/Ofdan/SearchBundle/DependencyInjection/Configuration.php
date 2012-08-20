@@ -20,9 +20,13 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('ofdan_search');
 
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+
+        $rootNode
+            ->children()
+            ->scalarNode('max_results')->defaultValue(100)->end()
+            ->scalarNode('results_per_page')->defaultValue(10)->end()
+            ->end()
+        ;        
 
         return $treeBuilder;
     }
