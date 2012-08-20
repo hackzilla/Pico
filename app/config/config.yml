@@ -66,3 +66,7 @@ jms_security_extra:
     secure_all_services: false
 
 gregwar_captcha: ~
+
+ofdan_search:
+    max_results: 1000
+    results_per_page: 20
