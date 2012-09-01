@@ -26,6 +26,9 @@ class OfdanSearchExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
 
+        $container->setParameter('ofdan_service.max_results', $config['max_results']);
+        $container->setParameter('ofdan_service.results_per_page', $config['results_per_page']);
+
         $definition = new Definition('Ofdan\SearchBundle\Extension\IpTwigExtension');
         // this is the most important part. Later in the startup process TwigBundle
         // searches through the container and registres all services taged as twig.extension.

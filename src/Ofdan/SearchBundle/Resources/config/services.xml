@@ -5,12 +5,14 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="ofdan_search.service.class">OfdanSearchBundle\Service\Results</parameter>
+        <parameter key="ofdan_search.service.class">Ofdan\SearchBundle\Service\Results</parameter>
     </parameters>
 
     <services>
         <!--- Annotation Metadata Driver Service -->
         <service id="search_service" class="%ofdan_search.service.class%">
+            <argument>%ofdan_service.max_results%</argument>
+            <argument>%ofdan_service.results_per_page%</argument>
         </service>
     </services>
 </container>
