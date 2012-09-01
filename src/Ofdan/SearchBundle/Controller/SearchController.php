@@ -19,9 +19,12 @@ class SearchController extends Controller
     public function indexAction($query = null)
     {
         $query = $this->getQuery($query);
+        
+        $search = $this->get('search_service');
+        $search->setQuery($query);
 
         return $this->render('OfdanSearchBundle:Search:results.html.twig', array(
-            'results' => $this->getResults($query),
+            'results' => $search->getResults(),
             'suggestion' => $this->getSuggestion($query),
             'query' => $query,
             'languages' => $this->getLanguages(),
@@ -63,11 +66,6 @@ class SearchController extends Controller
         return $checkedStr;
     }
 
-    public function getResults($query)
-    {
-        return array();
-    }
-    
     public function getQuery($query = null)
     {
         if(null === $query) {
