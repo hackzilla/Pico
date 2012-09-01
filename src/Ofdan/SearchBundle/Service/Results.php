@@ -2,8 +2,12 @@
 
 namespace Ofdan\SearchBundle\Service;
 
+use Doctrine\ORM\EntityManager;
+
 class Results
 {
+    protected $em;
+
     protected $max_results;
     protected $results_per_page;
 
@@ -11,8 +15,10 @@ class Results
     protected $queryRequired = array();
     protected $queryExclude = array();
 
-    public function __construct($max_results, $results_per_page)
+    public function __construct(EntityManager $em, $max_results, $results_per_page)
     {
+        $this->em = $em;
+
         $this->max_results = $max_results;
         $this->results_per_page = $results_per_page;
     }
