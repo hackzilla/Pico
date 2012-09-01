@@ -4,6 +4,8 @@ namespace Ofdan\SearchBundle\Service;
 
 class Results
 {
+    protected $max_results;
+    protected $results_per_page;
     public function __construct($max_results, $results_per_page)
     {
         $this->max_results = $max_results;
