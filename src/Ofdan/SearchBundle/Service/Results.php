@@ -15,6 +15,8 @@ class Results
     protected $queryRequired = array();
     protected $queryExclude = array();
 
+    protected $languageCode;
+
     public function __construct(EntityManager $em, $max_results, $results_per_page)
     {
         $this->em = $em;
@@ -38,6 +40,10 @@ class Results
                 }
             }
         }
+    }
+
+    public function setLanguageCode($languageCode) {
+        $this->languageCode = $languageCode;
     }
 
     public function getResults()

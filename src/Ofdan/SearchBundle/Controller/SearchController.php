@@ -19,15 +19,17 @@ class SearchController extends Controller
     public function indexAction($query = null)
     {
         $query = $this->getQuery($query);
+        $language = $this->getLanguages();
         
         $search = $this->get('search_service');
         $search->setQuery($query);
+        $search->setLanguageCode($language);
 
         return $this->render('OfdanSearchBundle:Search:results.html.twig', array(
             'results' => $search->getResults(),
             'suggestion' => $this->getSuggestion($query),
             'query' => $query,
-            'languages' => $this->getLanguages(),
+            'languages' => $language,
             'selected_language' => $this->getLanguage(),
         ));
     }
