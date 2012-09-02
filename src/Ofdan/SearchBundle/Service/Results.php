@@ -11,6 +11,7 @@ class Results
     protected $max_results;
     protected $results_per_page;
 
+    protected $queryString;
     protected $queryAny = array();
     protected $queryRequired = array();
     protected $queryExclude = array();
@@ -27,6 +28,8 @@ class Results
 
     public function setQuery($queryStr)
     {
+        $this->queryString = $queryStr;
+
         $words = explode(' ', $queryStr);
         
         foreach($words as $word) {
