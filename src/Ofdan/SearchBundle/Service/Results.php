@@ -51,7 +51,29 @@ class Results
 
     public function getResults()
     {
-        return array();
+        $this->em;
+        
+        $qb = $this->em->createQueryBuilder('d')
+                ->select('d.domain', 'r.score')
+                ->from('Ofdan\SearchBundle\Entity\Rank','r')
+                ->join('r.domain','d')
+//                ->limit('10')
+//                ->where('d.domain = :domain')
+//                ->setParameter('domain', $domain)
+        ;
+
+
+        $query = $qb->getQuery();
+/*
+        $squirt = "SELECT `domain`.`domain`, SUM(`score`) as rank, COUNT(`domain`) as count
+        FROM `keyword2`,`rank2`,`domain`
+        $join
+        WHERE `domain`.`status`='stored' AND `domain`.`id`=`rank2`.`domainId` AND `keyword2`.`id`=`rank2`.`keyword_id` $qnow
+        GROUP BY `domain`.`domain`
+        ORDER BY `rank` DESC   ";     
+  */
+
+        return $query->getResult();
     }
 
     public function __toString()
