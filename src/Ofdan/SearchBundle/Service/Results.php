@@ -3,6 +3,7 @@
 namespace Ofdan\SearchBundle\Service;
 
 use Doctrine\ORM\EntityManager;
+use Ofdan\SearchBundle\Entity\LogSearch;
 
 class Results
 {
@@ -73,7 +74,21 @@ class Results
         ORDER BY `rank` DESC   ";     
   */
 
+        $this->logSearch();
+
         return $query->getResult();
+    }
+
+    protected function logSearch()
+    {
+        $logSearch = new LogSearch();
+        $logSearch->setIp($_SERVER['REMOTE_ADDR']);
+        $logSearch->setDatetime(new \DateTime());
+        $logSearch->setQuery($this->queryString);
+        $logSearch->setSeek(number_format(preg_replace('/[ ]/', '', microtime()),2) . "s");
+        
+        $this->em->persist($logSearch);
+        $this->em->flush();
     }
 
     public function __toString()
