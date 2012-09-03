@@ -11,6 +11,7 @@ class Results
 
     protected $max_results;
     protected $results_per_page;
+    protected $page = 0;
 
     protected $queryString;
     protected $queryAny = array();
@@ -89,6 +90,11 @@ class Results
         
         $this->em->persist($logSearch);
         $this->em->flush();
+    }
+    
+    protected function setPage($page)
+    {
+        $this->page = $page -1;
     }
 
     public function __toString()
