@@ -60,9 +60,10 @@ class Results
                 ->select('d.domain', 'r.score')
                 ->from('Ofdan\SearchBundle\Entity\Rank','r')
                 ->join('r.domain','d')
-//                ->limit('10')
                 ->where('d.status = :status')
                 ->setParameter('status', Domain::STATUS_STORED)
+                ->setMaxResults($this->results_per_page)
+                ->setFirstResult($this->results_per_page * $this->page)
         ;
 
 
