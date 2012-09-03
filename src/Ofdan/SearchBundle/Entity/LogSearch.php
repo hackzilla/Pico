@@ -51,24 +51,6 @@ class LogSearch
     private $updatedAt;
 
 
-    const REASON_NONE        = 10;
-    const REASON_ROBOT       = 11;
-    const REASON_KEYWORD     = 12;
-    const REASON_DESCRIPTION = 13;
-    const REASON_CONTENT     = 14;
-    const REASON_CONNECTION  = 15;
-    const REASON_META        = 16;
-
-    static public $types = array(
-        self::REASON_NONE        => 'none',
-        self::REASON_ROBOT       => 'robot',
-        self::REASON_KEYWORD     => 'keyword',
-        self::REASON_DESCRIPTION => 'description',
-        self::REASON_CONTENT     => 'content',
-        self::REASON_CONNECTION  => 'connection',
-        self::REASON_META        => 'meta',
-    );
-
     public function __construct()
     {
         $this->setCreatedAt(new \DateTime());
