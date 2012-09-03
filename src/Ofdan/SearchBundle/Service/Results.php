@@ -4,6 +4,7 @@ namespace Ofdan\SearchBundle\Service;
 
 use Doctrine\ORM\EntityManager;
 use Ofdan\SearchBundle\Entity\LogSearch;
+use Ofdan\SearchBundle\Entity\Domain;
 
 class Results
 {
@@ -60,8 +61,8 @@ class Results
                 ->from('Ofdan\SearchBundle\Entity\Rank','r')
                 ->join('r.domain','d')
 //                ->limit('10')
-//                ->where('d.domain = :domain')
-//                ->setParameter('domain', $domain)
+                ->where('d.status = :status')
+                ->setParameter('status', Domain::STATUS_STORED)
         ;
 
 
