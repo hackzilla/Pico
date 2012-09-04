@@ -20,6 +20,8 @@ class Results
     protected $queryExclude = array();
 
     protected $languageCode;
+    
+    protected $results;
 
     public function __construct(EntityManager $em, $max_results, $results_per_page)
     {
@@ -97,6 +99,11 @@ class Results
     protected function setPage($page)
     {
         $this->page = $page -1;
+    }
+    
+    public function getResultCount()
+    {
+        return $this->results;
     }
 
     public function __toString()
