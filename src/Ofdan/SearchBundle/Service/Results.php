@@ -59,15 +59,19 @@ class Results
         $this->em;
         
         $qb = $this->em->createQueryBuilder('d')
-                ->select('d.domain', 'r.score')
-                ->from('Ofdan\SearchBundle\Entity\Rank','r')
-                ->join('r.domain','d')
+                ->select('d')
+                ->from('Ofdan\SearchBundle\Entity\Domain','d')
                 ->where('d.status = :status')
                 ->setParameter('status', Domain::STATUS_STORED)
+        ;
+
+        $query = $qb->getQuery();
+        $this->results = count($query->getResult());
+
+        $qb
                 ->setMaxResults($this->results_per_page)
                 ->setFirstResult($this->results_per_page * $this->page)
         ;
-
 
         $query = $qb->getQuery();
 /*
