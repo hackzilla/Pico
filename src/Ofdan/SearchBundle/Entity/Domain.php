@@ -47,6 +47,11 @@ class Domain
     private $lastIndex = null;
 
     /**
+     * @ORM\OneToOne(targetEntity="Metadata",mappedBy="domain")
+     */
+    public $metadata;
+
+    /**
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
