@@ -34,7 +34,7 @@
                         - Next Index: {{ result.nextIndex|date('Y-m-d') }}
                     {% endif %}
                     -
-                    {% if false %}
+                    {% if result.index %}
                         <a href='{{ path('OfdanSearchBundle_cache', {'domain': result.domain}) }}'>Cached</a>
                     {% else %}
                         No cache
