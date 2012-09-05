@@ -52,6 +52,21 @@ class Domain
     public $metadata;
 
     /**
+     * @ORM\OneToOne(targetEntity="CacheHeader",mappedBy="domain")
+     */
+    public $header;
+
+    /**
+     * @ORM\OneToOne(targetEntity="CacheIndex",mappedBy="domain")
+     */
+    public $index;
+
+    /**
+     * @ORM\OneToOne(targetEntity="CacheRobot",mappedBy="domain")
+     */
+    public $robot;
+
+    /**
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
@@ -259,5 +274,35 @@ class Domain
     public function getUpdatedAt()
     {
         return $this->updatedAt;
+    }
+
+    /**
+     * Get header
+     *
+     * @return Ofdan\SearchBundle\Entity\CacheHeader
+     */
+    public function getHeader()
+    {
+        return $this->header;
+    }
+
+    /**
+     * Get index
+     *
+     * @return Ofdan\SearchBundle\Entity\CacheIndex
+     */
+    public function getIndex()
+    {
+        return $this->index;
+    }
+
+    /**
+     * Get robot
+     *
+     * @return Ofdan\SearchBundle\Entity\CacheRobot
+     */
+    public function getRobot()
+    {
+        return $this->robot;
     }
 }

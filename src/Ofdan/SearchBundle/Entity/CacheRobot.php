@@ -13,7 +13,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 class CacheRobot
 {
     /**
-     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\OneToOne(targetEntity="Domain", inversedBy="robot")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */

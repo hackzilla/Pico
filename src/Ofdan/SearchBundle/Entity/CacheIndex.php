@@ -13,7 +13,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 class CacheIndex
 {
     /**
-     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\OneToOne(targetEntity="Domain", inversedBy="index")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
