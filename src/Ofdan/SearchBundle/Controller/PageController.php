@@ -162,7 +162,7 @@ class PageController extends Controller
             $words = $em->getRepository('OfdanSearchBundle:Keyword')
                         ->getKeywordMatches($firstLetter[0].$secondLetter[0].'%');
         } else {
-            $words = array();
+            $words = NULL;
         }
         
         return $this->render('OfdanSearchBundle:Page:words.html.twig', array(
