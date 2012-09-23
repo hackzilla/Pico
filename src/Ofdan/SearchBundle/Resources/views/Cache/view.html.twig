@@ -1,0 +1,9 @@
+<!DOCTYPE html><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="{{ base_url }}">
+<div style="margin:-1px -1px 0; background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;padding:8px;text-align:left">
+    This is Pico&#39;s cache of <a href="{{ base_url }}" style="text-decoration:underline;color:#00c">{{ base_url }}</a>. It is a snapshot of the page as it appeared on {{ cache.createdAt|date('r') }}.
+    <br>The <a href="{{ base_url }}" style="text-decoration:underline;color:#00c">current page</a> could have changed in the meantime.
+</div>
+<br>
+<div style="position:relative">
+{{ cache.index|raw }}
