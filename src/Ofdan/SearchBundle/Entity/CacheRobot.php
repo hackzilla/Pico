@@ -47,7 +47,7 @@ class CacheRobot
     }
 
     /**
-     * @ORM\preUpdate
+     * @ORM\PreUpdate
      */
     public function setUpdatedAtValue()
     {

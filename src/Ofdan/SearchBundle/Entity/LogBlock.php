@@ -73,7 +73,7 @@ class LogBlock
 
 
     /**
-     * @ORM\preUpdate
+     * @ORM\PreUpdate
      */
     public function setUpdatedAtValue()
     {

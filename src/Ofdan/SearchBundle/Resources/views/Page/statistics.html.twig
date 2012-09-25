@@ -33,7 +33,7 @@
             <li><strong><a class="info" title="Estimated number of days for queue to be cleared (this will probably never happen)">Estimated Crawl Time:</a></strong> Approx. {{ ((queued_domains/7200)+1)|number_format }} day(s)</li>
             <li><strong><a class="info" title="A percentage of the complete database waiting to be re-spidered. We attempt to visit each domain every two weeks (unless told otherwise in meta tags) to keep our database fresh.">Awaiting Re-visit:</a></strong> {{ require_update_domains }}% of database</li>
     </ul>
-    {#
+   
     <p><strong>Available Capacity</strong></p>
 
     <ul>
@@ -42,5 +42,5 @@
     <li><strong><a class="info" title="Current processor load of the server, as formatted by the Linux uptime
     command.">Processor load:</a></strong> {{ processor_load }}</li>
     </ul>
-    #}
+   
 {% endblock %}

@@ -50,7 +50,7 @@ class Rank
 
 
     /**
-     * @ORM\preUpdate
+     * @ORM\PreUpdate
      */
     public function setUpdatedAtValue()
     {
