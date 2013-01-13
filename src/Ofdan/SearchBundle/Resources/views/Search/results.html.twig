@@ -16,7 +16,7 @@
         <li>
             <div class='box'>
                 <a href='http://{{ result.domain }}/'>{{ result.domain }}</a><br />
-                {% if result.metadata.extract %}
+                {% if result.metadata and result.metadata.extract %}
                     {{ result.metadata.extract }}
                 {% else %}
                     No extract available.
