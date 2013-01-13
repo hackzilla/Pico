@@ -65,6 +65,15 @@ class Results
                 ->setParameter('status', Domain::STATUS_STORED)
         ;
 
+        if($this->languageCode) {
+            $qb
+                ->leftjoin('Ofdan\SearchBundle\Entity\Metadata', 'md')
+                ->andWhere('md.domain = d.id')
+                ->andWhere('md.lang = :language')
+                ->setParameter('language', $this->languageCode)
+            ;
+        }
+
         $query = $qb->getQuery();
         $this->results = count($query->getResult());
 
