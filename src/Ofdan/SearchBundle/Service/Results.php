@@ -63,6 +63,32 @@ class Results
                 ->setParameter('status', Domain::STATUS_STORED)
         ;
 
+        if(!empty($this->queryExclude) || !empty($this->queryRequired) || !empty($this->queryAny)) {
+            
+            $qb
+                ->leftjoin('Ofdan\SearchBundle\Entity\Rank', 'r', \Doctrine\ORM\Query\Expr\Join::WITH, 'd.id = r.domain')
+                ->leftjoin('Ofdan\SearchBundle\Entity\Keyword', 'k', \Doctrine\ORM\Query\Expr\Join::WITH, 'r.keyword = k.id')
+                ->groupBy('d.id')
+            ;
+
+            if(!empty($this->queryExclude)) {
+                $qb->andWhere($qb->expr()->notIn('k.keyword', ':queryExclude'));
+                $qb->setParameter('queryExclude', $this->queryExclude);
+            }
+
+            if (!empty($this->queryRequired)) {
+                foreach ($this->queryRequired as $i => $queryRequired) {
+                    $qb->andWhere('k.keyword = :queryRequired'.$i);
+                    $qb->setParameter('queryRequired'.$i, $this->queryRequired);
+                }
+            }
+            
+            if(!empty($this->queryAny)) {
+                $qb->andWhere($qb->expr()->in('k.keyword', ':queryAny'));
+                $qb->setParameter('queryAny', $this->queryAny);
+            }
+        }
+
         if($this->languageCode) {
             $qb
                 ->leftjoin('Ofdan\SearchBundle\Entity\Metadata', 'md')
