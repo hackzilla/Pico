@@ -40,11 +40,11 @@ class Results
         foreach($words as $word) {
             if($word) {
                 if('-' == $word[0]) {
-                    $this->queryExclude = substr($word, 1);
+                    $this->queryExclude[] = substr($word, 1);
                 } else if('+' == $word[0]) {
-                    $this->queryRequired = substr($word, 1);
+                    $this->queryRequired[] = substr($word, 1);
                 } else {
-                    $this->queryAny = $word;
+                    $this->queryAny[] = $word;
                 }
             }
         }
