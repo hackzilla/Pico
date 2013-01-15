@@ -56,8 +56,6 @@ class Results
 
     public function getResults()
     {
-        $this->em;
-        
         $qb = $this->em->createQueryBuilder('d')
                 ->select('d')
                 ->from('Ofdan\SearchBundle\Entity\Domain','d')
