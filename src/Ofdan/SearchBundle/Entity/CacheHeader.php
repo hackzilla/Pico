@@ -25,10 +25,11 @@ class CacheHeader
     private $date;
 
     /**
-     * @ORM\Column(type="string", length=6)
+     * @ORM\Column(type="integer")
+     * @ORM\Id
      * @Assert\NotBlank
      */
-    private $page;
+    private $type;
 
     /**
      * @ORM\Column(type="text")
@@ -46,12 +47,12 @@ class CacheHeader
     private $updatedAt;
 
     
-    const PAGE_INDEX = 10;
-    const PAGE_ROBOT = 11;
+    const TYPE_INDEX = 10;
+    const TYPE_ROBOT = 11;
 
     static public $types = array(
-        self::PAGE_INDEX => 'index',
-        self::PAGE_ROBOT => 'robot'
+        self::TYPE_INDEX => 'index',
+        self::TYPE_ROBOT => 'robot'
     );
 
     public function __construct()
@@ -66,6 +67,45 @@ class CacheHeader
     public function setUpdatedAtValue()
     {
         $this->setUpdatedAt(new \DateTime());
+    }
+
+    /**
+     * Set type
+     *
+     * @param smallint $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+
+    /**
+     * Set type string
+     *
+     * @param string $type
+     */
+    public function setTypeString($type)
+    {
+        $this->type = in_array(self::$type, $this->type);
+    }
+    /**
+     * Get type
+     *
+     * @return smallint 
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * Get type string
+     *
+     * @return string 
+     */
+    public function getTypeString()
+    {
+        return self::$type[$this->type];
     }
 
     /**
