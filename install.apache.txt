@@ -1,12 +1,18 @@
 <VirtualHost *:80>
     ServerName pico.ofdan.com
-    DocumentRoot /www/sites/ofdan.com/htdocs/pico/web/
+    DocumentRoot /www/sites/ofdan.com/htdocs/pico/web
 
     <Directory /www/sites/ofdan.com/htdocs/pico/web/>
             Options Indexes FollowSymLinks MultiViews
             AllowOverride None
             Order allow,deny
             allow from all
+
+            <IfModule mod_rewrite.c>
+                    RewriteEngine On
+                    RewriteCond %{REQUEST_FILENAME} !-f
+                    RewriteRule ^(.*)$ app.php [QSA,L]
+            </IfModule>
     </Directory>
 
     DirectoryIndex index.php
