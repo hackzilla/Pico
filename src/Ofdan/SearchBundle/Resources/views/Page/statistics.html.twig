@@ -31,7 +31,7 @@
     <ul>
             <li><strong><a class="info" title="The number of domains currently queued to be spidered and included in the search engine. This also includes sites that are queued to be revisited.">Queue Length:</a></strong> {{ queued_domains|number_format }}</li>
             <li><strong><a class="info" title="Estimated number of days for queue to be cleared (this will probably never happen)">Estimated Crawl Time:</a></strong> Approx. {{ ((queued_domains/7200)+1)|number_format }} day(s)</li>
-            <li><strong><a class="info" title="A percentage of the complete database waiting to be re-spidered. We attempt to visit each domain every two weeks (unless told otherwise in meta tags) to keep our database fresh.">Awaiting Re-visit:</a></strong> {{ require_update_domains }}% of database</li>
+            <li><strong><a class="info" title="A percentage of the complete database waiting to be re-spidered. We attempt to visit each domain every two weeks (unless told otherwise in meta tags) to keep our database fresh.">Awaiting Re-visit:</a></strong> {{ require_update_domains|number_format(2) }}% of database</li>
     </ul>
    
     <p><strong>Available Capacity</strong></p>
