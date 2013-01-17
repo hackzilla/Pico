@@ -8,7 +8,7 @@
     <p><strong>Queries</strong></p>
 
     <ul>
-            <li><strong><a class="info" title="How long, on average, each search of the database has taken. This is a sample from the last ten web searches.">Average Seek</a>:</strong> {{ average_seek|number_format }} seconds</li>
+            <li><strong><a class="info" title="How long, on average, each search of the database has taken. This is a sample from the last ten web searches.">Average Seek</a>:</strong> {{ average_seek|number_format(2) }} seconds</li>
             <li><strong><a class="info" title="The total number of searches performed on this web site. This includes multiple searches from the same computer in the same session.">Total Queries:</a></strong> {{ total_queries|number_format }}</li>
             <li><strong><a class="info" title="The total number of searches performed in the last 24 hours - a subset of the total displayed above.">Last 24 hours:</a></strong> {{ total_queries_by_day }}</li>
     </ul>
