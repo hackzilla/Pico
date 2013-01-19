@@ -55,6 +55,13 @@ OfdanSearchBundle_1:
         route: OfdanSearchBundle_about
         permanent: true # this for 301
 
+OfdanSearchBundle_1s:
+    pattern:  /s/1/
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_about
+        permanent: true # this for 301
+
 OfdanSearchBundle_license:
     pattern:  /s/license
     defaults: { _controller: OfdanSearchBundle:Static:license }
@@ -66,12 +73,26 @@ OfdanSearchBundle_2:
         route: OfdanSearchBundle_license
         permanent: true # this for 301
 
+OfdanSearchBundle_2s:
+    pattern:  /s/2/
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_license
+        permanent: true # this for 301
+
 OfdanSearchBundle_download:
     pattern:  /s/download
     defaults: { _controller: OfdanSearchBundle:Static:download }
 
 OfdanSearchBundle_3:
     pattern:  /s/3
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_download
+        permanent: true # this for 301
+
+OfdanSearchBundle_3s:
+    pattern:  /s/3/
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_download
@@ -96,12 +117,26 @@ OfdanSearchBundle_4:
         route: OfdanSearchBundle_suggest
         permanent: true # this for 301
 
+OfdanSearchBundle_4s:
+    pattern:  /s/4/
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_suggest
+        permanent: true # this for 301
+
 OfdanSearchBundle_statistics:
     pattern:  /s/statistics
     defaults: { _controller: OfdanSearchBundle:Page:statistics }
 
 OfdanSearchBundle_5:
     pattern:  /s/5
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_statistics
+        permanent: true # this for 301
+
+OfdanSearchBundle_5s:
+    pattern:  /s/5/
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_statistics
@@ -118,12 +153,26 @@ OfdanSearchBundle_6:
         route: OfdanSearchBundle_spy
         permanent: true # this for 301
 
+OfdanSearchBundle_6s:
+    pattern:  /s/6/
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_spy
+        permanent: true # this for 301
+
 OfdanSearchBundle_words:
     pattern:  /s/words
     defaults: { _controller: OfdanSearchBundle:Page:words }
 
 OfdanSearchBundle_7:
     pattern:  /s/7
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: OfdanSearchBundle_words
+        permanent: true # this for 301
+
+OfdanSearchBundle_7s:
+    pattern:  /s/7/
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: OfdanSearchBundle_words
