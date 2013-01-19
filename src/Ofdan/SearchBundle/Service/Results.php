@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Domain;
 class Results
 {
     protected $em;
+    protected $time_start;
 
     protected $max_results;
     protected $results_per_page;
@@ -33,6 +34,7 @@ class Results
 
     public function setQuery($queryStr)
     {
+        $this->time_start = microtime(true);
         $this->queryString = $queryStr;
 
         $words = explode(' ', $queryStr);
@@ -108,9 +110,11 @@ class Results
 
         $query = $qb->getQuery();
 
-        $this->logSearch();
+        $results =  $query->getResult();
 
-        return $query->getResult();
+        $this->logSearch();
+        
+        return $results;
     }
 
     protected function logSearch()
@@ -119,7 +123,7 @@ class Results
         $logSearch->setIp($_SERVER['REMOTE_ADDR']);
         $logSearch->setDatetime(new \DateTime());
         $logSearch->setQuery($this->queryString);
-        $logSearch->setSeek(number_format(preg_replace('/[ ]/', '', microtime()),2) . "s");
+        $logSearch->setSeek(number_format(microtime(true)-$this->time_start, 2) . "s");
         
         $this->em->persist($logSearch);
         $this->em->flush();
