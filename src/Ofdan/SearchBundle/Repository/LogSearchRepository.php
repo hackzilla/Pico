@@ -10,7 +10,7 @@ class LogSearchRepository extends EntityRepository
     {
         $qb = $this->createQueryBuilder('ls')
                    ->select('ls')
-                   ->addOrderBy('ls.createdAt', 'DESC');
+                   ->addOrderBy('ls.id', 'DESC');
 
         if (false === is_null($limit))
             $qb->setMaxResults($limit);
