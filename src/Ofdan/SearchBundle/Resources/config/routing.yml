@@ -34,6 +34,16 @@ OfdanSearchBundle_cache:
     pattern:  /cache
     defaults: { _controller: OfdanSearchBundle:Cache:index }
 
+
+OfdanSearchBundle_old_cache1:
+    pattern:  /pico/cache.php
+    defaults: { _controller: OfdanSearchBundle:Cache:index }
+
+OfdanSearchBundle_old_cache2:
+    pattern:  /cache.php
+    defaults: { _controller: OfdanSearchBundle:Cache:index }
+
+
 OfdanSearchBundle_about:
     pattern:  /s/about-us
     defaults: { _controller: OfdanSearchBundle:Static:about }
