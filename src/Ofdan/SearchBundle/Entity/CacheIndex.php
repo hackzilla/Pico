@@ -25,12 +25,6 @@ class CacheIndex
     private $date;
 
     /**
-     * @ORM\Column(type="boolean")
-     * @Assert\NotBlank
-     */
-    private $compressed;
-
-    /**
      * @ORM\Column(name="`index`", type="text")
      */
     private $index;
@@ -98,26 +92,6 @@ class CacheIndex
     public function getDate()
     {
         return $this->date;
-    }
-
-    /**
-     * Set compressed
-     *
-     * @param boolean $compressed
-     */
-    public function setCompressed($compressed)
-    {
-        $this->compressed = $compressed;
-    }
-
-    /**
-     * Get compressed
-     *
-     * @return boolean 
-     */
-    public function getCompressed()
-    {
-        return $this->compressed;
     }
 
     /**
