@@ -11,7 +11,11 @@ OfdanSearchBundle_search_with_query:
     defaults: { _controller: OfdanSearchBundle:Search:index }
 
 OfdanSearchBundle_search_with_query_original:
-    pattern:  /q/{query}
+    pattern:  /q/{query}[^/]?
+    defaults: { _controller: OfdanSearchBundle:Search:index }
+
+OfdanSearchBundle_search_with_query_original_and_page:
+    pattern:  /q/{query}/p/{page}
     defaults: { _controller: OfdanSearchBundle:Search:index }
 
 OfdanSearchBundle_cache:
