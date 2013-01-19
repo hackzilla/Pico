@@ -2,7 +2,7 @@ OfdanSearchBundle_homepage:
     pattern:  /
     defaults: { _controller: OfdanSearchBundle:Static:home }
 
-OfdanSearchBundle_1:
+OfdanSearchBundle_homepages:
     pattern:  /pico/
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
