@@ -7,7 +7,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="Ofdan\SearchBundle\Repository\KeywordRepository")
- * @ORM\Table(name="keyword")
+ * @ORM\Table(name="keyword", indexes={
+ *     @ORM\Index(name="keyword_idx", columns={"keyword"})
+ * })
  * @ORM\HasLifecycleCallbacks
  */
 class Keyword
