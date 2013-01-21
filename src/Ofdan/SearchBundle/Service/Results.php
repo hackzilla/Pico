@@ -119,8 +119,15 @@ class Results
 
     protected function logSearch()
     {
+        $request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
+        $remoteId = $request->server->get('HTTP_X_FORWARDED_FOR');
+        
+        if ($remoteId == false) {
+            $remoteId = $request->server->get('REMOTE_ADDR');
+        }
+
         $logSearch = new LogSearch();
-        $logSearch->setIp($_SERVER['REMOTE_ADDR']);
+        $logSearch->setIp($remoteId);
         $logSearch->setDatetime(new \DateTime());
         $logSearch->setQuery($this->queryString);
         $logSearch->setSeek(number_format(microtime(true)-$this->time_start, 2) . "s");
