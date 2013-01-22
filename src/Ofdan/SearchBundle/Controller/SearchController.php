@@ -75,6 +75,8 @@ class SearchController extends Controller
             $query = $request->query->get('q');
         }
 
+        $query = \preg_replace('/([^ ])\+/', '$1 ', $query);
+
         return strip_tags($query);
     }
     
