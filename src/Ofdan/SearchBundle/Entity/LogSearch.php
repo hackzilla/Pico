@@ -7,7 +7,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="Ofdan\SearchBundle\Repository\LogSearchRepository")
- * @ORM\Table(name="logSearch")
+ * @ORM\Table(name="logSearch", indexes={
+ *     @ORM\Index(name="log_search_created_idx", columns={"created"})
+ * })
  * @ORM\HasLifecycleCallbacks
  */
 class LogSearch
