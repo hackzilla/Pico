@@ -8,6 +8,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * @ORM\Entity(repositoryClass="Ofdan\SearchBundle\Repository\DomainRepository")
  * @ORM\Table(name="domain")
+ * @ORM\Table(name="domain", indexes={
+ *     @ORM\Index(name="domain_status_idx", columns={"status"})
+ * })
  * @ORM\HasLifecycleCallbacks
  */
 class Domain
