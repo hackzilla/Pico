@@ -1,6 +1,7 @@
 {
     "name": "hackzilla/pico",
     "description": "Simple Search Engine converted from flat html+php to Symfony 2.1",
+    "license": "MIT",
     "autoload": {
         "psr-0": { "": "src/" }
     },
