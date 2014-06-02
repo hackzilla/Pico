@@ -6,16 +6,18 @@ use Doctrine\ORM\EntityRepository;
 
 class KeywordRepository extends EntityRepository
 {
+
     public function getKeywordLengths()
     {
         $q = $this->createQueryBuilder('k')
                 ->select('MIN(k.length) MinKeyword, MAX(k.length) MaxKeyword, AVG(k.length) AvgKeyword, COUNT(k) KeywordCount');
-        
+
         return $q->getQuery()
-                ->getSingleResult();
+                        ->getSingleResult();
     }
-    
-    public function getKeywordMatches($keyword) {
+
+    public function getKeywordMatches($keyword)
+    {
         $q = $this->createQueryBuilder('k')
                 ->select('k.keyword')
                 ->where('k.keyword LIKE :keyword')
@@ -23,6 +25,7 @@ class KeywordRepository extends EntityRepository
                 ->orderBy('k.keyword', 'ASC');
 
         return $q->getQuery()
-                ->getResult();
+                        ->getResult();
     }
+
 }

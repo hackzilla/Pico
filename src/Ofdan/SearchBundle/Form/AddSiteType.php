@@ -7,6 +7,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 
 class AddSiteType extends AbstractType
 {
+
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('domain', 'text');
@@ -17,4 +18,5 @@ class AddSiteType extends AbstractType
     {
         return 'addSite';
     }
+
 }

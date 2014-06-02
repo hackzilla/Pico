@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class CacheHeader
 {
+
     /**
      * @ORM\OneToOne(targetEntity="Domain", inversedBy="header")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -46,7 +47,6 @@ class CacheHeader
      */
     private $updatedAt;
 
-    
     const TYPE_INDEX = 10;
     const TYPE_ROBOT = 11;
 
@@ -88,6 +88,7 @@ class CacheHeader
     {
         $this->type = in_array(self::$type, $this->type);
     }
+
     /**
      * Get type
      *
@@ -227,4 +228,5 @@ class CacheHeader
     {
         return $this->updatedAt;
     }
+
 }

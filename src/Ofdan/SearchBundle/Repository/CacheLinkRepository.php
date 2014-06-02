@@ -6,4 +6,5 @@ use Doctrine\ORM\EntityRepository;
 
 class CacheLinkRepository extends EntityRepository
 {
+    
 }

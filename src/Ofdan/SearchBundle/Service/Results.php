@@ -8,20 +8,17 @@ use Ofdan\SearchBundle\Entity\Domain;
 
 class Results
 {
+
     protected $em;
     protected $time_start;
-
     protected $max_results;
     protected $results_per_page;
     protected $page = 0;
-
     protected $queryString;
     protected $queryAny = array();
     protected $queryRequired = array();
     protected $queryExclude = array();
-
     protected $languageCode;
-    
     protected $results;
 
     public function __construct(EntityManager $em, $max_results, $results_per_page)
@@ -38,12 +35,12 @@ class Results
         $this->queryString = $queryStr;
 
         $words = explode(' ', $queryStr);
-        
-        foreach($words as $word) {
-            if($word) {
-                if('-' == $word[0]) {
+
+        foreach ($words as $word) {
+            if ($word) {
+                if ('-' == $word[0]) {
                     $this->queryExclude[] = substr($word, 1);
-                } else if('+' == $word[0]) {
+                } else if ('+' == $word[0]) {
                     $this->queryRequired[] = substr($word, 1);
                 } else {
                     $this->queryAny[] = $word;
@@ -52,7 +49,8 @@ class Results
         }
     }
 
-    public function setLanguageCode($languageCode) {
+    public function setLanguageCode($languageCode)
+    {
         $this->languageCode = $languageCode;
     }
 
@@ -60,43 +58,43 @@ class Results
     {
         $qb = $this->em->createQueryBuilder('d')
                 ->select('d')
-                ->from('Ofdan\SearchBundle\Entity\Domain','d')
+                ->from('Ofdan\SearchBundle\Entity\Domain', 'd')
                 ->where('d.status = :status')
                 ->setParameter('status', Domain::STATUS_STORED)
         ;
 
-        if(!empty($this->queryExclude) || !empty($this->queryRequired) || !empty($this->queryAny)) {
-            
+        if (!empty($this->queryExclude) || !empty($this->queryRequired) || !empty($this->queryAny)) {
+
             $qb
-                ->leftjoin('Ofdan\SearchBundle\Entity\Rank', 'r', \Doctrine\ORM\Query\Expr\Join::WITH, 'd.id = r.domain')
-                ->leftjoin('Ofdan\SearchBundle\Entity\Keyword', 'k', \Doctrine\ORM\Query\Expr\Join::WITH, 'r.keyword = k.id')
-                ->groupBy('d.id')
+                    ->leftjoin('Ofdan\SearchBundle\Entity\Rank', 'r', \Doctrine\ORM\Query\Expr\Join::WITH, 'd.id = r.domain')
+                    ->leftjoin('Ofdan\SearchBundle\Entity\Keyword', 'k', \Doctrine\ORM\Query\Expr\Join::WITH, 'r.keyword = k.id')
+                    ->groupBy('d.id')
             ;
 
-            if(!empty($this->queryExclude)) {
+            if (!empty($this->queryExclude)) {
                 $qb->andWhere($qb->expr()->notIn('k.keyword', ':queryExclude'));
                 $qb->setParameter('queryExclude', $this->queryExclude);
             }
 
             if (!empty($this->queryRequired)) {
                 foreach ($this->queryRequired as $i => $queryRequired) {
-                    $qb->andWhere('k.keyword = :queryRequired'.$i);
-                    $qb->setParameter('queryRequired'.$i, $this->queryRequired);
+                    $qb->andWhere('k.keyword = :queryRequired' . $i);
+                    $qb->setParameter('queryRequired' . $i, $this->queryRequired);
                 }
             }
-            
-            if(!empty($this->queryAny)) {
+
+            if (!empty($this->queryAny)) {
                 $qb->andWhere($qb->expr()->in('k.keyword', ':queryAny'));
                 $qb->setParameter('queryAny', $this->queryAny);
             }
         }
 
-        if($this->languageCode) {
+        if ($this->languageCode) {
             $qb
-                ->leftjoin('Ofdan\SearchBundle\Entity\Metadata', 'md')
-                ->andWhere('md.domain = d.id')
-                ->andWhere('md.lang = :language')
-                ->setParameter('language', $this->languageCode)
+                    ->leftjoin('Ofdan\SearchBundle\Entity\Metadata', 'md')
+                    ->andWhere('md.domain = d.id')
+                    ->andWhere('md.lang = :language')
+                    ->setParameter('language', $this->languageCode)
             ;
         }
 
@@ -110,10 +108,10 @@ class Results
 
         $query = $qb->getQuery();
 
-        $results =  $query->getResult();
+        $results = $query->getResult();
 
         $this->logSearch();
-        
+
         return $results;
     }
 
@@ -121,7 +119,7 @@ class Results
     {
         $request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
         $remoteId = $request->server->get('HTTP_X_FORWARDED_FOR');
-        
+
         if ($remoteId == false) {
             $remoteId = $request->server->get('REMOTE_ADDR');
         }
@@ -130,17 +128,17 @@ class Results
         $logSearch->setIp($remoteId);
         $logSearch->setDatetime(new \DateTime());
         $logSearch->setQuery($this->queryString);
-        $logSearch->setSeek(number_format(microtime(true)-$this->time_start, 2) . "s");
-        
+        $logSearch->setSeek(number_format(microtime(true) - $this->time_start, 2) . "s");
+
         $this->em->persist($logSearch);
         $this->em->flush();
     }
-    
+
     protected function setPage($page)
     {
-        $this->page = $page -1;
+        $this->page = $page - 1;
     }
-    
+
     public function getResultCount()
     {
         return $this->results;
@@ -150,4 +148,5 @@ class Results
     {
         return 'Oh no';
     }
+
 }

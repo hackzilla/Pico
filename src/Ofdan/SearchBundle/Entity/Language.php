@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Language
 {
+
     /**
      * @ORM\Column(type="integer")
      * @ORM\Id
@@ -35,7 +36,6 @@ class Language
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
-
 
     public function __construct()
     {
@@ -111,4 +111,5 @@ class Language
     {
         return $this->nameEng;
     }
+
 }

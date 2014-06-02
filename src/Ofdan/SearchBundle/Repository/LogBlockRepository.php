@@ -6,4 +6,5 @@ use Doctrine\ORM\EntityRepository;
 
 class LogBlockRepository extends EntityRepository
 {
+    
 }

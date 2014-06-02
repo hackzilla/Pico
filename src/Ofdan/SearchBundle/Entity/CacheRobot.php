@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class CacheRobot
 {
+
     /**
      * @ORM\OneToOne(targetEntity="Domain", inversedBy="robot")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -38,7 +39,6 @@ class CacheRobot
      * @ORM\Column(name="updated", type="datetime")
      */
     private $updatedAt;
-
 
     public function __construct()
     {
@@ -153,4 +153,5 @@ class CacheRobot
     {
         return $this->updatedAt;
     }
+
 }

@@ -7,16 +7,17 @@ use Ofdan\SearchBundle\Entity\Domain;
 
 class DomainRepository extends EntityRepository
 {
+
     public function getDomainCountByStatus()
     {
         $qb = $this->createQueryBuilder('d')
                 ->select('d.status, COUNT(d.status) StatusCount')
                 ->groupBy('d.status');
-        
+
         return $qb->getQuery()
-                ->getResult();
+                        ->getResult();
     }
-    
+
     public function getUpdatetoDateDomainCount()
     {
         $qb = $this->createQueryBuilder('d')
@@ -26,12 +27,13 @@ class DomainRepository extends EntityRepository
                 ->setParameter(1, date('Y-m-d H:i:s'))
                 ->setParameter(2, Domain::STATUS_QUEUE)
         ;
-        
+
         return $qb->getQuery()
-                ->getSingleScalarResult();
+                        ->getSingleScalarResult();
     }
-    
-    public function getDomainStatus($domain) {
+
+    public function getDomainStatus($domain)
+    {
         $qb = $this->createQueryBuilder('d')
                 ->select('d.status')
                 ->where('d.domain = :domain')
@@ -48,4 +50,5 @@ class DomainRepository extends EntityRepository
 
         return $status;
     }
+
 }

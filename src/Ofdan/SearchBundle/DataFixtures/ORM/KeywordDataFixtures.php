@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Keyword;
 
 class KeywordFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $keyword1 = new Keyword();
@@ -44,4 +45,5 @@ class KeywordFixtures extends AbstractFixture implements OrderedFixtureInterface
     {
         return 2; // the order in which fixtures will be loaded
     }
+
 }

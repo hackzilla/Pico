@@ -8,7 +8,9 @@ use Ofdan\SearchBundle\Form\AddSiteType;
 
 class PageController extends Controller
 {
-    public function suggestAction() {
+
+    public function suggestAction()
+    {
         $entity = new \Ofdan\SearchBundle\Form\Model\AddSiteModel();
         $form = $this->createForm(new AddSiteType(), $entity);
 
@@ -21,12 +23,12 @@ class PageController extends Controller
 
                 // Perform some action, such as sending an email
                 $em = $this->getDoctrine()
-                            ->getEntityManager();
+                        ->getEntityManager();
 
                 $domainStatus = $em->getRepository('OfdanSearchBundle:Domain')
-                    ->getDomainStatus($vars['domain']);
+                        ->getDomainStatus($vars['domain']);
 
-                if(NULL === $domainStatus) {
+                if (NULL === $domainStatus) {
                     $domain = new Domain();
                     $domain->setDomain($vars['domain']);
 
@@ -43,44 +45,42 @@ class PageController extends Controller
         }
 
         return $this->render('OfdanSearchBundle:Page:suggest.html.twig', array(
-            'form' => $form->createView()
-        ));        
+                    'form' => $form->createView()
+        ));
     }
 
     public function suggestionAddedAction()
     {
         return $this->render('OfdanSearchBundle:Page:suggestAdded.html.twig', array(
-        ));        
+        ));
     }
 
     public function suggestionExistsAction()
     {
         return $this->render('OfdanSearchBundle:Page:suggestExists.html.twig', array(
-        ));        
+        ));
     }
 
     public function statisticsAction()
     {
         $em = $this->getDoctrine()
-                   ->getEntityManager();
+                ->getEntityManager();
 
         $total_queries = $em->getRepository('OfdanSearchBundle:LogSearch')
-            ->getTotalSearches();
+                ->getTotalSearches();
 
         $SeekandTotalSearches24Hr = $em->getRepository('OfdanSearchBundle:LogSearch')
-            ->getSeekandTotalSearches24Hr();
+                ->getSeekandTotalSearches24Hr();
 
         $DomainStatuses = $em->getRepository('OfdanSearchBundle:Domain')
-            ->getDomainCountByStatus();
-        
+                ->getDomainCountByStatus();
+
         $blockedDomains = 0;
         $knownDomains = 0;
         $queuedDomains = 0;
 
-        foreach($DomainStatuses as $DomainStatus)
-        {
-            switch($DomainStatus['status'])
-            {
+        foreach ($DomainStatuses as $DomainStatus) {
+            switch ($DomainStatus['status']) {
                 case Domain::STATUS_BLOCKED:
                     $blockedDomains = $DomainStatus['StatusCount'];
                     break;
@@ -94,24 +94,24 @@ class PageController extends Controller
                     break;
             }
         }
-        
+
         $keywords = $em->getRepository('OfdanSearchBundle:Keyword')
-            ->getKeywordLengths();
+                ->getKeywordLengths();
 
         $cached = $em->getRepository('OfdanSearchBundle:CacheIndex')
-            ->getIndexCount();
+                ->getIndexCount();
 
         $robots = $em->getRepository('OfdanSearchBundle:CacheRobot')
-            ->getRobotCount();
+                ->getRobotCount();
 
         $language = $em->getRepository('OfdanSearchBundle:Language')
-            ->getKnownLanguages();
+                ->getKnownLanguages();
 
         $upToDateDomains = $em->getRepository('OfdanSearchBundle:Domain')
-            ->getUpdatetoDateDomainCount();
-        
+                ->getUpdatetoDateDomainCount();
+
         $KnownDomainLanguages = $em->getRepository('OfdanSearchBundle:Metadata')
-            ->getDomainWithKnownLangCount();
+                ->getDomainWithKnownLangCount();
 
         $data = array(
             'average_seek' => $SeekandTotalSearches24Hr['Seek'],
@@ -128,24 +128,24 @@ class PageController extends Controller
             'stored_robots' => $robots['RobotCount'],
             'blocked_domains' => $blockedDomains,
             'queued_domains' => $queuedDomains,
-            'require_update_domains' => ($upToDateDomains/$knownDomains)*100,
+            'require_update_domains' => ($upToDateDomains / $knownDomains) * 100,
             'disk_storage' => $this->freeDiskSpace(),
             'processor_load' => $this->processorLoad(),
         );
 
         return $this->render('OfdanSearchBundle:Page:statistics.html.twig', $data);
     }
-    
+
     public function spyAction()
     {
         $em = $this->getDoctrine()
-                   ->getEntityManager();
+                ->getEntityManager();
 
         $searches = $em->getRepository('OfdanSearchBundle:LogSearch')
-                    ->getLatestSearches(20);
+                ->getLatestSearches(20);
 
         return $this->render('OfdanSearchBundle:Page:spy.html.twig', array(
-            'searches' => $searches,
+                    'searches' => $searches,
         ));
     }
 
@@ -155,29 +155,30 @@ class PageController extends Controller
         $firstLetter = $request->query->get('l');
         $secondLetter = $request->query->get('lb');
 
-        if($secondLetter) {
+        if ($secondLetter) {
             $em = $this->getDoctrine()
                     ->getEntityManager();
 
             $words = $em->getRepository('OfdanSearchBundle:Keyword')
-                        ->getKeywordMatches($firstLetter[0].$secondLetter[0].'%');
+                    ->getKeywordMatches($firstLetter[0] . $secondLetter[0] . '%');
         } else {
             $words = NULL;
         }
-        
+
         return $this->render('OfdanSearchBundle:Page:words.html.twig', array(
-            'letters' => range('A', 'Z'),
-            'first_letter' => $firstLetter,
-            'second_letter' => $secondLetter,
-            'words' => $words,
+                    'letters' => range('A', 'Z'),
+                    'first_letter' => $firstLetter,
+                    'second_letter' => $secondLetter,
+                    'words' => $words,
         ));
     }
-    
+
     /* Helper Functions */
+
     private function processorLoad()
     {
         $load = sys_getloadavg();
-        
+
         return $load[0];
     }
 
@@ -185,4 +186,5 @@ class PageController extends Controller
     {
         return disk_free_space("/");
     }
+
 }

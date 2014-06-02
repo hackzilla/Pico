@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Metadata;
 
 class MetadataFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $metadata1 = new Metadata();
@@ -46,4 +47,5 @@ class MetadataFixtures extends AbstractFixture implements OrderedFixtureInterfac
     {
         return 7; // the order in which fixtures will be loaded
     }
+
 }

@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class CacheIndex
 {
+
     /**
      * @ORM\OneToOne(targetEntity="Domain", inversedBy="index")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -38,7 +39,6 @@ class CacheIndex
      * @ORM\Column(name="updated", type="datetime")
      */
     private $updatedAt;
-
 
     public function __construct()
     {
@@ -173,4 +173,5 @@ class CacheIndex
     {
         return $this->domain;
     }
+
 }

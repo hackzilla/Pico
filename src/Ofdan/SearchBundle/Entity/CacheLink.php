@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class CacheLink
 {
+
     /**
      * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -41,7 +42,6 @@ class CacheLink
      * @ORM\Column(name="updated", type="datetime")
      */
     private $updatedAt;
-
 
     public function __construct()
     {
@@ -196,4 +196,5 @@ class CacheLink
     {
         return $this->linkDomain;
     }
+
 }

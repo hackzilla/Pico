@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\CacheLink;
 
 class CacheLinkFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $cacheLink1 = new CacheLink();
@@ -30,4 +31,5 @@ class CacheLinkFixtures extends AbstractFixture implements OrderedFixtureInterfa
     {
         return 6; // the order in which fixtures will be loaded
     }
+
 }

@@ -7,51 +7,51 @@
 {% endblock %}
 
 {% block body %}
-<div id="results">
-    {% if suggestion %}
-    	<p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search', {'query': query, 'cc': selected_language}) }}">{{ suggestion|raw }}</a>
-    {% endif %}
+    <div id="results">
+        {% if suggestion %}
+            <p class='spelling'>Did you mean: <a href="{{ path('OfdanSearchBundle_search', {'query': query, 'cc': selected_language}) }}">{{ suggestion|raw }}</a>
+            {% endif %}
 
-    {% for result in results %}
-        <li>
-            <div class='box'>
-                <a href='http://{{ result.domain }}/'>{{ result.domain }}</a><br />
-                {% if result.metadata and result.metadata.extract %}
-                    {{ result.metadata.extract }}
-                {% else %}
-                    No extract available.
-                {% endif %}
+            {% for result in results %}
+            <li>
+                <div class='box'>
+                    <a href='http://{{ result.domain }}/'>{{ result.domain }}</a><br />
+                    {% if result.metadata and result.metadata.extract %}
+                        {{ result.metadata.extract }}
+                    {% else %}
+                        No extract available.
+                    {% endif %}
+                    <br />
+                    <em>
+                        Last Index: 
+                        {% if result.lastIndex %}
+                            {{ result.lastIndex|date('Y-m-d') }}
+                        {% else %}
+                            never
+                        {% endif %}
+
+                        {% if result.nextIndex %}
+                            - Next Index: {{ result.nextIndex|date('Y-m-d') }}
+                        {% endif %}
+                        -
+                        {% if result.index %}
+                            <a href='{{ path('OfdanSearchBundle_cache', {'domain': result.domain}) }}'>Cached</a>
+                        {% else %}
+                            No cache
+                        {% endif %}
+                    </em>
+                </div>
+            </li>
+            {% else %}
+                <p>Sorry, <strong>no results</strong> were found in the database. Please try the following:</p>
+                <ol>
+                    <li>Check your spelling carefully</li>
+                    <li>Try different words with the same meaning</li>
+                    <li>Be less specific in your search</li>
+                    <li>Search for something else, like porn</li>
+                </ol>
+                {% endfor %}
+                </div>
                 <br />
-                <em>
-                    Last Index: 
-                    {% if result.lastIndex %}
-                        {{ result.lastIndex|date('Y-m-d') }}
-                    {% else %}
-                        never
-                    {% endif %}
 
-                    {% if result.nextIndex %}
-                        - Next Index: {{ result.nextIndex|date('Y-m-d') }}
-                    {% endif %}
-                    -
-                    {% if result.index %}
-                        <a href='{{ path('OfdanSearchBundle_cache', {'domain': result.domain}) }}'>Cached</a>
-                    {% else %}
-                        No cache
-                    {% endif %}
-                </em>
-            </div>
-        </li>
-    {% else %}
-        <p>Sorry, <strong>no results</strong> were found in the database. Please try the following:</p>
-        <ol>
-            <li>Check your spelling carefully</li>
-            <li>Try different words with the same meaning</li>
-            <li>Be less specific in your search</li>
-            <li>Search for something else, like porn</li>
-        </ol>
-    {% endfor %}
-</div>
-<br />
-
-{% endblock %}
+                {% endblock %}

@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Domain;
 
 class DomainFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $domain1 = new Domain();
@@ -47,4 +48,5 @@ class DomainFixtures extends AbstractFixture implements OrderedFixtureInterface
     {
         return 1; // the order in which fixtures will be loaded
     }
+
 }

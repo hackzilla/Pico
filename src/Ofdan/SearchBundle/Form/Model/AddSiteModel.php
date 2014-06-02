@@ -6,6 +6,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 class AddSiteModel
 {
+
     /**
      * @var string
      * @Assert\Regex(pattern="/^([a-z0-9-]+\.)+[a-z]{2,6}$/", message="Please enter a valid lowercase domain name")
@@ -16,4 +17,5 @@ class AddSiteModel
      * @var string
      */
     public $captcha;
+
 }

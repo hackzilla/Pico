@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Language;
 
 class LanguageFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $language1 = new Language();
@@ -35,7 +36,7 @@ class LanguageFixtures extends AbstractFixture implements OrderedFixtureInterfac
         $language5->setCc('pt');
         $language5->setNameEng('Portuguese');
         $manager->persist($language5);
-        
+
         $manager->flush();
 
         $this->addReference('en-language', $language1);
@@ -49,4 +50,5 @@ class LanguageFixtures extends AbstractFixture implements OrderedFixtureInterfac
     {
         return 3; // the order in which fixtures will be loaded
     }
+
 }

@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\Rank;
 
 class RankFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $rank1 = new Rank();
@@ -30,4 +31,5 @@ class RankFixtures extends AbstractFixture implements OrderedFixtureInterface
     {
         return 10; // the order in which fixtures will be loaded
     }
+
 }

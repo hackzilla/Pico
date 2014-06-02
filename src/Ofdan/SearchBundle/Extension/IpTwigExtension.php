@@ -2,29 +2,32 @@
 
 namespace Ofdan\SearchBundle\Extension;
 
-class IpTwigExtension extends \Twig_Extension {
+class IpTwigExtension extends \Twig_Extension
+{
 
-    public function getFilters() {
+    public function getFilters()
+    {
         return array(
-            'mask'  => new \Twig_Filter_Method($this, 'mask'),
+            'mask' => new \Twig_Filter_Method($this, 'mask'),
             'gethostbyaddr' => new \Twig_Filter_Function('gethostbyaddr'),
         );
     }
 
-    public function mask($sentence) {
+    public function mask($sentence)
+    {
 
-        $bits = \explode( '.', $sentence );
-        $lastElement = \count( $bits ) -1;
+        $bits = \explode('.', $sentence);
+        $lastElement = \count($bits) - 1;
 
-        if($lastElement > 2) {
-            if(\is_numeric($bits[$lastElement]) && $lastElement == 3) {
+        if ($lastElement > 2) {
+            if (\is_numeric($bits[$lastElement]) && $lastElement == 3) {
                 // IP
                 $sentence = $bits[0] . '.' . $bits[1] . '.x.x';
-            } else if( \strlen( $bits[$lastElement] ) == 2 ) {
+            } else if (\strlen($bits[$lastElement]) == 2) {
                 //
-                $sentence = "{$bits[$lastElement-2]}.{$bits[$lastElement-1]}.{$bits[$lastElement]}";
+                $sentence = "{$bits[$lastElement - 2]}.{$bits[$lastElement - 1]}.{$bits[$lastElement]}";
             } else {
-                $sentence = "{$bits[$lastElement-1]}.{$bits[$lastElement]}";
+                $sentence = "{$bits[$lastElement - 1]}.{$bits[$lastElement]}";
             }
         }
 
@@ -35,4 +38,5 @@ class IpTwigExtension extends \Twig_Extension {
     {
         return 'ip_twig_extension';
     }
+
 }

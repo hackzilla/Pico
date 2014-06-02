@@ -14,6 +14,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class LogSearch
 {
+
     /**
      * @ORM\Column(type="integer")
      * @ORM\Id
@@ -52,13 +53,11 @@ class LogSearch
      */
     private $updatedAt;
 
-
     public function __construct()
     {
         $this->setCreatedAt(new \DateTime());
         $this->setUpdatedAt(new \DateTime());
     }
-
 
     /**
      * @ORM\PreUpdate
@@ -197,4 +196,5 @@ class LogSearch
     {
         return $this->updatedAt;
     }
+
 }

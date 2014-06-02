@@ -12,6 +12,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  */
 class Configuration implements ConfigurationInterface
 {
+
     /**
      * {@inheritDoc}
      */
@@ -22,12 +23,13 @@ class Configuration implements ConfigurationInterface
 
 
         $rootNode
-            ->children()
-            ->scalarNode('max_results')->defaultValue(100)->end()
-            ->scalarNode('results_per_page')->defaultValue(10)->end()
-            ->end()
-        ;        
+                ->children()
+                ->scalarNode('max_results')->defaultValue(100)->end()
+                ->scalarNode('results_per_page')->defaultValue(10)->end()
+                ->end()
+        ;
 
         return $treeBuilder;
     }
+
 }

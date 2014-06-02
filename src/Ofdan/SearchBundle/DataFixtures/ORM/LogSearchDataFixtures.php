@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\LogSearch;
 
 class LogSearchFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $logSearch1 = new LogSearch();
@@ -39,4 +40,5 @@ class LogSearchFixtures extends AbstractFixture implements OrderedFixtureInterfa
     {
         return 9; // the order in which fixtures will be loaded
     }
+
 }

@@ -7,16 +7,17 @@ use Ofdan\SearchBundle\Entity\Domain;
 
 class CacheIndexRepository extends EntityRepository
 {
+
     public function getIndexCount()
     {
         $qb = $this->createQueryBuilder('d')
                 ->select('COUNT(d) IndexCount')
         ;
-        
+
         return $qb->getQuery()
-                ->getSingleResult();
+                        ->getSingleResult();
     }
-    
+
     public function getDomainCache($domain)
     {
         $qb = $this->createQueryBuilder('c')
@@ -33,8 +34,8 @@ class CacheIndexRepository extends EntityRepository
 
         try {
             $cache = $query->getResult();
-            
-            if(!empty($cache)) {
+
+            if (!empty($cache)) {
                 $cache = $cache[0];
             } else {
                 $cache = NULL;
@@ -45,4 +46,5 @@ class CacheIndexRepository extends EntityRepository
 
         return $cache;
     }
+
 }

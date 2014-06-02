@@ -15,6 +15,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Keyword
 {
+
     /**
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -36,7 +37,6 @@ class Keyword
      * @ORM\Column(name="created", type="datetime")
      */
     private $createdAt;
-
 
     public function __construct()
     {
@@ -93,4 +93,5 @@ class Keyword
     {
         return $this->createdAt;
     }
+
 }

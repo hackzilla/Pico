@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\CacheHeader;
 
 class CacheHeaderFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $cacheHeader1 = new CacheHeader();
@@ -33,4 +34,5 @@ class CacheHeaderFixtures extends AbstractFixture implements OrderedFixtureInter
     {
         return 4; // the order in which fixtures will be loaded
     }
+
 }

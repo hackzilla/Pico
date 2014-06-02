@@ -17,6 +17,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Domain
 {
+
     /**
      * @ORM\Column(type="integer")
      * @ORM\Id
@@ -81,7 +82,6 @@ class Domain
      */
     private $updatedAt;
 
-    
     const STATUS_QUEUE = 10;
     const STATUS_PROCESSING = 11;
     const STATUS_STORED = 12;
@@ -161,6 +161,7 @@ class Domain
     {
         $this->status = in_array(self::$status, $this->status);
     }
+
     /**
      * Get status
      *
@@ -310,4 +311,5 @@ class Domain
     {
         return $this->robot;
     }
+
 }

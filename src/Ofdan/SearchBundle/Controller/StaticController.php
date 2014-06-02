@@ -4,9 +4,9 @@ namespace Ofdan\SearchBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-
 class StaticController extends Controller
 {
+
     public function homeAction()
     {
         return $this->render('OfdanSearchBundle::layout.html.twig');
@@ -26,4 +26,5 @@ class StaticController extends Controller
     {
         return $this->render('OfdanSearchBundle:Static:download.html.twig');
     }
+
 }

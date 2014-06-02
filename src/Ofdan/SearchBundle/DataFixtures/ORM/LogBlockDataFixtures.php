@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\LogBlock;
 
 class LogBlockFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $logBlock1 = new LogBlock();
@@ -39,4 +40,5 @@ class LogBlockFixtures extends AbstractFixture implements OrderedFixtureInterfac
     {
         return 8; // the order in which fixtures will be loaded
     }
+
 }

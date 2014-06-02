@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Rank
 {
+
     /**
      * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -41,13 +42,11 @@ class Rank
      */
     private $updatedAt;
 
-
     public function __construct()
     {
         $this->setCreatedAt(new \DateTime());
         $this->setUpdatedAt(new \DateTime());
     }
-
 
     /**
      * @ORM\PreUpdate
@@ -156,4 +155,5 @@ class Rank
     {
         return $this->keyword;
     }
+
 }

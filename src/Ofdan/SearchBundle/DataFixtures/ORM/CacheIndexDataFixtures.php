@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\CacheIndex;
 
 class CacheIndexFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $cacheIndex1 = new CacheIndex();
@@ -25,4 +26,5 @@ class CacheIndexFixtures extends AbstractFixture implements OrderedFixtureInterf
     {
         return 5; // the order in which fixtures will be loaded
     }
+
 }

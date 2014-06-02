@@ -9,6 +9,7 @@ use Ofdan\SearchBundle\Entity\CacheRobot;
 
 class CacheRobotFixtures extends AbstractFixture implements OrderedFixtureInterface
 {
+
     public function load(ObjectManager $manager)
     {
         $cacheRobot1 = new CacheRobot();
@@ -42,4 +43,5 @@ Disallow: /~joe/');
     {
         return 7; // the order in which fixtures will be loaded
     }
+
 }

@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Metadata
 {
+
     /**
      * @ORM\OneToOne(targetEntity="Domain", inversedBy="metadata")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
@@ -50,13 +51,11 @@ class Metadata
      */
     private $updatedAt;
 
-
     public function __construct()
     {
         $this->setCreatedAt(new \DateTime());
         $this->setUpdatedAt(new \DateTime());
     }
-
 
     /**
      * @ORM\PreUpdate
@@ -205,4 +204,5 @@ class Metadata
     {
         return $this->domain;
     }
+
 }
