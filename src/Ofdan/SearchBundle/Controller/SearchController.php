@@ -34,7 +34,7 @@ class SearchController extends Controller
         ));
     }
 
-    public function getSuggestion($query)
+    private function getSuggestion($query)
     {
         $words = preg_split('/[ ,;.]/', $query);
 
@@ -67,7 +67,7 @@ class SearchController extends Controller
         return $checkedStr;
     }
 
-    public function getQuery($query = null)
+    private function getQuery($query = null)
     {
         if (null === $query) {
             $request = $this->getRequest();
@@ -79,7 +79,7 @@ class SearchController extends Controller
         return strip_tags($query);
     }
 
-    public function getLanguage()
+    private function getLanguage()
     {
         $request = $this->getRequest();
         $language = $request->query->get('cc');
@@ -87,7 +87,7 @@ class SearchController extends Controller
         return \preg_replace('[^a-z]', '', $language);
     }
 
-    public function getLanguages()
+    private function getLanguages()
     {
         $em = $this->getDoctrine()
                 ->getEntityManager();
