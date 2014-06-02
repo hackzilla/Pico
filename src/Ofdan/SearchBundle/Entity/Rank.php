@@ -14,14 +14,14 @@ class Rank
 {
 
     /**
-     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\ManyToOne(targetEntity="Domain")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
     private $domain;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Keyword", inversedBy="keywords")
+     * @ORM\ManyToOne(targetEntity="Keyword")
      * @ORM\JoinColumn(name="keyword_id", referencedColumnName="id")
      * @ORM\Id
      */

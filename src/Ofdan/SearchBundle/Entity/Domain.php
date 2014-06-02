@@ -55,22 +55,22 @@ class Domain
     /**
      * @ORM\OneToOne(targetEntity="Metadata",mappedBy="domain")
      */
-    public $metadata;
+    private $metadata;
 
     /**
      * @ORM\OneToOne(targetEntity="CacheHeader",mappedBy="domain")
      */
-    public $header;
+    private $header;
 
     /**
      * @ORM\OneToOne(targetEntity="CacheIndex",mappedBy="domain")
      */
-    public $index;
+    private $index;
 
     /**
      * @ORM\OneToOne(targetEntity="CacheRobot",mappedBy="domain")
      */
-    public $robot;
+    private $robot;
 
     /**
      * @ORM\Column(name="created", type="datetime")

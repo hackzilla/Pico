@@ -14,7 +14,7 @@ class LogBlock
 {
 
     /**
-     * @ORM\ManyToOne(targetEntity="Domain", inversedBy="domains")
+     * @ORM\ManyToOne(targetEntity="Domain")
      * @ORM\JoinColumn(name="domainId", referencedColumnName="id")
      * @ORM\Id
      */
