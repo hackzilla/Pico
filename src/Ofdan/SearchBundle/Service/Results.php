@@ -115,9 +115,8 @@ class Results
         return $results;
     }
 
-    protected function logSearch()
+    protected function logSearch(\Symfony\Component\HttpFoundation\Request $request)
     {
-        $request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
         $remoteId = $request->server->get('HTTP_X_FORWARDED_FOR');
 
         if ($remoteId == false) {
