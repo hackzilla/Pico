@@ -20,7 +20,7 @@
         "symfony/symfony": "2.1.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.0.*",
-        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.1.*",
         "symfony/swiftmailer-bundle": "2.1.*",
@@ -30,8 +30,8 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "brazilianfriendsofsymfony/twig-extensions-bundle": "dev-master",
-        "gregwar/captcha-bundle": "dev-master"
+        "brazilianfriendsofsymfony/twig-extensions-bundle": "~1.0",
+        "gregwar/captcha-bundle": "~1.0"
     },
     "scripts": {
         "post-install-cmd": [
